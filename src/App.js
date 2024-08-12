@@ -1,5 +1,5 @@
 import "./styles.css";
-import Map from "./components/map/Map";
+import Map from "./components/Map/Map";
 import { MapContainer, TileLayer} from "react-leaflet";
 
 export default function App() {
