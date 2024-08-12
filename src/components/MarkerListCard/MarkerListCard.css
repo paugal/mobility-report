@@ -1,0 +1,16 @@
+.card{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 350px;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.card ul{
+    list-style-type: none;
+}

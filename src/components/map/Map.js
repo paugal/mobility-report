@@ -1,27 +1,16 @@
-import { MapContainer, Marker, TileLayer, Popup, useMapEvents } from "react-leaflet";
+// src/components/Map.js
+import { MapContainer, Marker, TileLayer, Popup, useMapEvents, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { useState } from "react";
 import { Icon, divIcon, point } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
-import pointerImage from "../../assets/pointer.png";  // Import the image
+import pointerImage from "../../assets/pointer.png";
+import { useSelector, useDispatch } from "react-redux";
+import { setMarkers } from "../../store/markersSlice"; 
+import { useEffect, useState } from "react";
 
 export default function Map() {
-
-    const [markers, setMarkers] = useState([
-        {
-            geocode: [41.3850, 2.1710],
-            popUp: "Hello, I am pop up 1"
-        },
-        {
-            geocode: [41.3870, 2.1720],
-            popUp: "Hello, I am pop up 2"
-        },
-        {
-            geocode: [41.3860, 2.1730],
-            popUp: "Hello, I am pop up 3"
-        }
-    ])
-
+    const markers = useSelector((state) => state.markers);
+    const dispatch = useDispatch();
 
     const customIcon = new Icon({
         iconUrl: pointerImage,
@@ -38,7 +27,8 @@ export default function Map() {
 
     const handleMapClick = (e) => {
         const { lat, lng } = e.latlng;
-        console.log(`Clicked at: ${lat}, ${lng}`);
+        const newMarker = { geocode: [lat, lng], type: `Bicycle` };
+        dispatch(setMarkers([...markers, newMarker]));
     };
 
     const MapEventsHandler = ({ handleMapClick }) => {
@@ -48,25 +38,45 @@ export default function Map() {
         return null;
     };
 
+    const CustomZoomControl = () => {
+        const map = useMap();
+
+        useEffect(() => {
+            map.zoomControl.setPosition('bottomright');
+        }, [map]);
+
+        return null;
+    };
+
     return (
-        <MapContainer center={[41.3870, 2.1700]} zoom={13} minZoom={0} maxZoom={20}>
-            <TileLayer
-                attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url='https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
-            />
-            <MarkerClusterGroup
-                chunkedLoading
-                iconCreateFunction={createCustomClusterIcon}
+        <div style={{ position: 'relative', height: '100vh', width: '100%' }}>
+            <MapContainer 
+                center={[41.3870, 2.1700]} 
+                zoom={13} 
+                minZoom={0} 
+                maxZoom={20}
             >
-                {markers.map((marker, index) => (
-                    <Marker key={index} position={marker.geocode} icon={customIcon}>
-                        <Popup>{marker.popUp}</Popup>
-                    </Marker>
-                ))}
-            </MarkerClusterGroup>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url='https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
+                />
+                <MarkerClusterGroup
+                    chunkedLoading
+                    iconCreateFunction={createCustomClusterIcon}
+                >
+                    {markers.map((marker, index) => (
+                        <Marker key={index} position={marker.geocode} icon={customIcon}>
+                            <Popup>{marker.type}</Popup>
+                        </Marker>
+                    ))}
+                </MarkerClusterGroup>
 
-            <MapEventsHandler handleMapClick={handleMapClick} />
-        </MapContainer>
+                <MapEventsHandler handleMapClick={handleMapClick} />
+                <CustomZoomControl />
+            </MapContainer>
+
+            {/* Render the marker list card on top of the map */}
+            
+        </div>
     );
-};
-
+}

@@ -1,6 +1,7 @@
 .App {
-    font-family: sans-serif;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 * {
@@ -8,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 #root{
     height: 100vh;
@@ -17,8 +19,9 @@
     height: 90vh;
 }
 
+
 .cluster-icon {
-    background-color: #cc1010;
+    background-color: #195DD9;
     height: 2em;
     width: 2em;
     color: #fff;
