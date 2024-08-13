@@ -10,7 +10,6 @@ export default function PopUpMarker({ data }) {
     const dispatch = useDispatch();
 
     const removeMarker = (e) => {
-        console.log(data.id)
         dispatch(deleteMarker(data.id));
     };
     return (

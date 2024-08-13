@@ -4,6 +4,7 @@ import MarkerListCard from "../../components/MarkerListCard/MarkerListCard"
 import Header from '../../components/Header/Header';
 import { supabase } from '../../lib/helper/supabaseClient'
 import { useEffect, useState } from "react";
+import "./Main.css"
 
 
 export default function Main() {
@@ -23,7 +24,6 @@ export default function Main() {
             if (error) throw error;
             if (data != null) {
                 setMarkers(data);
-                console.log(data) // [product1,product2,product3]
             }
         } catch (error) {
             alert(error.message);
@@ -32,7 +32,7 @@ export default function Main() {
 
 
     return (
-        <div>
+        <div className='mainBox'>
             <Header />
             <Map />
         </div>

@@ -78,7 +78,6 @@ export default function Map() {
             longitude: lng,
             type: `Metro`
         };
-        console.log(newMarker)
         /* dispatch(setMarkers([...markers, newMarker])); */
         dispatch(addMarker({
             latitude: lat,
@@ -105,12 +104,13 @@ export default function Map() {
     };
 
     return (
-        <div style={{ position: 'relative', height: '100vh', width: '100%' }}>
+        <div style={{ position: 'relative' ,flexGrow: "1", display: "flex"}}>
             <MapContainer
                 center={[41.3870, 2.1700]}
                 zoom={13}
                 minZoom={0}
                 maxZoom={20}
+                style={{ flexGrow: 1, height: "100%", width: "100%" }}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
