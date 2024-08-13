@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mobility-report/static/css/main.21f0f4ff.css",
-    "main.js": "/mobility-report/static/js/main.a5127b87.js",
+    "main.js": "/mobility-report/static/js/main.0e56f6e3.js",
     "static/js/952.8e98e756.chunk.js": "/mobility-report/static/js/952.8e98e756.chunk.js",
     "static/media/pointer.png": "/mobility-report/static/media/pointer.24145f35ca744fed7c05.png",
     "index.html": "/mobility-report/index.html",
     "main.21f0f4ff.css.map": "/mobility-report/static/css/main.21f0f4ff.css.map",
-    "main.a5127b87.js.map": "/mobility-report/static/js/main.a5127b87.js.map",
+    "main.0e56f6e3.js.map": "/mobility-report/static/js/main.0e56f6e3.js.map",
     "952.8e98e756.chunk.js.map": "/mobility-report/static/js/952.8e98e756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21f0f4ff.css",
-    "static/js/main.a5127b87.js"
+    "static/js/main.0e56f6e3.js"
   ]
 }
