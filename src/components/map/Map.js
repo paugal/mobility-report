@@ -1,16 +1,62 @@
-// src/components/Map.js
+import { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+
+//Leaflet
 import { MapContainer, Marker, TileLayer, Popup, useMapEvents, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon, divIcon, point } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
+
 import pointerImage from "../../assets/pointer.png";
-import { useSelector, useDispatch } from "react-redux";
-import { setMarkers } from "../../store/markersSlice"; 
-import { useEffect, useState } from "react";
+
+//Store
+import { setMarkers, fetchMarkers, addMarker } from "../../store/markersSlice";
+/* import { addMarkerRealtime, updateMarkerRealtime, deleteMarkerRealtime } from "../../store/markerSlice";*/
+
+//Components
+import PopUpMarker from "../PopUpMarker/PopUpMarker"
 
 export default function Map() {
     const markers = useSelector((state) => state.markers);
     const dispatch = useDispatch();
+
+    /*REALTIME*/
+    /* useEffect(() => {
+        // Fetch initial markers
+        dispatch(fetchMarkers());
+
+        // Subscribe to real-time updates
+        const subscription = supabase
+          .from('markers')
+          .on('INSERT', payload => {
+              dispatch(addMarkerRealtime({
+                  geocode: [payload.new.latitude, payload.new.longitude],
+                  type: payload.new.type,
+                  id: payload.new.id
+              }));
+          })
+          .on('UPDATE', payload => {
+              dispatch(updateMarkerRealtime({
+                  geocode: [payload.new.latitude, payload.new.longitude],
+                  type: payload.new.type,
+                  id: payload.new.id
+              }));
+          })
+          .on('DELETE', payload => {
+              dispatch(deleteMarkerRealtime({ id: payload.old.id }));
+          })
+          .subscribe();
+
+        // Cleanup on unmount
+        return () => {
+            supabase.removeSubscription(subscription);
+        };
+    }, [dispatch]); */
+
+    useEffect(() => {
+        // Dispatch the thunk action to fetch markers
+        dispatch(fetchMarkers());
+    }, [dispatch]);
 
     const customIcon = new Icon({
         iconUrl: pointerImage,
@@ -27,8 +73,18 @@ export default function Map() {
 
     const handleMapClick = (e) => {
         const { lat, lng } = e.latlng;
-        const newMarker = { geocode: [lat, lng], type: `Bicycle` };
-        dispatch(setMarkers([...markers, newMarker]));
+        const newMarker = {
+            latitude: lat,
+            longitude: lng,
+            type: `Metro`
+        };
+        console.log(newMarker)
+        /* dispatch(setMarkers([...markers, newMarker])); */
+        dispatch(addMarker({
+            latitude: lat,
+            longitude: lng,
+            type: newMarker.type
+        }));
     };
 
     const MapEventsHandler = ({ handleMapClick }) => {
@@ -50,10 +106,10 @@ export default function Map() {
 
     return (
         <div style={{ position: 'relative', height: '100vh', width: '100%' }}>
-            <MapContainer 
-                center={[41.3870, 2.1700]} 
-                zoom={13} 
-                minZoom={0} 
+            <MapContainer
+                center={[41.3870, 2.1700]}
+                zoom={13}
+                minZoom={0}
                 maxZoom={20}
             >
                 <TileLayer
@@ -64,9 +120,9 @@ export default function Map() {
                     chunkedLoading
                     iconCreateFunction={createCustomClusterIcon}
                 >
-                    {markers.map((marker, index) => (
-                        <Marker key={index} position={marker.geocode} icon={customIcon}>
-                            <Popup>{marker.type}</Popup>
+                    {markers.map(marker => (
+                        <Marker key={marker.id} position={[marker.latitude, marker.longitude]} icon={customIcon}>
+                            <PopUpMarker data={marker} />
                         </Marker>
                     ))}
                 </MarkerClusterGroup>
@@ -76,7 +132,7 @@ export default function Map() {
             </MapContainer>
 
             {/* Render the marker list card on top of the map */}
-            
+
         </div>
     );
 }
