@@ -14,3 +14,19 @@
     font-size: 2.3rem;
     color: #EC7EFF;
 }
+
+.marker{
+    width: 38px;
+    height: 38px;
+}
+
+.primary-path {
+    fill: green;
+    stroke: green;
+    
+  }
+  
+.secondary-path {
+    fill: rgb(31, 85, 22);
+    stroke: rgb(31, 85, 22);
+}

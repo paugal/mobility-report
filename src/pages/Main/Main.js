@@ -6,10 +6,13 @@ import { supabase } from '../../lib/helper/supabaseClient'
 import { useEffect, useState } from "react";
 import "./Main.css"
 
+import { getUserLocation } from '../../lib/util/util';
+
 
 export default function Main() {
 
     const [markers, setMarkers] = useState([]);
+    const [userLocation, setUserLocation] = useState(null);
 
     useEffect(() => {
         getMarkers();
@@ -30,11 +33,21 @@ export default function Main() {
         }
     }
 
+    useEffect(() => {
+        getUserLocation(
+          (location) => {
+            setUserLocation(location);
+          },
+          (error) => {
+            console.error('Error getting user location:', error);
+          }
+        );
+      }, []);
 
     return (
         <div className='mainBox'>
             <Header />
-            <Map />
+            <Map userLocation={userLocation}/>
         </div>
     )
 }
