@@ -1,0 +1,39 @@
+.popUpOptions button{
+
+}
+
+/* CSS */
+.removeMarker {
+  margin-top: 0.5rem;
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 212, 216);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #040404;
+  font-size: .85rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .55rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.removeMarker:hover {
+  background-color: rgb(245, 49, 0);
+  color:white
+}
+
+.removeMarker:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.removeMarker:focus-visible {
+  box-shadow: none;
+}

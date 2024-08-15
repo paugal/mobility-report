@@ -1,4 +1,4 @@
-// lib/util/locationUtils.js
+
 
 export const getUserLocation = (onSuccess, onError) => {
     if (navigator.geolocation) {

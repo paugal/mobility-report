@@ -1,0 +1,59 @@
+.formReport {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 18%;
+    border-radius: 3%/6%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem;
+    background-color: white;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Adjust column widths for better layout */
+    gap: 1rem; /* Add some space between columns */
+    grid-template-areas: 
+        "text map"; /* Explicit grid area names */
+}
+
+@media all and (max-width: 600px) {
+    .formGrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr; /* Adjust column widths for better layout */
+        gap: 1rem; /* Add some space between columns */
+        grid-template-areas: 
+            "text"
+            "map"; /* Explicit grid area names */
+    }
+}
+
+.textColum {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.mapColum {
+    grid-area: map;
+    display: flex;
+    justify-content: flex-end; /* Align map to the right */
+}
+
+.formReport select, .formReport textarea {
+    margin-bottom: 0.5rem;
+    width: 100%; /* Ensure full width inside the form container */
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 2%/20%;
+    padding: 0.2rem;
+}
+
+.formReport button {
+    margin-top: 2rem;
+    width: 6rem;
+}
+
+.formReport h1 {
+    margin-bottom: 2rem;
+}

@@ -1,32 +1,67 @@
-
-.header{
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+.header {
+    padding: 0.5rem 10vw; /* Responsive padding based on viewport width (10% of the viewport) */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #195DD9;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 .montserrat-title {
-    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-style: normal;
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: #EC7EFF;
 }
 
-.marker{
-    width: 38px;
-    height: 38px;
+.navbar {
+    display: flex;
+    gap: 3rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
 }
 
-.primary-path {
-    fill: green;
-    stroke: green;
-    
-  }
-  
-.secondary-path {
-    fill: rgb(31, 85, 22);
-    stroke: rgb(31, 85, 22);
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem;
+    border-radius: 5%;
 }
+
+.navbar a:hover{
+    color: #171118;
+    font-weight: 700;
+}
+
+.navbar a.active {
+    background-color: white; 
+    color: black; 
+  }
+
+@media all and (min-width: 600px) {
+    .header {
+        padding: 0.5rem 8vw; 
+    }
+}
+
+@media all and (min-width: 900px) {
+    .header {
+        padding: 0.5rem 15vw; 
+    }
+}
+
+@media all and (max-width: 600px) {
+    .montserrat-title {
+        font-size: 1.5rem; 
+    }
+}
+
+@media all and (max-width: 600px) {
+    .navbar {
+        gap: 1rem; 
+        font-size: 1rem; 
+    }
+}
+
+

@@ -1,20 +1,30 @@
 .App {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    
+
 }
 
 html, body, #root, .mainBox {
     height: 100%;
     margin: 0;
     padding: 0;
+    
 }
+
+.mainBox{
+    background-color: #195DD9;
+}
+
 
 .leaflet-container{
     height: 90vh;

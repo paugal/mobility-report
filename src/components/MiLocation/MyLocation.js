@@ -9,7 +9,7 @@ export default function MyLocation() {
 
   const customIcon = new Icon({
     iconUrl: pointerImage,
-    iconSize: [28, 28],
+    iconSize: [50, 50],
   });
 
   useEffect(() => {

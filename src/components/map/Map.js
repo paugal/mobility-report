@@ -156,9 +156,9 @@ function InsideMap(){
                             <PopUpMarker data={marker} />
                         </Marker>
                     ))}
-                    <MyLocation/>
+                    
                 </MarkerClusterGroup>
-
+                <MyLocation/>
                 <MapEventsHandler handleMapClick={handleMapClick} />
                 <CustomZoomControl />
                 </>
