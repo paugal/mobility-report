@@ -1,29 +1,28 @@
 .formReport {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     margin: 5% 18%;
-    border-radius: 3%/6%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px -15px;
     padding: 2rem;
     background-color: white;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* Smooth shadow and transform transitions */
 }
 
 .formGrid {
     display: grid;
-    grid-template-columns: 1fr 1.5fr; /* Adjust column widths for better layout */
-    gap: 1rem; /* Add some space between columns */
-    grid-template-areas: 
-        "text map"; /* Explicit grid area names */
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1rem;
+    grid-template-areas: "text map";
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1000px) {
     .formGrid {
-        display: grid;
-        grid-template-rows: 1fr 1fr; /* Adjust column widths for better layout */
-        gap: 1rem; /* Add some space between columns */
-        grid-template-areas: 
-            "text"
-            "map"; /* Explicit grid area names */
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        grid-template-areas: "text" "map";
     }
 }
 
@@ -37,23 +36,111 @@
 .mapColum {
     grid-area: map;
     display: flex;
-    justify-content: flex-end; /* Align map to the right */
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 2rem;
 }
 
-.formReport select, .formReport textarea {
+.mapColum span {
+    width: 150px;
+    margin-bottom: 0.2rem;
+}
+
+.formReport select,
+.formReport textarea {
     margin-bottom: 0.5rem;
-    width: 100%; /* Ensure full width inside the form container */
+    width: 100%;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 2%/20%;
     padding: 0.2rem;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    /* Smooth shadow and background transitions */
+}
+
+.emptySelect {
+    outline: 2px solid red;
 }
 
 .formReport button {
     margin-top: 2rem;
     width: 6rem;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* Smooth button hover effects */
 }
 
 .formReport h1 {
     margin-bottom: 2rem;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #EC7EFF;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 2%/10%;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* Smooth hover transitions */
+}
+
+button:hover {
+    background-color: #C664D9;
+    /* Darker shade on hover */
+    transform: scale(1.05);
+    /* Slightly increase size on hover */
+}
+
+.formReport:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+    /* Enhance shadow on hover */
+    transform: translateY(-5px);
+    /* Slightly lift the form on hover */
+}
+
+@media all and (max-width: 750px) {
+    .formReport {
+        padding: 2rem 1rem;
+        margin: 0% 9% 6% 9%;
+    }
+
+    .formGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .formReport select,
+    .formReport textarea {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .formReport {
+        margin: 0% 3% 2% 3%;
+        padding: 2rem 1rem;
+    }
+
+    .formGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .formReport select,
+    .formReport textarea {
+        font-size: 1rem;
+    }
+
+    .mapColum {
+        padding-left: 0rem;
+    }
 }

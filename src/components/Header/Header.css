@@ -1,17 +1,21 @@
 .header {
-    padding: 0.5rem 10vw; /* Responsive padding based on viewport width (10% of the viewport) */
+    padding: 0.5rem 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #195DD9;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
+    transition: padding 0.3s ease-in-out;
+    /* Smooth transition for padding */
 }
 
 .montserrat-title {
     font-weight: 700;
     font-size: 2rem;
     color: #EC7EFF;
+    transition: font-size 0.3s ease-in-out;
+    /* Smooth transition for font size */
 }
 
 .navbar {
@@ -20,48 +24,61 @@
     font-weight: 500;
     font-size: 1.3rem;
     color: white;
+    transition: gap 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    /* Smooth transition for gap and font size */
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
-    padding: 0.4rem;
-    border-radius: 5%;
+    padding: 0.5rem;
+    border-radius: 3%/6%;
+    transition: color 0.3s ease, background-color 0.3s ease, font-weight 0.3s ease;
+    /* Smooth transition for color, background color, and font weight */
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: #171118;
     font-weight: 700;
 }
 
 .navbar a.active {
-    background-color: white; 
-    color: black; 
-  }
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
 
 @media all and (min-width: 600px) {
     .header {
-        padding: 0.5rem 8vw; 
+        padding: 0.5rem 8vw;
     }
 }
 
 @media all and (min-width: 900px) {
     .header {
-        padding: 0.5rem 15vw; 
+        padding: 0.5rem 15vw;
     }
 }
 
 @media all and (max-width: 600px) {
     .montserrat-title {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
-}
 
-@media all and (max-width: 600px) {
     .navbar {
-        gap: 1rem; 
-        font-size: 1rem; 
+        gap: 1rem;
+        font-size: 1rem;
     }
 }
 
+@media all and (max-width: 750px) {
+    .header {
+        padding: 0.5rem 7vw 0rem 7vw;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 
+    .navbar a {
+        border-radius: 3% 3% 0 0 / 6% 6% 0 0;
+    }
+}

@@ -1,6 +1,8 @@
-.mainBox{
+.mainBox {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    align-content: center;
+    flex-wrap: nowrap;
+
 }
