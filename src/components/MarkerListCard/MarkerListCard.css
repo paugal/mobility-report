@@ -17,3 +17,9 @@
 .card ul {
     list-style-type: none;
 }
+
+@media all and (max-width: 750px) {
+    .card-filters {
+        display: none;
+    }
+}
