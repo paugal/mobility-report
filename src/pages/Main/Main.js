@@ -49,16 +49,10 @@ export default function Main() {
     <div className="mainBox">
       <Header />
       <Routes>
-        <Route
-          path="/mobility-report/"
-          element={<Map userLocation={userLocation} />}
-        />
-        <Route
-          path="/mobility-report/map"
-          element={<Map userLocation={userLocation} />}
-        />
-        <Route path="/mobility-report/report" element={<Report></Report>} />
-        <Route path="/mobility-report/aboutus" element={<h1>About us</h1>} />
+        <Route path="/" element={<Map userLocation={userLocation} />} />
+        <Route path="/map" element={<Map userLocation={userLocation} />} />
+        <Route path="/report" element={<Report></Report>} />
+        <Route path="/aboutus" element={<h1>About us</h1>} />
       </Routes>
     </div>
   );

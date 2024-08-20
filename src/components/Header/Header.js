@@ -11,28 +11,22 @@ export default function Header() {
       <div className="navbar">
         <Link
           id="map"
-          to="/mobility-report/map"
-          className={
-            location.pathname === "/mobility-report/map" ? "active" : ""
-          }
+          to="/map"
+          className={location.pathname === "/map" ? "active" : ""}
         >
           Map
         </Link>
         <Link
           id="report"
-          to="/mobility-report/report"
-          className={
-            location.pathname === "/mobility-report/report" ? "active" : ""
-          }
+          to="/report"
+          className={location.pathname === "/report" ? "active" : ""}
         >
           Report
         </Link>
         <Link
           id="about"
-          to="/mobility-report/aboutus"
-          className={
-            location.pathname === "/mobility-report/aboutus" ? "active" : ""
-          }
+          to="/aboutus"
+          className={location.pathname === "/aboutus" ? "active" : ""}
         >
           About
         </Link>
