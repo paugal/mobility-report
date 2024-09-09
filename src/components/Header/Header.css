@@ -50,7 +50,7 @@
 
 @media all and (min-width: 600px) {
     .header {
-        padding: 0.5rem 8vw;
+        padding: 0.5rem 1rem;
     }
 }
 

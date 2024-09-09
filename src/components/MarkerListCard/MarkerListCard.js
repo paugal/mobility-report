@@ -29,15 +29,15 @@ export default function MarkerListCard() {
       </div>
 
       <h4>Date</h4>
-      <div>
+      <div className="data-picker">
         <label htmlFor="from">From</label>
         <input type="datetime-local" name="from" id="from" />
       </div>
-      <div>
+      <div className="data-picker">
         <label htmlFor="to">To</label>
         <input type="datetime-local" name="to" id="to" />
       </div>
-      <div>
+      <div className="filter-buttons">
         <button> Reset filters</button>
         <button> Hide filters</button>
       </div>
