@@ -18,6 +18,16 @@
     grid-template-areas: "text map";
 }
 
+.required-field::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
+
+}
+
 @media all and (max-width: 1000px) {
     .formGrid {
         grid-template-rows: 1fr 1fr;
@@ -47,7 +57,8 @@
 }
 
 .formReport select,
-.formReport textarea {
+.formReport textarea,
+.formReport input {
     margin-bottom: 0.5rem;
     width: 100%;
     border: none;
@@ -61,6 +72,10 @@
 
 .emptySelect {
     outline: 2px solid red;
+}
+
+.fullSelect{
+    outline: none
 }
 
 .formReport button {

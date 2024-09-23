@@ -52,7 +52,7 @@ export default function Main() {
         <Route path="/" element={<Map userLocation={userLocation} />} />
         <Route path="/map" element={<Map userLocation={userLocation} />} />
         <Route path="/report" element={<Report></Report>} />
-        <Route path="/aboutus" element={<h1>About us</h1>} />
+        <Route path="/dashboard" element={<h1>Dashboard</h1>} />
       </Routes>
     </div>
   );

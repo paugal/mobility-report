@@ -43,11 +43,13 @@ export default function Report() {
   const submitForm = (e) => {
     e.preventDefault();
     const allSelects = Array.prototype.slice.call(
-      document.getElementsByTagName("select")
+      document.getElementsByClassName("required")
     );
     allSelects.forEach((el) => {
       if (el.value === "") {
         document.getElementById(el.id).classList.add("emptySelect");
+      }else{
+        document.getElementById(el.id).classList.add("fullSelect");
       }
     });
     console.log(allSelects);
@@ -58,10 +60,11 @@ export default function Report() {
       <h1>What do you want to report?</h1>
       <div className="formGrid">
         <div className="textColum">
-          <span>Choose the mobility mode:</span>
+          <label htmlFor="mobility_mode" className="required-field">Choose the mobility mode:</label>
           <select
             name="mobility_mode"
             id="mobility_mode"
+            className="required"
             value={formData.mobility_mode}
             onChange={handleChange}
           >
@@ -75,10 +78,11 @@ export default function Report() {
             ))}
           </select>
 
-          <span>Choose the type of problem:</span>
+          <label htmlFor="problemType" className="required-field">Choose the type of problem:</label>
           <select
             name="problemType"
             id="problemType"
+            className="required"
             value={formData.problemType}
             onChange={handleChange}
           >
@@ -92,10 +96,11 @@ export default function Report() {
             ))}
           </select>
 
-          <span>Specify the problem:</span>
+          <label htmlFor="details" className="required-field">Specify the problem:</label>
           <select
             name="details"
             id="details"
+            className="required"
             value={formData.details}
             onChange={handleChange}
           >
@@ -109,17 +114,25 @@ export default function Report() {
             ))}
           </select>
 
-          <span>Description:</span>
+          <label htmlFor="description" className="required-field">Description:</label>
+          
           <textarea
             name="description"
             id="description"
+            className="required"
             value={formData.description || ""}
             onChange={handleChange}
           ></textarea>
+          <label htmlFor="email">Email:</label>
+          <input type="email" errorMessage="Enter a valid email" />
+          <span>
+            If you give us your email address we can inform you of the
+            resolution of your report.{" "}
+          </span>
         </div>
         <div className="mapColum">
-          <span>Select a location:</span>
-          <ReportMap setLocationForm={setLocation}></ReportMap>
+          <label className="required-field" >Select a location:</label>
+          <ReportMap className="required" setLocationForm={setLocation}></ReportMap>
         </div>
       </div>
 

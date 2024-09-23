@@ -39,13 +39,11 @@
 
 .navbar a:hover {
     color: #171118;
-    font-weight: 700;
 }
 
 .navbar a.active {
     background-color: white;
     color: black;
-    padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 @media all and (min-width: 600px) {
