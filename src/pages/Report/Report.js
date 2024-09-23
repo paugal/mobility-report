@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./report.css";
 
-import ReportMap from "../../../components/ReportMap/ReportMap";
+import ReportMap from "../../components/ReportMap/ReportMap";
 
 const jsonData = {
   mobility_mode: ["Train", "Bicycle", "Bus", "Tram", "Metro"],
