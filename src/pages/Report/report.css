@@ -49,6 +49,7 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-left: 2rem;
+    justify-content: center;
 }
 
 .mapColum span {
@@ -113,13 +114,6 @@ button:hover {
     /* Slightly increase size on hover */
 }
 
-.formReport:hover {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
-    /* Enhance shadow on hover */
-    transform: translateY(-5px);
-    /* Slightly lift the form on hover */
-}
-
 @media all and (max-width: 750px) {
     .formReport {
         padding: 2rem 1rem;
@@ -153,9 +147,5 @@ button:hover {
     .formReport select,
     .formReport textarea {
         font-size: 1rem;
-    }
-
-    .mapColum {
-        padding-left: 0rem;
     }
 }

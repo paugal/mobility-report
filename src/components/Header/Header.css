@@ -46,17 +46,17 @@
     color: black;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 900px) {
     .header {
         padding: 0.5rem 1rem;
     }
 }
 
-@media all and (min-width: 900px) {
+/* @media all and (min-width: 900px) {
     .header {
         padding: 0.5rem 15vw;
     }
-}
+} */
 
 @media all and (max-width: 600px) {
     .montserrat-title {

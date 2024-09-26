@@ -35,7 +35,7 @@ export const addMarker = createAsyncThunk(
         .insert({
           latitude: latitude,
           longitude: longitude,
-          type: 'Metro'
+          type: type
         })
         .select("*"); 
 

@@ -9,7 +9,8 @@ import "./Main.css";
 import { Routes, Route } from "react-router-dom";
 
 import { getUserLocation } from "../../lib/util/util";
-import Report from "./Report/Report";
+import Report from "../Report/Report";
+import Dashboard from "../Dashboard/Dashboard";
 
 export default function Main() {
   const [markers, setMarkers] = useState([]);
@@ -52,7 +53,7 @@ export default function Main() {
         <Route path="/" element={<Map userLocation={userLocation} />} />
         <Route path="/map" element={<Map userLocation={userLocation} />} />
         <Route path="/report" element={<Report></Report>} />
-        <Route path="/dashboard" element={<h1>Dashboard</h1>} />
+        <Route path="/dashboard" element={<Dashboard></Dashboard>} />
       </Routes>
     </div>
   );

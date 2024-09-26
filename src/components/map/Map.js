@@ -38,39 +38,6 @@ function InsideMap() {
   const markers = useSelector((state) => state.markers);
   const dispatch = useDispatch();
 
-  /*REALTIME*/
-  /* useEffect(() => {
-        // Fetch initial markers
-        dispatch(fetchMarkers());
-
-        // Subscribe to real-time updates
-        const subscription = supabase
-          .from('markers')
-          .on('INSERT', payload => {
-              dispatch(addMarkerRealtime({
-                  geocode: [payload.new.latitude, payload.new.longitude],
-                  type: payload.new.type,
-                  id: payload.new.id
-              }));
-          })
-          .on('UPDATE', payload => {
-              dispatch(updateMarkerRealtime({
-                  geocode: [payload.new.latitude, payload.new.longitude],
-                  type: payload.new.type,
-                  id: payload.new.id
-              }));
-          })
-          .on('DELETE', payload => {
-              dispatch(deleteMarkerRealtime({ id: payload.old.id }));
-          })
-          .subscribe();
-
-        // Cleanup on unmount
-        return () => {
-            supabase.removeSubscription(subscription);
-        };
-    }, [dispatch]); */
-
   useEffect(() => {
     dispatch(fetchMarkers());
   }, [dispatch]);
@@ -99,8 +66,9 @@ function InsideMap() {
         iconUrl = pointerTram;
         break;
       default:
-        iconUrl = pointerMetro; // Fallback icon
+        iconUrl = pointerMetro;
     }
+    
     return new Icon({
       iconUrl,
       iconSize: [38, 38],

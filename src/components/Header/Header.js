@@ -33,9 +33,9 @@ export default function Header() {
         </Link>
         <Link
           id="dashboard"
-          to="/mobility-report/dashboard"
+          to="/dashboard"
           className={
-            location.pathname === "/mobility-report/dashboard" ? "active" : ""
+            location.pathname === "/dashboard" ? "active" : ""
           }
         >
           Dashbord

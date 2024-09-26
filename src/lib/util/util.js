@@ -19,4 +19,7 @@ export const getUserLocation = (onSuccess, onError) => {
       console.error('Geolocation is not supported by this browser.');
     }
   };
-  
+
+export const capitalizeFLetter = (string) => {
+  return string[0].toUpperCase() + string.slice(1);
+}
