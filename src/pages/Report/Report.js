@@ -60,10 +60,10 @@ export default function Report() {
     if (name === "mobility_mode") {
       setNewMarker((prevData) => ({
         ...prevData,
-        type: capitalizeFLetter(value),
+        type: value,
       }));
 
-      const selectedMode = capitalizeFLetter(value);
+      const selectedMode = value;
       console.log("selectedMode:", selectedMode)
       const problemTypes = Object.keys(jsonData.mobility_modes[selectedMode]?.problemTypes || {});
       setAvailableProblemTypes(problemTypes);
@@ -74,9 +74,9 @@ export default function Report() {
     }
 
     if (name === 'problemType') {
-      const selectedType = capitalizeFLetter(value);
+      const selectedType = value;
       console.log("selectedType:", selectedType)
-      const detailsArray = jsonData.mobility_modes[capitalizeFLetter(formData.mobility_mode)]?.problemTypes[selectedType] || [];
+      const detailsArray = jsonData.mobility_modes[formData.mobility_mode]?.problemTypes[selectedType] || [];
       setAvailableDetails(detailsArray);
 
       console.log("Available Details: ", detailsArray); // Debug log
@@ -115,7 +115,7 @@ export default function Report() {
       dispatch(
         addReport({
           create_at: newFormData.create_at,
-          mobility_mode: capitalizeFLetter(newFormData.mobility_mode),
+          mobility_mode: newFormData.mobility_mode,
           type: newFormData.problemType,
           details: newFormData.details,
           description: newFormData.description,
@@ -157,7 +157,7 @@ export default function Report() {
           >
             <option value="" disabled>Choose one</option>
             {Object.keys(jsonData.mobility_modes).map((mode, index) => (
-              <option key={index} value={mode.toLowerCase()}>{mode}</option>
+              <option key={index} value={mode}>{mode}</option>
             ))}
           </select>
 
@@ -172,7 +172,7 @@ export default function Report() {
           >
             <option value="" disabled>Choose one</option>
             {availableProblemTypes.map((type, index) => (
-              <option key={index} value={type.toLowerCase()}>{type}</option>
+              <option key={index} value={type}>{type}</option>
             ))}
           </select>
 
@@ -187,7 +187,7 @@ export default function Report() {
           >
             <option value="" disabled>Choose one</option>
             {availableDetails.map((detail, index) => (
-              <option key={index} value={detail.toLowerCase()}>{detail}</option>
+              <option key={index} value={detail}>{detail}</option>
             ))}
           </select>
 
