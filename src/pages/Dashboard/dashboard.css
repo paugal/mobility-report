@@ -1,4 +1,4 @@
-.dashboardPage{
+.dashboardPage {
     background-color: whitesmoke;
     display: flex;
     width: 100%;
@@ -6,8 +6,58 @@
     justify-content: center;
 }
 
-.dashboardContainer{
+.dashboardContainer {
     width: 80%;
     max-width: 1000px;
     padding-top: 2rem;
+}
+
+.filterDashboardGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.filterDashboard {
+    display: flex;
+    gap: 0.3rem;
+    margin: 0.5rem 0rem 1.2rem 0rem;
+}
+
+.filterDashboard button {
+    border-radius: 50px;
+    background-color: grey;
+    font-weight: 500;
+    transition-duration: 100ms;
+}
+
+.chartContainer {
+    width: 40%;
+}
+
+.listCharts {
+    display: flex;
+    gap: 4rem
+}
+
+
+.optionButton {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.optionButton.active {
+    background-color: #007bff;
+    /* Highlight color */
+    color: white;
+    /* Text color for active button */
+}
+
+.optionButton:not(.active):hover {
+    background-color: #e0e0e0;
+    /* Hover effect for inactive buttons */
 }
