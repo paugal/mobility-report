@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mobility-report/static/css/main.cc83d6ba.css",
-    "main.js": "/mobility-report/static/js/main.a73bfea4.js",
+    "main.css": "/mobility-report/static/css/main.19a577e1.css",
+    "main.js": "/mobility-report/static/js/main.f70da33b.js",
     "static/js/952.8e98e756.chunk.js": "/mobility-report/static/js/952.8e98e756.chunk.js",
     "static/media/pointer.png": "/mobility-report/static/media/pointer.24145f35ca744fed7c05.png",
     "static/media/svgpointer.svg": "/mobility-report/static/media/svgpointer.e262f0de5a48eb351474e50367d3d625.svg",
@@ -12,12 +12,12 @@
     "static/media/yourhere.svg": "/mobility-report/static/media/yourhere.9598d569440b265c14d177880be4c04f.svg",
     "index.html": "/mobility-report/index.html",
     "static/media/getFetch.cjs": "/mobility-report/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.cc83d6ba.css.map": "/mobility-report/static/css/main.cc83d6ba.css.map",
-    "main.a73bfea4.js.map": "/mobility-report/static/js/main.a73bfea4.js.map",
+    "main.19a577e1.css.map": "/mobility-report/static/css/main.19a577e1.css.map",
+    "main.f70da33b.js.map": "/mobility-report/static/js/main.f70da33b.js.map",
     "952.8e98e756.chunk.js.map": "/mobility-report/static/js/952.8e98e756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc83d6ba.css",
-    "static/js/main.a73bfea4.js"
+    "static/css/main.19a577e1.css",
+    "static/js/main.f70da33b.js"
   ]
 }
