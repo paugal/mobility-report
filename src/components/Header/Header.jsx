@@ -15,38 +15,40 @@ export default function Header() {
 
   return (
     <div className="header">
-      <h1 className="montserrat-title">MORE: Mobility Report </h1>
+      <h1 className="montserrat-title">MORE: Mobility Report</h1>
       <div className="navbar">
         <Link
           id="map"
           to="/map"
           className={location.pathname === "/map" ? "active" : ""}
         >
-          Map
+          {i18n.t("map")}
         </Link>
         <Link
           id="report"
           to="/report"
           className={location.pathname === "/report" ? "active" : ""}
         >
-          Report
+          {i18n.t("report")}
         </Link>
         <Link
           id="dashboard"
           to="/dashboard"
-          className={
-            location.pathname === "/dashboard" ? "active" : ""
-          }
+          className={location.pathname === "/dashboard" ? "active" : ""}
         >
-          Dashbord
+          {i18n.t("dashboard")}
         </Link>
-        <select defaultValue={i18n.language} onChange={onChangeLang}>
-        {LANGUAGES.map(({ code, label }) => (
-          <option key={code} value={code}>
-            {label}
-          </option>
-        ))}
-      </select>
+        <select
+          className="lenguageSelect"
+          defaultValue={i18n.language}
+          onChange={onChangeLang}
+        >
+          {LANGUAGES.map(({ code, label }) => (
+            <option key={code} value={code}>
+              {label}
+            </option>
+          ))}
+        </select>
       </div>
     </div>
   );

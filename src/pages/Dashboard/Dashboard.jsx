@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Charts from "../../components/Charts/Charts";
 import "./dashboard.css";
+import { useTranslation } from "react-i18next";
 
 // Button component for selecting options
 const OptionButton = ({ label, isActive, onClick }) => {
@@ -17,6 +18,7 @@ const OptionButton = ({ label, isActive, onClick }) => {
 export default function Dashboard() {
   const [mobilityType, setMobilityType] = useState("Bus");
   const [year, setYear] = useState("2018");
+  const { t } = useTranslation();
 
   // Mobility types and years
   const mobilityTypes = ["Bus", "Metro"];
@@ -25,11 +27,11 @@ export default function Dashboard() {
   return (
     <div className="dashboardPage">
       <div className="dashboardContainer">
-        <h1>Dashboard</h1>
+        <h1>{t("dashboard")}</h1>
 
         <div className="filterDashboardGroup">
           <div>
-            <h3>Mobility Type</h3>
+            <h3>{t("mobilityType")}</h3>
             <div className="filterDashboard">
               {mobilityTypes.map((type) => (
                 <OptionButton
@@ -43,7 +45,7 @@ export default function Dashboard() {
           </div>
 
           <div>
-            <h3>Year</h3>
+            <h3>{t("year")}</h3>
             <div className="filterDashboard">
               {years.map((yearOption) => (
                 <OptionButton

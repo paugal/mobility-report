@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { useTranslation } from "react-i18next"; // Import useTranslation hook
 import "./report.css";
 
 import ReportMap from "../../components/ReportMap/ReportMap";
 
 import { fetchReports, addReport } from "../../store/reportsSlice";
 import { addMarker } from "../../store/markersSlice";
-import { capitalizeFLetter } from "../../lib/util/util"
+import { capitalizeFLetter } from "../../lib/util/util";
 
-import jsonData from './reportOptions.json';
+import jsonData from "./reportOptions.json";
 
 export default function Report() {
+  const { t } = useTranslation(); // Destructure t for translations
   const reports = useSelector((state) => state.reports);
   const dispatch = useDispatch();
   const [location, setLocation] = useState({ lat: null, lng: null });
@@ -55,33 +57,31 @@ export default function Report() {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
 
-    console.log(`Changed ${name} to ${value}`); // Debug log
-
     if (name === "mobility_mode") {
       setNewMarker((prevData) => ({
         ...prevData,
         type: value,
       }));
 
-      const selectedMode = value;
-      console.log("selectedMode:", selectedMode)
-      const problemTypes = Object.keys(jsonData.mobility_modes[selectedMode]?.problemTypes || {});
+      const problemTypes = Object.keys(
+        jsonData.mobility_modes[value]?.problemTypes || {}
+      );
       setAvailableProblemTypes(problemTypes);
 
-      console.log("Available Problem Types: ", problemTypes); // Debug log
-
-      setFormData((prevData) => ({ ...prevData, problemType: '', details: '' })); // Reset problemType and details
+      setFormData((prevData) => ({
+        ...prevData,
+        problemType: "",
+        details: "",
+      }));
     }
 
-    if (name === 'problemType') {
-      const selectedType = value;
-      console.log("selectedType:", selectedType)
-      const detailsArray = jsonData.mobility_modes[formData.mobility_mode]?.problemTypes[selectedType] || [];
+    if (name === "problemType") {
+      const detailsArray =
+        jsonData.mobility_modes[formData.mobility_mode]?.problemTypes[value] ||
+        [];
       setAvailableDetails(detailsArray);
 
-      console.log("Available Details: ", detailsArray); // Debug log
-
-      setFormData((prevData) => ({ ...prevData, details: '' })); // Reset details
+      setFormData((prevData) => ({ ...prevData, details: "" }));
     }
   };
 
@@ -89,15 +89,20 @@ export default function Report() {
     e.preventDefault();
 
     const create_at = new Date().toISOString();
-    const newFormData = { ...formData, create_at }; // Include created_at in formData
-    console.log("Form Data before submission: ", newFormData); // Debug log
+    const newFormData = { ...formData, create_at };
 
-    // Check for missing required fields
-    const requiredFields = ["mobility_mode", "problemType", "details", "description", "lat", "lng"];
+    const requiredFields = [
+      "mobility_mode",
+      "problemType",
+      "details",
+      "description",
+      "lat",
+      "lng",
+    ];
     const missingFields = requiredFields.filter((field) => !newFormData[field]);
 
     if (missingFields.length > 0) {
-      alert("Please fill in all required fields.");
+      alert(t("requiredField")); // Use translated message
       return;
     }
 
@@ -109,8 +114,6 @@ export default function Report() {
           type: newMarker.type,
         })
       ).unwrap();
-
-      console.log("New marker added with ID:", markerResult.id);
 
       dispatch(
         addReport({
@@ -124,7 +127,6 @@ export default function Report() {
         })
       );
 
-      // Clear form after successful submission
       setFormData({
         create_at: "",
         mobility_mode: "",
@@ -137,17 +139,18 @@ export default function Report() {
       });
       setLocation({ lat: null, lng: null });
     } catch (error) {
-      console.error("Error occurred during submission:", error);
-      alert("Failed to submit the report. Please try again.");
+      alert(t("submissionError")); // Translation key for error
     }
   };
 
   return (
     <form onSubmit={submitForm} className="formReport">
-      <h1>What do you want to report?</h1>
+      <h1>{t("whatDoYouWantToReport")}</h1>
       <div className="formGrid">
         <div className="textColum">
-          <label htmlFor="mobility_mode" className="required-field">Choose the mobility mode:</label>
+          <label htmlFor="mobility_mode" className="required-field">
+            {t("chooseMobilityMode")}
+          </label>
           <select
             name="mobility_mode"
             id="mobility_mode"
@@ -155,43 +158,61 @@ export default function Report() {
             value={formData.mobility_mode}
             onChange={handleChange}
           >
-            <option value="" disabled>Choose one</option>
+            <option value="" disabled>
+              {t("chooseOne")}
+            </option>
             {Object.keys(jsonData.mobility_modes).map((mode, index) => (
-              <option key={index} value={mode}>{mode}</option>
+              <option key={index} value={mode}>
+                {mode}
+              </option>
             ))}
           </select>
 
-          <label htmlFor="problemType" className="required-field">Choose the type of problem:</label>
+          <label htmlFor="problemType" className="required-field">
+            {t("chooseProblemType")}
+          </label>
           <select
             name="problemType"
             id="problemType"
             className="required"
             value={formData.problemType}
             onChange={handleChange}
-            disabled={!formData.mobility_mode} // Disable until a mobility mode is selected
+            disabled={!formData.mobility_mode}
           >
-            <option value="" disabled>Choose one</option>
+            <option value="" disabled>
+              {t("chooseOne")}
+            </option>
             {availableProblemTypes.map((type, index) => (
-              <option key={index} value={type}>{type}</option>
+              <option key={index} value={type}>
+                {type}
+              </option>
             ))}
           </select>
 
-          <label htmlFor="details" className="required-field">Specify the problem:</label>
+          <label htmlFor="details" className="required-field">
+            {t("specifyProblem")}
+          </label>
           <select
             name="details"
             id="details"
             className="required"
             value={formData.details}
             onChange={handleChange}
-            disabled={!formData.problemType} // Disable until a problem type is selected
+            disabled={!formData.problemType}
           >
-            <option value="" disabled>Choose one</option>
+            <option value="" disabled>
+              {t("chooseOne")}
+            </option>
             {availableDetails.map((detail, index) => (
-              <option key={index} value={detail}>{detail}</option>
+              <option key={index} value={detail}>
+                {detail}
+              </option>
             ))}
           </select>
 
-          <label htmlFor="description" className="required-field">Description:</label>
+          <label htmlFor="description" className="required-field">
+            {t("description")}
+          </label>
           <textarea
             name="description"
             id="description"
@@ -200,24 +221,24 @@ export default function Report() {
             onChange={handleChange}
           ></textarea>
 
-          <label htmlFor="email">Email:</label>
-          <input 
-            type="email" 
-            name="email" 
-            value={formData.email} 
+          <label htmlFor="email">{t("email")}</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
             onChange={handleChange}
-            placeholder="Enter your email (optional)" 
+            placeholder={t("emailPlaceholder")}
           />
-          <span>If you provide your email, we can notify you about your report's resolution.</span>
+          <span>{t("emailNote")}</span>
         </div>
         <div className="mapColum">
-          <label className="required-field">Select a location:</label>
+          <label className="required-field">{t("selectLocation")}</label>
           <ReportMap setLocationForm={setLocation}></ReportMap>
         </div>
       </div>
 
       <div className="buttonBox">
-        <button type="submit">Submit</button>
+        <button type="submit">{t("submit")}</button>
       </div>
     </form>
   );
