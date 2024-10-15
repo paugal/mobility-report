@@ -1,9 +1,57 @@
-.popUpOptions button{
-
+.popUpContainer {
+  min-width: 190px;
+  max-width: 400px;
+  width: auto;
+  line-height: 1.5rem;
+  padding: 1rem;
 }
 
-/* CSS */
-.removeMarker {
+.material-icons-filled{
+  font-variation-settings: 'FILL' 1
+}
+
+.popupTitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.popupSubtitle {
+  font-size: 1.1rem;
+  font-weight: semi-bold;
+  margin: 0.4rem 0;
+  color: #333;
+}
+
+.moreDetails p {
+  margin: 0.4em 0;
+}
+
+.popupIssue, .popupDate, .popupDateFull {
+  font-weight: 500;
+}
+
+.popupDescription, .popupUser, .popupStatus, .popupLikes, .popupIssue, .popupDateFull {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.popupDescription strong, .popupUser strong, .popupStatus strong {
+  font-weight: bold;
+}
+
+.popUpOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: space-between;
+}
+
+.showDetails, .endorse {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
   margin-top: 0.5rem;
   background-color: #ffffff;
   border: 1px solid rgb(209, 212, 216);
@@ -13,27 +61,31 @@
   font-size: .85rem;
   font-weight: 600;
   line-height: 1.25rem;
-  padding: .55rem 1rem;
+  padding: .45rem 0.8rem;
   text-align: center;
   text-decoration: none #D1D5DB solid;
-  text-decoration-thickness: auto;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+}
+
+.showDetails:hover, .endorse:hover {
+  background-color: #f1f1f1;
+}
+
+.removeMarker {
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 212, 216);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #040404;
+  font-size: .85rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .55rem 1rem;
+  cursor: pointer;
 }
 
 .removeMarker:hover {
   background-color: rgb(245, 49, 0);
-  color:white
-}
-
-.removeMarker:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
-.removeMarker:focus-visible {
-  box-shadow: none;
+  color: white;
 }

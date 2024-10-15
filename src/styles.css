@@ -10,8 +10,6 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    
-
 }
 
 html, body, #root, .mainBox {
@@ -42,4 +40,25 @@ html, body, #root, .mainBox {
     border-radius: 50%;
     font-size: 1.2rem;
     box-shadow: 0 0 0px 2px #fff;
+  }
+
+
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
   }

@@ -96,19 +96,33 @@
 }
 
 button {
-    background-color: #EC7EFF;
-    color: white;
-    font-weight: 700;
-    border: none;
-    border-radius: 2%/10%;
-    padding: 0.5rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 0.5rem;
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 212, 216);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #040404;
+  font-size: .85rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .45rem 0.8rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    transition: all 0.1s ease-in-out, transform 0.3s ease-in-out;
     /* Smooth hover transitions */
 }
 
 button:hover {
-    background-color: #C664D9;
+    background-color: #eeeeee;
     /* Darker shade on hover */
     transform: scale(1.05);
     /* Slightly increase size on hover */
