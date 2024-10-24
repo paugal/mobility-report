@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { useTranslation } from "react-i18next"; // Import useTranslation hook
+import { useTranslation } from "react-i18next";
 import "./report.css";
 
 import ReportMap from "../../components/ReportMap/ReportMap";
 
 import { fetchReports, addReport } from "../../store/reportsSlice";
-import { addMarker } from "../../store/markersSlice";
+import { addMarker, updateMarkerWithReport } from "../../store/markersSlice";
 import { capitalizeFLetter } from "../../lib/util/util";
 
 import jsonData from "./reportOptions.json";
 
 export default function Report() {
-  const { t } = useTranslation(); // Destructure t for translations
+  const { t } = useTranslation();
   const reports = useSelector((state) => state.reports);
   const dispatch = useDispatch();
   const [location, setLocation] = useState({ lat: null, lng: null });
@@ -102,7 +102,7 @@ export default function Report() {
     const missingFields = requiredFields.filter((field) => !newFormData[field]);
 
     if (missingFields.length > 0) {
-      alert(t("requiredField")); // Use translated message
+      alert(t("requiredField"));
       return;
     }
 
@@ -115,9 +115,9 @@ export default function Report() {
         })
       ).unwrap();
 
-      dispatch(
+      const reportResult = await dispatch(
         addReport({
-          create_at: newFormData.create_at,
+          created_at: newFormData.create_at,
           mobility_mode: newFormData.mobility_mode,
           type: newFormData.problemType,
           details: newFormData.details,
@@ -125,7 +125,14 @@ export default function Report() {
           email: newFormData.email,
           marker_id: markerResult.id,
         })
-      );
+      ).unwrap();
+
+      await dispatch(
+        updateMarkerWithReport({
+          markerId: markerResult.id,
+          reportId: reportResult.id,
+        })
+      ).unwrap();
 
       setFormData({
         create_at: "",
@@ -139,7 +146,8 @@ export default function Report() {
       });
       setLocation({ lat: null, lng: null });
     } catch (error) {
-      alert(t("submissionError")); // Translation key for error
+      console.error("Submission error:", error);
+      alert(t("submissionError"));
     }
   };
 

@@ -1,9 +1,9 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { supabase } from '../lib/helper/supabaseClient';
+import { supabase } from "../lib/helper/supabaseClient";
 
 // Thunk to fetch markers from Supabase
 export const fetchMarkers = createAsyncThunk(
-  'markers/fetchMarkers',
+  "markers/fetchMarkers",
   async (_, { rejectWithValue }) => {
     try {
       const { data, error } = await supabase
@@ -13,11 +13,11 @@ export const fetchMarkers = createAsyncThunk(
 
       if (error) throw error;
 
-      return data.map(marker => ({
-        id: marker.id, 
+      return data.map((marker) => ({
+        id: marker.id,
         latitude: marker.latitude,
-        longitude:  marker.longitude,
-        type: marker.type
+        longitude: marker.longitude,
+        type: marker.type,
       }));
     } catch (error) {
       return rejectWithValue(error.message);
@@ -25,9 +25,8 @@ export const fetchMarkers = createAsyncThunk(
   }
 );
 
-// Thunk to add a new marker to Supabase and update the Redux store
 export const addMarker = createAsyncThunk(
-  'markers/addMarker',
+  "markers/addMarker",
   async ({ latitude, longitude, type }, { rejectWithValue }) => {
     try {
       const { data, error } = await supabase
@@ -35,18 +34,17 @@ export const addMarker = createAsyncThunk(
         .insert({
           latitude: latitude,
           longitude: longitude,
-          type: type
+          type: type,
         })
-        .select("*"); 
+        .select("*");
 
       if (error) throw error;
 
-      // Return the newly inserted marker
       return {
         id: data[0].id,
         latitude: data[0].latitude,
-        longitude : data[0].longitude,
-        type: data[0].type
+        longitude: data[0].longitude,
+        type: data[0].type,
       };
     } catch (error) {
       return rejectWithValue(error.message);
@@ -55,19 +53,39 @@ export const addMarker = createAsyncThunk(
 );
 
 export const deleteMarker = createAsyncThunk(
-  'markers/deleteMarker',
+  "markers/deleteMarker",
   async (markerId, { rejectWithValue }) => {
     try {
       const { data, error } = await supabase
-        .from('markers')
+        .from("markers")
         .delete()
-        .eq('id', markerId); // Use the markerId parameter to specify which marker to delete
+        .eq("id", markerId);
 
       if (error) throw error;
 
-      // Return the deleted marker ID or relevant data if needed
       return markerId;
     } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+export const updateMarkerWithReport = createAsyncThunk(
+  "markers/updateMarkerWithReport",
+  async ({ markerId, reportId }, { rejectWithValue }) => {
+    try {
+      const { data, error } = await supabase
+        .from("markers")
+        .update({ report_id: reportId })
+        .eq("id", markerId)
+        .select("*")
+        .single();
+
+      if (error) throw error;
+
+      return data;
+    } catch (error) {
+      console.error("Error updating marker with report:", error);
       return rejectWithValue(error.message);
     }
   }
@@ -84,14 +102,16 @@ const markersSlice = createSlice({
       state.push(action.payload);
     },
     updateMarkerRealtime(state, action) {
-      const index = state.findIndex(marker => marker.id === action.payload.id);
+      const index = state.findIndex(
+        (marker) => marker.id === action.payload.id
+      );
       if (index !== -1) {
         state[index] = action.payload;
       }
     },
     deleteMarkerRealtime(state, action) {
-      return state.filter(marker => marker.id !== action.payload.id);
-    }
+      return state.filter((marker) => marker.id !== action.payload.id);
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -109,13 +129,18 @@ const markersSlice = createSlice({
       })
       .addCase(deleteMarker.fulfilled, (state, action) => {
         /* state.push(action.payload); */
-        return state.filter(marker => marker.id !== action.payload);
+        return state.filter((marker) => marker.id !== action.payload);
       })
       .addCase(deleteMarker.rejected, (state, action) => {
         console.error("Failed to remove marker: ", action.payload);
       });
-  }
+  },
 });
 
-export const { setMarkers, addMarkerRealtime, updateMarkerRealtime, deleteMarkerRealtime } = markersSlice.actions;
+export const {
+  setMarkers,
+  addMarkerRealtime,
+  updateMarkerRealtime,
+  deleteMarkerRealtime,
+} = markersSlice.actions;
 export default markersSlice.reducer;
