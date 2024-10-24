@@ -54,5 +54,6 @@
     "Temperature": "Temperature",
     "Traffic": "Traffic",
     "ThanksReport": "Thanks for the report!",
-    "ThanksReportSub": "We will contact the corresponding company to solve the problem as soon as possible."
+    "ThanksReportSub": "We will contact the corresponding company to solve the problem as soon as possible.",
+    "logIn": "Log In"
 }

@@ -32,14 +32,14 @@
     display: flex;
     gap: 3rem;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: white;
     transition: gap 0.3s ease-in-out, font-size 0.3s ease-in-out;
     transition: font-size 0.3s ease-in-out;
 }
 
 .navbar a {
-    color: rgb(226, 226, 226);
+    color: rgb(206, 206, 206);
     text-decoration: none;
     padding: 0.5rem;
     border-radius: 5px;
@@ -49,7 +49,6 @@
 
 .navbar a:hover {
     color: #ffffff;
-    font-weight: 600;
     transition: font-weight 0.3s ease-in-out;
 }
 
@@ -58,10 +57,52 @@
     color: black;
 } */
 
-.lenguageSelect {
-    border: none;
+.logIn {
+    background-color: #ffffff;
+    display: flex;
     border-radius: 5px;
-    padding: 0.4rem
+}
+
+.logIn a {
+    color: black;
+}
+
+.language-container {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
 }
 
 @media all and (min-width: 900px) {
