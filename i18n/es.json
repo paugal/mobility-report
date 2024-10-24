@@ -52,5 +52,7 @@
     "Seat": "Asiento",
     "Accessibility": "Accesibilidad",
     "Temperature": "Temperatura",
-    "Traffic": "Tráfico"
+    "Traffic": "Tráfico",
+    "ThanksReport": "Gràcies per l'informe!",
+    "ThanksReportSub": "Ens posarem en contacte amb l'empresa corresponent per a solucionar el problema al més aviat possible."
 }
