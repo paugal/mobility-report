@@ -1,19 +1,29 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #333333;
+}
+
 .header {
     padding: 0.5rem 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #195DD9;
+    /* background-color: #195DD9; */
+    background-color: #333333;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     transition: padding 0.3s ease-in-out;
-    /* Smooth transition for padding */
+    width: 80%;
 }
 
 .montserrat-title {
     font-weight: 700;
-    font-size: 2rem;
-    color: #EC7EFF;
+    font-size: 1.7rem;
+    /* color: #EC7EFF; */
+    color: #d69be1;
     transition: font-size 0.3s ease-in-out;
     /* Smooth transition for font size */
 }
@@ -22,14 +32,14 @@
     display: flex;
     gap: 3rem;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: white;
     transition: gap 0.3s ease-in-out, font-size 0.3s ease-in-out;
-    /* Smooth transition for gap and font size */
+    transition: font-size 0.3s ease-in-out;
 }
 
 .navbar a {
-    color: white;
+    color: rgb(226, 226, 226);
     text-decoration: none;
     padding: 0.5rem;
     border-radius: 5px;
@@ -38,13 +48,15 @@
 }
 
 .navbar a:hover {
-    color: #171118;
+    color: #ffffff;
+    font-weight: 600;
+    transition: font-weight 0.3s ease-in-out;
 }
 
-.navbar a.active {
+/* .navbar a.active {
     background-color: white;
     color: black;
-}
+} */
 
 .lenguageSelect {
     border: none;
