@@ -52,5 +52,7 @@
     "Seat": "Seat",
     "Accessibility": "Accessibility",
     "Temperature": "Temperature",
-    "Traffic": "Traffic"
+    "Traffic": "Traffic",
+    "ThanksReport": "Thanks for the report!",
+    "ThanksReportSub": "We will contact the corresponding company to solve the problem as soon as possible."
 }

@@ -173,3 +173,69 @@ button:hover {
         font-size: 1rem;
     }
 }
+
+.report-send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+}
+
+.report-send h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+.report-send h2 {
+    color: black;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.success-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.circle-check {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid green;
+    position: relative;
+    animation: circle-grow 1s ease-out forwards;
+}
+
+
+.circle-check::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    border-right: 5px solid green;
+    border-bottom: 5px solid green;
+    transform: rotate(45deg);
+    top: 22px;
+    left: 35px;
+    opacity: 0;
+    animation: check-draw 0.5s 1s ease forwards;
+}
+
+@keyframes circle-grow {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes check-draw {
+    to {
+        opacity: 1;
+    }
+}
