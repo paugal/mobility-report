@@ -1,21 +1,30 @@
 .formReport {
-    max-width: 900px;
+    width: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    margin: 5% 18%;
-    border-radius: 1vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px -15px;
     padding: 2rem;
     background-color: white;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-    /* Smooth shadow and transform transitions */
+    display: flex;
+    align-items: center;
+}
+
+.center-formReport {
+    margin-top: 2rem;
+    width: 70%;
+    min-width: 400px;
+    max-width: 930px;
 }
 
 .formGrid {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 1rem;
-    grid-template-areas: "text map";
+    grid-template-areas: "text map"; */
+    display: flex;
+    justify-content: space-between;
 }
 
 .required-field::after {
@@ -49,12 +58,11 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-left: 2rem;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-.mapColum span {
-    width: 150px;
-    margin-bottom: 0.2rem;
+.mapColum label {
+    margin-bottom: 0.5rem;
 }
 
 .formReport select,
@@ -64,18 +72,18 @@
     width: 100%;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border-radius: 2%/20%;
+    border-radius: 5px;
     padding: 0.2rem;
     box-sizing: border-box;
     transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    /* Smooth shadow and background transitions */
+    max-width: 400px;
 }
 
 .emptySelect {
     outline: 2px solid red;
 }
 
-.fullSelect{
+.fullSelect {
     outline: none
 }
 
@@ -83,7 +91,8 @@
     margin-top: 2rem;
     width: 6rem;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-    /* Smooth button hover effects */
+    display: flex;
+    justify-content: center;
 }
 
 .formReport h1 {
@@ -97,26 +106,26 @@
 
 button {
     display: flex;
-  align-items: center;
-  gap: 0.2rem;
-  margin-top: 0.5rem;
-  background-color: #ffffff;
-  border: 1px solid rgb(209, 212, 216);
-  border-radius: .5rem;
-  box-sizing: border-box;
-  color: #040404;
-  font-size: .85rem;
-  font-weight: 600;
-  line-height: 1.25rem;
-  padding: .45rem 0.8rem;
-  text-align: center;
-  text-decoration: none #D1D5DB solid;
-  text-decoration-thickness: auto;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    align-items: center;
+    gap: 0.2rem;
+    margin-top: 0.5rem;
+    background-color: #ffffff;
+    border: 1px solid rgb(209, 212, 216);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #040404;
+    font-size: .85rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .45rem 0.8rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
     transition: all 0.1s ease-in-out, transform 0.3s ease-in-out;
     /* Smooth hover transitions */
 }
@@ -128,10 +137,10 @@ button:hover {
     /* Slightly increase size on hover */
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 950px) {
     .formReport {
-        padding: 2rem 1rem;
-        margin: 0% 9% 6% 9%;
+        /*         padding: 2rem 1rem;
+        margin: 0% 9% 6% 9%; */
     }
 
     .formGrid {
@@ -144,13 +153,14 @@ button:hover {
     .formReport textarea {
         font-size: 1rem;
     }
+
+    .mapColum {
+        justify-content: flex-start;
+        padding-left: 0%;
+    }
 }
 
 @media all and (max-width: 500px) {
-    .formReport {
-        margin: 0% 3% 2% 3%;
-        padding: 2rem 1rem;
-    }
 
     .formGrid {
         display: flex;
