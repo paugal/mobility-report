@@ -1,0 +1,77 @@
+.LoginPage {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px -15px;
+    padding: 2rem;
+    background-color: whitesmoke;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.mainLoginBox {
+    margin-top: 2rem;
+    width: 40%;
+    min-width: 200px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.login-button {
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.Login-title,
+.Login-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.login-input-icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.login-input-icon .material-symbols-outlined {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-size: 20px;
+    color: #888;
+    pointer-events: none;
+}
+
+.login-input-icon input {
+    padding-left: 35px;
+
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    width: 350px;
+    height: 35px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 0.2rem;
+    padding-left: 35px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    max-width: 400px;
+}

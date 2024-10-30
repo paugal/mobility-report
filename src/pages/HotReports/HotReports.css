@@ -1,0 +1,29 @@
+.hotReportsPage {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px -15px;
+    padding: 2rem;
+    background-color: whitesmoke;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    align-items: left;
+}
+
+.hotReportsPage {
+    padding: 20px;
+}
+
+.reportsList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reportItem {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}

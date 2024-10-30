@@ -55,5 +55,14 @@
     "Traffic": "Traffic",
     "ThanksReport": "Thanks for the report!",
     "ThanksReportSub": "We will contact the corresponding company to solve the problem as soon as possible.",
-    "logIn": "Log In"
+    "logIn": "Log In",
+    "welcome_back": "Welcome back!",
+    "enter_credentials": "Enter your credentials to access your account",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "log_in": "Log in",
+    "no_account": "Don’t have an account?",
+    "sign_in": "Sign In",
+    "forgot_password": "Forgot your password?",
+    "reset_password": "Reset Password"
 }

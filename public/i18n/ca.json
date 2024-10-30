@@ -54,5 +54,15 @@
     "Temperature": "Temperature",
     "Traffic": "Traffic",
     "ThanksReport": "Thanks for the report!",
-    "ThanksReportSub": "We will contact the corresponding company to solve the problem as soon as possible."
+    "ThanksReportSub": "We will contact the corresponding company to solve the problem as soon as possible.",
+    "logIn": "Log In",
+    "welcome_back": "Benvingut de nou!",
+    "enter_credentials": "Introdueix les teves credencials per accedir al teu compte",
+    "enter_email": "Introdueix el teu correu electrònic",
+    "enter_password": "Introdueix la teva contrasenya",
+    "log_in": "Inicia sessió",
+    "no_account": "No tens un compte?",
+    "sign_in": "Registra't",
+    "forgot_password": "Has oblidat la teva contrasenya?",
+    "reset_password": "Restableix la contrasenya"
 }

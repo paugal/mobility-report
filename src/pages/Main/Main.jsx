@@ -11,6 +11,8 @@ import { Routes, Route } from "react-router-dom";
 import { getUserLocation } from "../../lib/util/util";
 import Report from "../Report/Report";
 import Dashboard from "../Dashboard/Dashboard";
+import LogIn from "../LogIn/LogIn";
+import HotReports from "../HotReports/HotReports";
 
 export default function Main() {
   const [markers, setMarkers] = useState([]);
@@ -54,6 +56,8 @@ export default function Main() {
         <Route path="/map" element={<Map userLocation={userLocation} />} />
         <Route path="/report" element={<Report></Report>} />
         <Route path="/dashboard" element={<Dashboard></Dashboard>} />
+        <Route path="/login" element={<LogIn></LogIn>} />
+        <Route path="/hotreports" element={<HotReports></HotReports>} />
       </Routes>
     </div>
   );

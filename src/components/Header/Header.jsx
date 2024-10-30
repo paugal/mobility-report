@@ -40,6 +40,13 @@ export default function Header() {
             {i18n.t("report")}
           </Link>
           <Link
+            id="hotreports"
+            to="/hotreports"
+            className={location.pathname === "/hotreports" ? "active" : ""}
+          >
+            {i18n.t("hotreports")}
+          </Link>
+          <Link
             id="dashboard"
             to="/dashboard"
             className={location.pathname === "/dashboard" ? "active" : ""}

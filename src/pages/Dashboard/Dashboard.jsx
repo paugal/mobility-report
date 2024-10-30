@@ -3,7 +3,6 @@ import Charts from "../../components/Charts/Charts";
 import "./dashboard.css";
 import { useTranslation } from "react-i18next";
 
-// Button component for selecting options
 const OptionButton = ({ label, isActive, onClick }) => {
   return (
     <button
