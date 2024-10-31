@@ -68,7 +68,7 @@ function InsideMap() {
       default:
         iconUrl = pointerMetro;
     }
-    
+
     return new Icon({
       iconUrl,
       iconSize: [38, 38],

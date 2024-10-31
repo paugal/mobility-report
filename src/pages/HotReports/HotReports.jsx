@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./HotReports.css";
 import { supabase } from "../../lib/helper/supabaseClient.js";
 import { useTranslation } from "react-i18next";
+import NeighborhoodChecker from "../../geoData/NeighborhoodChecker/NeighborhoodChecker.js";
 
 export default function HotReports() {
   const [reports, setReports] = useState([]);
   const { t } = useTranslation();
-
   useEffect(() => {
     const fetchReports = async () => {
       const { data, error } = await supabase.rpc("get_reports");
@@ -44,6 +44,12 @@ export default function HotReports() {
               <p>
                 <strong>Location:</strong> {report.latitude}, {report.longitude}
               </p>
+              <NeighborhoodChecker
+                points={[
+                  { id: 1, latitude: 41.3851, longitude: 2.1734 },
+                  { id: 2, latitude: 41.396, longitude: 2.162 },
+                ]}
+              ></NeighborhoodChecker>
             </div>
           ))
         ) : (
