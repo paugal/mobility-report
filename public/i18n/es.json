@@ -64,5 +64,14 @@
     "no_account": "¿No tienes una cuenta?",
     "sign_in": "Regístrate",
     "forgot_password": "¿Olvidaste tu contraseña?",
-    "reset_password": "Restablecer contraseña"
+    "reset_password": "Restablecer contraseña",
+    "hotreports": "Reportes Destacados",
+    "details": "Detalles",
+    "reportedBy": "Reportado Por",
+    "neighborhood": "Barrio",
+    "likes": "Me gusta",
+    "status": "Estado",
+    "unknown": "Desconocido",
+    "noReportsAvailable": "No hay reportes disponibles.",
+    "errorFetchingReports": "Error al obtener reportes por movilidad"
 }

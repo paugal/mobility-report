@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./Map.css";
 
-//Leaflet
 import {
   MapContainer,
   Marker,
@@ -11,8 +10,10 @@ import {
   useMapEvents,
   useMap,
 } from "react-leaflet";
+
 import "leaflet/dist/leaflet.css";
 import { Icon, divIcon, point } from "leaflet";
+import L from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 
 import pointerImage from "../../assets/pointer.png";
@@ -23,20 +24,41 @@ import pointerMetro from "../../assets/pointers/metro.svg";
 import pointerPedestrian from "../../assets/pointers/pedestrian.svg";
 import pointerTrain from "../../assets/pointers/train.svg";
 import pointerTram from "../../assets/pointers/tram.svg";
+import pointerStation from "../../assets/pointers/K001.png";
 
-//Store
 import { setMarkers, fetchMarkers, addMarker } from "../../store/markersSlice";
-/* import { addMarkerRealtime, updateMarkerRealtime, deleteMarkerRealtime } from "../../store/markerSlice";*/
 
-//Components
 import PopUpMarker from "../PopUpMarker/PopUpMarker";
 import MyLocation from "../MiLocation/MyLocation";
 import { getUserLocation } from "../../lib/util/util";
 import MarkerListCard from "../MarkerListCard/MarkerListCard";
 
+import { fetchStationData } from "../../lib/util/util";
+import { fetchStationDataJSONSimply } from "../../lib/util/util";
+
 function InsideMap() {
   const markers = useSelector((state) => state.markers);
   const dispatch = useDispatch();
+  const [stations, setStations] = useState([]);
+  const [userLocation, setUserLocation] = useState();
+
+  useEffect(() => {
+    const loadStations = async () => {
+      const data = await fetchStationData("K001");
+      setStations(data);
+    };
+
+    loadStations();
+  }, []);
+
+  /* useEffect(() => {
+    const loadStations = async () => {
+      const data = await fetchStationDataJSONSimply();
+      setStations(data);
+    };
+
+    loadStations();
+  }, []); */
 
   useEffect(() => {
     dispatch(fetchMarkers());
@@ -65,6 +87,9 @@ function InsideMap() {
       case "Tram":
         iconUrl = pointerTram;
         break;
+      case "STATION":
+        iconUrl = pointerStation;
+        break;
       default:
         iconUrl = pointerMetro;
     }
@@ -90,7 +115,7 @@ function InsideMap() {
       longitude: lng,
       type: `Metro`,
     };
-    /* dispatch(setMarkers([...markers, newMarker])); */
+
     dispatch(
       addMarker({
         latitude: lat,
@@ -136,8 +161,29 @@ function InsideMap() {
           </Marker>
         ))}
       </MarkerClusterGroup>
-      <MyLocation />
-      <MapEventsHandler handleMapClick={handleMapClick} />
+      {stations.map((station) => (
+        <Marker
+          key={station.id}
+          position={[station.latitude, station.longitude]}
+          icon={L.icon({
+            iconUrl:
+              "https://www.barcelona.cat/estatics-planol/v0.8/img/w/bg/K/" +
+              station.type +
+              ".png",
+            iconSize: [8, 8], // Adjust size as needed
+            iconAnchor: [16, 32], // Anchor so the icon points correctly
+            popupAnchor: [0, -32], // Adjusts popup position above the icon
+          })}
+        >
+          <Popup>{station.name}</Popup>
+        </Marker>
+      ))}
+      <MyLocation
+        userLocation={userLocation}
+        setUserLocation={setUserLocation}
+      />
+      {/* Add marker with click */}
+      {/* <MapEventsHandler handleMapClick={handleMapClick} /> */}
       <CustomZoomControl />
     </>
   );
@@ -159,7 +205,7 @@ export default function Map({ userLocation }) {
         center={[41.387, 2.17]}
         zoom={13}
         minZoom={0}
-        maxZoom={20}
+        maxZoom={18}
         style={{ flexGrow: 1, height: "100%", width: "100%" }}
         ref={mapRef}
       >

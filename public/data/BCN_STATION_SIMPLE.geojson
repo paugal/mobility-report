@@ -1,0 +1,2645 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.10724560657237,
+                        41.3446773795791
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Hospital de Bellvitge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11091394351041,
+                        41.3509706139387
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Bellvitge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1026470740391,
+                        41.35852166336
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Av.Carrilet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.0997558301275,
+                        41.364088519046
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Rbla. Just Oliveres"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.10275800609523,
+                        41.367691822755
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Serra"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11000041974853,
+                        41.3683141505068
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Florida"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11603574469669,
+                        41.3683868591256
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Torrassa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.12862266536991,
+                        41.3688178425986
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Santa Eulàlia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13383610459663,
+                        41.373379998049
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Mercat Nou"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13815278801456,
+                        41.3753505753743
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Plaça de Sants"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14329668955346,
+                        41.3752509216179
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Hostafrancs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14938832180192,
+                        41.3755105580471
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Espanya"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15457084999971,
+                        41.3792367910132
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Rocafort"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15889310566737,
+                        41.3824876357654
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Urgell"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16427995118496,
+                        41.3857954145517
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Universitat"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16915407067773,
+                        41.3875434899174
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Catalunya"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17456264015383,
+                        41.3896457413029
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Urquinaona"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18112813551128,
+                        41.3923262575612
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Arc de Triomf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1857981802294,
+                        41.3947274823491
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Marina"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18754266629032,
+                        41.4023324522177
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Glòries"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18700059500011,
+                        41.4101635010591
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Clot"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18704167405974,
+                        41.4162264750576
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Navas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1869698133286,
+                        41.4224178218231
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Sagrera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19069382335635,
+                        41.4432126818515
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Torres i Bages"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19383167188144,
+                        41.4489521112291
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Trinitat Vella"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19956260718715,
+                        41.4499338328221
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Baró de Viver"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20797423836986,
+                        41.451065944286
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Santa Coloma"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21845912912605,
+                        41.4515824046727
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Fondo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19118490806767,
+                        41.4366290798935
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Andreu"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18364619499938,
+                        41.4296609187553
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Fabra i Puig"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16911240142496,
+                        41.3750075884976
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Paral.lel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16327089877911,
+                        41.3798272702326
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Antoni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16390479855262,
+                        41.3846887727593
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Universitat"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16821913018115,
+                        41.389384992681
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Passeig de Gràcia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17551805325572,
+                        41.3948683139392
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Tetuan"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17950515647399,
+                        41.4004616326136
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Monumental"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17512996667994,
+                        41.4039656550846
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sagrada Família"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18273460531032,
+                        41.4072552033206
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Encants"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18700650142312,
+                        41.4112090131051
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Clot"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19548717083036,
+                        41.415144085061
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Bac de Roda"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20075932214741,
+                        41.4190811335606
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Martí"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20557113269543,
+                        41.42411577954
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Pau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20988506277702,
+                        41.4300115877857
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Verneda"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21766710070971,
+                        41.4337966547871
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Artigues Sant Adrià"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.22856289075831,
+                        41.4357882271971
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Roc"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.23345182077515,
+                        41.440248144004
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Gorg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.23798355368557,
+                        41.4439304845739
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Pep Ventura"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14503438794412,
+                        41.4306236365763
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Montbau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14255167806077,
+                        41.4252661763345
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Vall d'Hebrón"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14096509247059,
+                        41.4182996585121
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Penitents"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1443047026085,
+                        41.4119854795301
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Vallcarca"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15046807790882,
+                        41.4056694874378
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Lesseps"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15303652300288,
+                        41.401986400292
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Fontana"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16536689920403,
+                        41.3915817529081
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Passeig de Gràcia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17008735378259,
+                        41.3863084298943
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Catalunya"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17303147882003,
+                        41.3814346018435
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Liceu"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17565315807782,
+                        41.3765343202758
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Drassanes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16911345604709,
+                        41.3748921947384
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Paral.lel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16025356553762,
+                        41.3749959792272
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Poble Sec"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15159008717343,
+                        41.375018901164
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Espanya"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14530704549747,
+                        41.3785118149518
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Tarragona"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14100716237199,
+                        41.3815822523802
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sants Estació"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13585679925126,
+                        41.3819147134083
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Plaça del Centre"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13088132104833,
+                        41.3840930723843
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Les Corts"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11857202561197,
+                        41.3859900263212
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Palau Reial"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11175278403453,
+                        41.3842625591867
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Zona Universitària"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.12586260603251,
+                        41.3878347299235
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Maria Cristina"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14857345551613,
+                        41.4357381516847
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Mundet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15691304899957,
+                        41.438020732144
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Valldaura"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16632004226319,
+                        41.4417413588555
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Canyelles"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16005295825994,
+                        41.3958844632142
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Diagonal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20522649673162,
+                        41.4236496986968
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Pau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21025334329744,
+                        41.4198741270395
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Besòs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21607495724285,
+                        41.4151013791755
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Besòs Mar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21670713853921,
+                        41.4117956339613
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "El Maresme | Fórum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20918741046614,
+                        41.4080571289365
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Selva de Mar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20333373564822,
+                        41.4036922756157
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Poblenou"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19767283479869,
+                        41.3994006938519
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Llacuna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19199555855984,
+                        41.3951023074755
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Bogatell"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19298973216964,
+                        41.3866924345677
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Ciutadella Vila Olímpica"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18487580896027,
+                        41.3818575521275
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Barceloneta"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17856316779572,
+                        41.3840913698574
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Jaume I"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17344101536818,
+                        41.3879557404262
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Urquinaona"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16784553073595,
+                        41.3900423585886
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Passeig de Gràcia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17082816924458,
+                        41.3949353814036
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Girona"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1680993092953,
+                        41.4003240064367
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Verdaguer"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16320428510755,
+                        41.4063958208613
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Joanic"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16642194714903,
+                        41.412396338097
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Alfons X"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1739896353768,
+                        41.4159818253373
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Guinardó | Hospital de Sant Pau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17739127777835,
+                        41.4230883754009
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Maragall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17339406671647,
+                        41.4370368968186
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Llucmajor"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17858876349312,
+                        41.443840517503
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Via Júlia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18239933697827,
+                        41.4491724589325
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Trinitat Nova"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15995973738794,
+                        41.4296866482167
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Horta"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16766286730609,
+                        41.4304593847083
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Vilapicina"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17491092687094,
+                        41.4296995920832
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Virrei Amat"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17648473572284,
+                        41.4250425142881
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Maragall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18117552343917,
+                        41.4234360292268
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Congrés"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18656676890501,
+                        41.4212553296429
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Sagrera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18148168725429,
+                        41.4150449712812
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Camp de L'Arpa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1760124626319,
+                        41.4107467101818
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Pau | Dos de Maig"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17361858175711,
+                        41.4038323991609
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sagrada Família"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16709018232929,
+                        41.398948400464
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Verdaguer"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15883037451443,
+                        41.3944319886029
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Diagonal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15110352368293,
+                        41.3886218929737
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Hospital Clínic"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14562114772477,
+                        41.3844628654296
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Entença"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14041923208652,
+                        41.379959976821
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sants Estació"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13516449730619,
+                        41.3757247107246
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Plaça de Sants"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.12742473498908,
+                        41.3755746269085
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Badal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11815256986648,
+                        41.3757622749347
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Collblanc"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.10720908646281,
+                        41.3738366211574
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Pubilla Cases"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.09935123431342,
+                        41.3711387865614
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Vidalet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.09151119036622,
+                        41.3665634399641
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Boixeres"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.08438679917155,
+                        41.363369204096
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Ildefons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.07927777831684,
+                        41.3579909530705
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Gavarra"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.07042416972614,
+                        41.3572847656872
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Cornellà Centre"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1730398645932,
+                        41.4623797028939
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Cuiàs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17464609094876,
+                        41.4608076352416
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Ciutat Meridiana"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17993287582182,
+                        41.4591975819804
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Torre Baró | Vallbona"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18493836404342,
+                        41.4513067195895
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Casa de L'Aigua"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18240618124242,
+                        41.449171601115
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Trinitat Nova"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.17609274776379,
+                        41.4476676093811
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Roquetes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1840956445939,
+                        41.4495007928055
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Trinitat Nova"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19856960138725,
+                        41.456669082853
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Zam"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20561712553966,
+                        41.4592571964426
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Singuerlín"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.2124723823735,
+                        41.4546891390038
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Església Major"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21832684321731,
+                        41.4519663831353
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Fondo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.21579300032968,
+                        41.4468788594467
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Santa Rosa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20999825499439,
+                        41.4439247635325
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Peixauet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.23377030318777,
+                        41.4405191311889
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Gorg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.22447379102604,
+                        41.4428096807773
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Salut"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.2171601355808,
+                        41.4414325973354
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Llefià"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.20531401419987,
+                        41.4361702073622
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Bon Pastor"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.19360629535646,
+                        41.4296507693519
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Onze de Setembre"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.24415454130962,
+                        41.4491035426178
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Badalona Pompeu Fabra"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.18675123794861,
+                        41.4204469957467
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Sagrera_V.FelipII"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1551018818934,
+                        41.4244127501903
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "El Carmel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14835348595081,
+                        41.4219936602399
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "El Coll | La Teixonera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1424169864637,
+                        41.4249926002278
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Vall d'Hebrón"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11742227996468,
+                        41.3548653377571
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Gornal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.07126283867202,
+                        41.3514613945112
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Cornellà-Riera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.03526737757671,
+                        41.3575368005531
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Molí Nou-Ciutat Cooperativa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.04290939600435,
+                        41.3485049296357
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Boi"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.08527510003689,
+                        41.3530491811253
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Almeda"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.10272513045079,
+                        41.3579147920232
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "L'Hospitalet-Av.Carrilet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.10992894259801,
+                        41.3606836624592
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Josep"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1388742106462,
+                        41.3674884775968
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Magòria-La Campana"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14790225140383,
+                        41.3742818352415
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Barcelona-Pl.Espanya"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13003787396346,
+                        41.3608858348012
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Ildefons Cerdà"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.12506830038692,
+                        41.3572067556127
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Europa | Fira"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.04290939600435,
+                        41.3485049296357
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Boi"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1427259853619,
+                        41.4034934004762
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Pàdua"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13724920231467,
+                        41.4094522550048
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Av.Tibidabo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13911461778252,
+                        41.4058234467507
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "El Putxet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14674852352487,
+                        41.4016728859199
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Pl.Molina"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14245606856846,
+                        41.3985324332921
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Muntaner"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.14711970560365,
+                        41.4010607246366
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sant Gervasi"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15258812982712,
+                        41.3992223814175
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Gràcia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.15792565783563,
+                        41.3928671859557
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Provença"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.16840675500635,
+                        41.38567740937
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Catalunya"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11894042471001,
+                        41.3987233270427
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Reina Elisenda"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.12559113605195,
+                        41.3984911201202
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Sarrià"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13084518092614,
+                        41.3977631774391
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Les Tres Torres"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13644453370397,
+                        41.3977754019219
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "La Bonanova"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1424169864637,
+                        41.4249926002278
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Vall d'Hebrón"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.11828004889015,
+                        41.3607839237728
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Can Tries/Gornal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.13074820689291,
+                        41.3519715133083
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Fira"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.12810877333185,
+                        41.3417875157946
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Parc Logistic"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.1112668071439,
+                        41.3335823687159
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Mercabarna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.10311478907829,
+                        41.3290409362387
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Les Moreres"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.09024680890887,
+                        41.3314495489308
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "El Prat Estacio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.0936324765697,
+                        41.3217810670084
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Centric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.08750598519665,
+                        41.3166715094969
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Parc Nou"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.07350189490757,
+                        41.3113944042287
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Mas Blau"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.07252027794884,
+                        41.3040734095187
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Aeroport T2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPoint",
+                "coordinates": [
+                    [
+                        2.0697932002571,
+                        41.2883935742936
+                    ]
+                ]
+            },
+            "properties": {
+                "NOM": "Aeroport T1"
+            }
+        }
+    ]
+}

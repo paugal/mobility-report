@@ -5,8 +5,7 @@ import pointerImage from "../../assets/yourhere.svg";
 import { getUserLocation } from "../../lib/util/util";
 import { useTranslation } from "react-i18next";
 
-export default function MyLocation() {
-  const [userLocation, setUserLocation] = useState(null);
+export default function MyLocation({ userLocation, setUserLocation }) {
   const { t } = useTranslation();
 
   const customIcon = new Icon({

@@ -1,9 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { supabase } from '../lib/helper/supabaseClient'
+import { supabase } from "../lib/helper/supabaseClient";
 
-// Thunk to fetch reports from Supabase
 export const fetchReports = createAsyncThunk(
-  'reports/fetchReports',
+  "reports/fetchReports",
   async (_, { rejectWithValue }) => {
     try {
       const { data, error } = await supabase
@@ -13,8 +12,7 @@ export const fetchReports = createAsyncThunk(
 
       if (error) throw error;
 
-      // Map the data to match the report structure
-      return data.map(report => ({
+      return data.map((report) => ({
         id: report.id,
         created_at: report.created_at,
         mobility_mode: report.mobility_mode,
@@ -22,7 +20,7 @@ export const fetchReports = createAsyncThunk(
         details: report.details,
         description: report.description,
         email: report.email,
-        marker_id: report.marker_id
+        marker_id: report.marker_id,
       }));
     } catch (error) {
       return rejectWithValue(error.message);
@@ -30,10 +28,12 @@ export const fetchReports = createAsyncThunk(
   }
 );
 
-// Thunk to add a new report to Supabase
 export const addReport = createAsyncThunk(
-  'reports/addReport',
-  async ({ created_at, mobility_mode, type, details, description, email, marker_id }, { rejectWithValue }) => {
+  "reports/addReport",
+  async (
+    { created_at, mobility_mode, type, details, description, email, marker_id },
+    { rejectWithValue }
+  ) => {
     try {
       console.log("Sending data to Supabase:", {
         created_at,
@@ -42,7 +42,7 @@ export const addReport = createAsyncThunk(
         details,
         description,
         email,
-        marker_id
+        marker_id,
       });
 
       const { data, error } = await supabase
@@ -54,7 +54,7 @@ export const addReport = createAsyncThunk(
           details,
           description,
           email,
-          marker_id
+          marker_id,
         })
         .select("*");
 
@@ -70,15 +70,14 @@ export const addReport = createAsyncThunk(
   }
 );
 
-// Thunk to delete a report from Supabase
 export const deleteReport = createAsyncThunk(
-  'reports/deleteReport',
+  "reports/deleteReport",
   async (reportId, { rejectWithValue }) => {
     try {
       const { data, error } = await supabase
-        .from('reports')
+        .from("reports")
         .delete()
-        .eq('id', reportId);
+        .eq("id", reportId);
 
       if (error) throw error;
 
@@ -100,14 +99,16 @@ const reportsSlice = createSlice({
       state.push(action.payload);
     },
     updateReportRealtime(state, action) {
-      const index = state.findIndex(report => report.id === action.payload.id);
+      const index = state.findIndex(
+        (report) => report.id === action.payload.id
+      );
       if (index !== -1) {
         state[index] = action.payload;
       }
     },
     deleteReportRealtime(state, action) {
-      return state.filter(report => report.id !== action.payload.id);
-    }
+      return state.filter((report) => report.id !== action.payload.id);
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -124,13 +125,18 @@ const reportsSlice = createSlice({
         console.error("Failed to add report: ", action.payload);
       })
       .addCase(deleteReport.fulfilled, (state, action) => {
-        return state.filter(report => report.id !== action.payload);
+        return state.filter((report) => report.id !== action.payload);
       })
       .addCase(deleteReport.rejected, (state, action) => {
         console.error("Failed to delete report: ", action.payload);
       });
-  }
+  },
 });
 
-export const { setReports, addReportRealtime, updateReportRealtime, deleteReportRealtime } = reportsSlice.actions;
+export const {
+  setReports,
+  addReportRealtime,
+  updateReportRealtime,
+  deleteReportRealtime,
+} = reportsSlice.actions;
 export default reportsSlice.reducer;

@@ -64,5 +64,14 @@
     "no_account": "No tens un compte?",
     "sign_in": "Registra't",
     "forgot_password": "Has oblidat la teva contrasenya?",
-    "reset_password": "Restableix la contrasenya"
+    "reset_password": "Restableix la contrasenya",
+    "hotreports": "Incidencies Destacades",
+    "details": "Detalls",
+    "reportedBy": "Reportat Per",
+    "neighborhood": "Barri",
+    "likes": "M'agrada",
+    "status": "Estat",
+    "unknown": "Desconegut",
+    "noReportsAvailable": "No hi ha informes disponibles.",
+    "errorFetchingReports": "Error en obtenir informes per mobilitat"
 }

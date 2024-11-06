@@ -64,5 +64,14 @@
     "no_account": "Don’t have an account?",
     "sign_in": "Sign In",
     "forgot_password": "Forgot your password?",
-    "reset_password": "Reset Password"
+    "reset_password": "Reset Password",
+    "hotreports": "Most Reported",
+    "details": "Details",
+    "reportedBy": "Reported By",
+    "neighborhood": "Neighborhood",
+    "likes": "Likes",
+    "status": "Status",
+    "unknown": "Unknown",
+    "noReportsAvailable": "No reports available.",
+    "errorFetchingReports": "Error fetching reports by mobility"
 }

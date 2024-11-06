@@ -1,0 +1,19 @@
+.near-stations {
+
+    background-color: white;
+    position: absolute;
+    z-index: 2000;
+    right: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+
+}
+
+.near-stations__icon {
+    padding: 0.2rem;
+    margin: 10px 10px 0px 0px;
+}
+
+.near-stations__list {
+    padding: 0.5rem 1.5rem;
+}

@@ -9,6 +9,16 @@
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     display: flex;
     align-items: left;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hotReportsPage-center {
+    width: 80%;
+}
+
+.hotReportsPage-center h1 {
+    margin: 2rem 0rem 1rem 0rem;
 }
 
 .hotReportsPage {

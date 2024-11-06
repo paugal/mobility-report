@@ -5,7 +5,6 @@ import { deleteMarker } from "../../store/markersSlice";
 import "./PopUpMarker.css";
 import { supabase } from "../../lib/helper/supabaseClient.js";
 import { useTranslation } from "react-i18next";
-import NeighborhoodChecker from "../../geoData/NeighborhoodChecker/NeighborhoodChecker.js";
 
 export default function PopUpMarker({ data }) {
   const dispatch = useDispatch();

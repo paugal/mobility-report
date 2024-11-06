@@ -1,56 +1,55 @@
 {
-    "mobility_modes": {
-      "Metro": {
-        "problemTypes": {
-          "Infrastructure": [
-            "Escalator",
-            "Elevator",
-            "Platform",
-            "Stairs",
-            "Ticket machine",
-            "Doors",
-            "Bench",
-            "Others"
-          ],
-          "Service": [
-            "Low frequency",
-            "Cleanness",
-            "Inconvenience",
-            "Information",
-            "Temperature",
-            "Others"
-          ],
-          "Security": [
-            "Stealing",
-            "Violence",
-            "Corridor security",
-            "Others"
-          ]
-        }
-      },
-      "Bus": {
-        "problemTypes": {
-          "Infrastructure": [
-            "Platform",
-            "Seat",
-            "Accessibility",
-            "Others"
-          ],
-          "Service": [
-            "Low frequency",
-            "Cleanliness",
-            "Inconvenience",
-            "Information",
-            "Others"
-          ],
-          "Security": [
-            "Stealing",
-            "Violence",
-            "Traffic",
-            "Others"
-          ]
-        }
+  "mobility_modes": {
+    "Metro": {
+      "problemTypes": {
+        "Infrastructure": [
+          "Escalator",
+          "Elevator",
+          "Platform",
+          "Stairs",
+          "Ticket machine",
+          "Doors",
+          "Bench",
+          "Others"
+        ],
+        "Service": [
+          "Low frequency",
+          "Cleanness",
+          "Inconvenience",
+          "Information",
+          "Temperature",
+          "Others"
+        ],
+        "Security": [
+          "Stealing",
+          "Violence",
+          "Corridor security",
+          "Others"
+        ]
+      }
+    },
+    "Bus": {
+      "problemTypes": {
+        "Infrastructure": [
+          "Platform",
+          "Seat",
+          "Accessibility",
+          "Others"
+        ],
+        "Service": [
+          "Low frequency",
+          "Cleanliness",
+          "Inconvenience",
+          "Information",
+          "Others"
+        ],
+        "Security": [
+          "Stealing",
+          "Violence",
+          "Traffic",
+          "Others"
+        ]
       }
     }
   }
-  
+}
