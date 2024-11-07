@@ -161,7 +161,7 @@ function InsideMap() {
           </Marker>
         ))}
       </MarkerClusterGroup>
-      {stations.map((station) => (
+      {/* {stations.map((station) => (
         <Marker
           key={station.id}
           position={[station.latitude, station.longitude]}
@@ -170,14 +170,14 @@ function InsideMap() {
               "https://www.barcelona.cat/estatics-planol/v0.8/img/w/bg/K/" +
               station.type +
               ".png",
-            iconSize: [8, 8], // Adjust size as needed
+            iconSize: [16, 16], // Adjust size as needed
             iconAnchor: [16, 32], // Anchor so the icon points correctly
             popupAnchor: [0, -32], // Adjusts popup position above the icon
           })}
         >
           <Popup>{station.name}</Popup>
         </Marker>
-      ))}
+      ))} */}
       <MyLocation
         userLocation={userLocation}
         setUserLocation={setUserLocation}

@@ -25,8 +25,6 @@ export const capitalizeFLetter = (string) => {
   return string[0].toUpperCase() + string.slice(1);
 };
 
-//IMPORTO LOS DATOS DEL CSV DE LAS ESTACIONES
-//HAY DEMASIADOS DATOS
 export async function fetchStationData(transportType = null) {
   try {
     const data = await csv(
@@ -34,6 +32,7 @@ export async function fetchStationData(transportType = null) {
     );
     return data
       .filter((row) => !transportType || row.CODI_CAPA === transportType)
+      .filter((row) => row.EQUIPAMENT.startsWith("METRO ("))
       .map((row) => ({
         name: row.EQUIPAMENT,
         longitude: parseFloat(row.LONGITUD),
@@ -87,21 +86,18 @@ function getDistanceFromLatLon(lat1, lon1, lat2, lon2) {
   return dist;
 }
 
-export async function fetchNearestStations(currentLat, currentLon) {
+export async function fetchNearestStations(
+  currentLat,
+  currentLon,
+  transportType = null
+) {
   try {
-    const response = await fetch(
-      `${process.env.PUBLIC_URL}/data/BCN_STATION_SIMPLE.geojson`
-    );
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
-    }
-
-    const geojson = await response.json();
+    // Fetch station data using fetchStationData instead of a direct fetch
+    const stations = await fetchStationData(transportType);
 
     // Parse and calculate distances
-    const stationsWithDistance = geojson.features.map((feature) => {
-      const stationName = feature.properties.NOM;
-      const [longitude, latitude] = feature.geometry.coordinates[0];
+    const stationsWithDistance = stations.map((station) => {
+      const { name, latitude, longitude } = station;
       const distance = getDistanceFromLatLon(
         currentLat,
         currentLon,
@@ -110,10 +106,8 @@ export async function fetchNearestStations(currentLat, currentLon) {
       );
 
       return {
-        name: stationName,
-        latitude,
-        longitude,
-        distance,
+        ...station,
+        distance, // Add distance to the station data
       };
     });
 
@@ -123,7 +117,7 @@ export async function fetchNearestStations(currentLat, currentLon) {
     return stationsWithDistance.slice(0, 10);
   } catch (error) {
     console.error(
-      "There was a problem with fetching or parsing the data:",
+      "There was a problem with fetching or processing the station data:",
       error
     );
     return null;
