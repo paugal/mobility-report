@@ -1,8 +1,8 @@
-// ReportForm.jsx
-
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setShowStationsList } from "../../store/reportsSlice.js";
 import { useTranslation } from "react-i18next";
-import ReportMap from "./ReportMap"; // Ensure ReportMap is imported here
+import ReportMap from "./ReportMap";
 
 export default function ReportForm({
   formData,
@@ -13,7 +13,15 @@ export default function ReportForm({
   jsonData,
   submitForm,
 }) {
+  const dispatch = useDispatch();
+  const showStationsList = useSelector(
+    (state) => state.reports.showStationsList
+  );
   const { t } = useTranslation();
+
+  const MapListSwitch = (value) => {
+    dispatch(setShowStationsList(value));
+  };
 
   return (
     <form onSubmit={submitForm} className="center-formReport">
@@ -105,7 +113,13 @@ export default function ReportForm({
         </div>
         <div className="mapColum">
           <label className="required-field">{t("selectLocation")}</label>
-          <ReportMap setLocationForm={setLocation} />
+          <div className="mapSwitch">
+            <div onClick={() => MapListSwitch(false)}> Map </div>
+            <div onClick={() => MapListSwitch(true)}> Near Stations List </div>
+          </div>
+          <ReportMap
+            setLocationForm={setLocation}
+          />
         </div>
       </div>
 

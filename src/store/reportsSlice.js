@@ -90,42 +90,52 @@ export const deleteReport = createAsyncThunk(
 
 const reportsSlice = createSlice({
   name: "reports",
-  initialState: [],
+  initialState: {
+    reports: [], // Anterior estado
+    showStationsList: false, // Nuevo estado
+  },
   reducers: {
     setReports(state, action) {
-      return action.payload;
+      state.reports = action.payload;
+    },
+    setShowStationsList(state, action) {
+      state.showStationsList = action.payload;
     },
     addReportRealtime(state, action) {
-      state.push(action.payload);
+      state.reports.push(action.payload);
     },
     updateReportRealtime(state, action) {
-      const index = state.findIndex(
+      const index = state.reports.findIndex(
         (report) => report.id === action.payload.id
       );
       if (index !== -1) {
-        state[index] = action.payload;
+        state.reports[index] = action.payload;
       }
     },
     deleteReportRealtime(state, action) {
-      return state.filter((report) => report.id !== action.payload.id);
+      state.reports = state.reports.filter(
+        (report) => report.id !== action.payload.id
+      );
     },
   },
   extraReducers: (builder) => {
     builder
       .addCase(fetchReports.fulfilled, (state, action) => {
-        return action.payload;
+        state.reports = action.payload;
       })
       .addCase(fetchReports.rejected, (state, action) => {
         console.error("Failed to fetch reports: ", action.payload);
       })
       .addCase(addReport.fulfilled, (state, action) => {
-        state.push(action.payload);
+        state.reports.push(action.payload);
       })
       .addCase(addReport.rejected, (state, action) => {
         console.error("Failed to add report: ", action.payload);
       })
       .addCase(deleteReport.fulfilled, (state, action) => {
-        return state.filter((report) => report.id !== action.payload);
+        state.reports = state.reports.filter(
+          (report) => report.id !== action.payload
+        );
       })
       .addCase(deleteReport.rejected, (state, action) => {
         console.error("Failed to delete report: ", action.payload);
@@ -135,6 +145,7 @@ const reportsSlice = createSlice({
 
 export const {
   setReports,
+  setShowStationsList,
   addReportRealtime,
   updateReportRealtime,
   deleteReportRealtime,

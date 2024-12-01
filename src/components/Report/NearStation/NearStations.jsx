@@ -1,30 +1,25 @@
 import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import {
   fetchNearestStations,
   getUserLocation,
 } from "../../../lib/util/util.js";
+import { setShowStationsList } from "../../../store/reportsSlice.js";
 
 import "./NearStation.css";
 
-export default function NearStations({ setLocation }) {
+export default function NearStations({ setLocation, userLocation }) {
   const [nearStations, setNearStations] = useState();
-  const [userLocation, setUserLocation] = useState(null);
   const [openList, setOpenList] = useState(false);
 
-  useEffect(() => {
-    const loadUserLocation = async () => {
-      getUserLocation(
-        (location) => {
-          setUserLocation(location);
-        },
-        (error) => {
-          console.error("Error getting user location:", error);
-        }
-      );
-    };
+  const dispatch = useDispatch();
+  const showStationsList = useSelector(
+    (state) => state.reports.showStationsList
+  );
 
-    loadUserLocation();
-  }, []);
+  const MapListSwitch = () => {
+    dispatch(setShowStationsList(false));
+  };
 
   useEffect(() => {
     const loadNearStations = async () => {
@@ -40,18 +35,14 @@ export default function NearStations({ setLocation }) {
     loadNearStations();
   }, [userLocation]);
 
-  const openNearStationList = (e) => {
-    setOpenList(true);
-  };
-
   function refactorNameStation(name) {
     const newName = name.slice(6, name.length - 1).replace("-", "");
     return newName.substr(4) + " " + newName.substr(0, 4);
   }
 
   const handleClickNearStationList = (e) => {
-    console.log(e);
     setLocation([e.latitude, e.longitude]);
+    MapListSwitch();
   };
 
   return (
