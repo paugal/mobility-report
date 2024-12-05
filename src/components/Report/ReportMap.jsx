@@ -18,7 +18,7 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchStationData } from "../../lib/util/util.js";
 
-export default function ReportMap({ setLocationForm }) {
+export default function ReportMap({ setLocationForm, mobilityMode }) {
   const dispatch = useDispatch();
   const showStationsList = useSelector(
     (state) => state.reports.showStationsList
@@ -115,7 +115,7 @@ export default function ReportMap({ setLocationForm }) {
                   station.type +
                   ".png",
                 iconSize: [12, 12], // Adjust size as needed
-                iconAnchor: [16, 32], // Anchor so the icon points correctly
+                iconAnchor: [6, -8], // Anchor so the icon points correctly
                 popupAnchor: [0, -32], // Adjusts popup position above the icon
               })}
             >

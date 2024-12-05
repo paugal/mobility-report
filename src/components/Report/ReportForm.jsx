@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setShowStationsList } from "../../store/reportsSlice.js";
 import { useTranslation } from "react-i18next";
 import ReportMap from "./ReportMap";
+
+import previewMap from "../../assets/mapPreview.webp";
 
 export default function ReportForm({
   formData,
@@ -14,6 +16,7 @@ export default function ReportForm({
   submitForm,
 }) {
   const dispatch = useDispatch();
+  const [mobilityMode, setMobilityMode] = useState(null);
   const showStationsList = useSelector(
     (state) => state.reports.showStationsList
   );
@@ -36,7 +39,10 @@ export default function ReportForm({
             id="mobility_mode"
             className="required"
             value={formData.mobility_mode}
-            onChange={handleChange}
+            onChange={(e) => {
+              handleChange(e);
+              setMobilityMode(e.target.value);
+            }}
           >
             <option value="" disabled>
               {t("chooseOne")}
@@ -113,13 +119,28 @@ export default function ReportForm({
         </div>
         <div className="mapColum">
           <label className="required-field">{t("selectLocation")}</label>
-          <div className="mapSwitch">
-            <div onClick={() => MapListSwitch(false)}> Map </div>
-            <div onClick={() => MapListSwitch(true)}> Near Stations List </div>
-          </div>
-          <ReportMap
-            setLocationForm={setLocation}
-          />
+          {mobilityMode != null ? (
+            <div>
+              <div className="mapSwitch">
+                <div onClick={() => MapListSwitch(false)}> Map </div>
+                <div onClick={() => MapListSwitch(true)}>
+                  {" "}
+                  Near Stations List{" "}
+                </div>
+              </div>
+              <ReportMap
+                setLocationForm={setLocation}
+                mobilityMode={mobilityMode}
+              />
+            </div>
+          ) : (
+            <div className="previewMapForm">
+              <img src={previewMap} alt="previewMap" />
+              <div className="alertPreviewMapForm">
+                <p>You need to select a mobility type first to use the map</p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
