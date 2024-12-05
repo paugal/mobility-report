@@ -83,7 +83,7 @@ function getDistanceFromLatLon(lat1, lon1, lat2, lon2) {
   const options = { units: "kilometers" };
 
   const dist = turf.distance(from, to, options);
-  return dist;
+  return (Math.round(dist * 100) / 100).toFixed(2);
 }
 
 export async function fetchNearestStations(

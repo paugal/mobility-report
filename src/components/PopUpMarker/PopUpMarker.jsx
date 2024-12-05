@@ -25,14 +25,14 @@ export default function PopUpMarker({ data }) {
 
   useEffect(() => {
     const fetchPopupData = async () => {
-      const { data, error } = await supabase.rpc("get_info_popup", {
-        marker_id_arg: 135,
+      const { data: popupData, error } = await supabase.rpc("get_info_popup", {
+        marker_id_arg: data.id,
       });
 
       if (error) {
         console.error("Error fetching reports by mobility:", error);
       } else {
-        setReportData(data);
+        setReportData(popupData);
       }
     };
 
