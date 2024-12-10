@@ -137,7 +137,7 @@ export default function ReportForm({
             <div className="previewMapForm">
               <img src={previewMap} alt="previewMap" />
               <div className="alertPreviewMapForm">
-                <p>You need to select a mobility type first to use the map</p>
+                <p>You need to select a mobility mode first to use the map</p>
               </div>
             </div>
           )}

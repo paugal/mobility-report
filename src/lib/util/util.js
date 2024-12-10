@@ -25,10 +25,37 @@ export const capitalizeFLetter = (string) => {
   return string[0].toUpperCase() + string.slice(1);
 };
 
+export async function fetchStationData2(transportType = null) {
+  fetchMetroStationData(transportType);
+}
+
 export async function fetchStationData(transportType = null) {
   try {
     const data = await csv(
       `${process.env.PUBLIC_URL}/data/BCN_METRO_STATIONS.csv`
+    );
+    return data
+      .filter((row) => !transportType || row.CODI_CAPA === transportType)
+      .filter((row) => row.EQUIPAMENT.startsWith("METRO ("))
+      .map((row) => ({
+        name: row.EQUIPAMENT,
+        longitude: parseFloat(row.LONGITUD),
+        latitude: parseFloat(row.LATITUD),
+        typeName: row.NOM_CAPA,
+        neighborhood: row.NOM_BARRI,
+        type: row.CODI_CAPA,
+        id: row.id,
+      }));
+  } catch (error) {
+    console.error("Error loading the CSV data:", error);
+    return [];
+  }
+}
+
+export async function fetchBusStationData(transportType = null) {
+  try {
+    const data = await csv(
+      `${process.env.PUBLIC_URL}/data/BCN_BUS_STATIONS.csv`
     );
     return data
       .filter((row) => !transportType || row.CODI_CAPA === transportType)
