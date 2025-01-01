@@ -20,7 +20,7 @@
           "Temperature",
           "Others"
         ],
-        "Security": [
+        "UserExperience": [
           "Stealing",
           "Violence",
           "Corridor security",
@@ -43,10 +43,11 @@
           "Information",
           "Others"
         ],
-        "Security": [
+        "UserExperience": [
           "Stealing",
           "Violence",
           "Traffic",
+          "Gender Violence",
           "Others"
         ]
       }

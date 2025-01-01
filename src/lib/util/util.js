@@ -105,8 +105,8 @@ export async function fetchStationDataJSONSimply() {
 }
 
 function getDistanceFromLatLon(lat1, lon1, lat2, lon2) {
-  const from = turf.point([lon1, lat1]); // Switch to [lon, lat]
-  const to = turf.point([lon2, lat2]); // Switch to [lon, lat]
+  const from = turf.point([lon1, lat1]);
+  const to = turf.point([lon2, lat2]);
   const options = { units: "kilometers" };
 
   const dist = turf.distance(from, to, options);
@@ -119,10 +119,7 @@ export async function fetchNearestStations(
   transportType = null
 ) {
   try {
-    // Fetch station data using fetchStationData instead of a direct fetch
     const stations = await fetchStationData(transportType);
-
-    // Parse and calculate distances
     const stationsWithDistance = stations.map((station) => {
       const { name, latitude, longitude } = station;
       const distance = getDistanceFromLatLon(
@@ -134,11 +131,9 @@ export async function fetchNearestStations(
 
       return {
         ...station,
-        distance, // Add distance to the station data
+        distance,
       };
     });
-
-    // Sort by distance and get the nearest 10
     stationsWithDistance.sort((a, b) => a.distance - b.distance);
 
     return stationsWithDistance.slice(0, 10);

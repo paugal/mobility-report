@@ -17,9 +17,11 @@ export default function ReportForm({
 }) {
   const dispatch = useDispatch();
   const [mobilityMode, setMobilityMode] = useState(null);
+  const [genderIssue, setGenderIssue] = useState("");
   const showStationsList = useSelector(
     (state) => state.reports.showStationsList
   );
+
   const { t } = useTranslation();
 
   const MapListSwitch = (value) => {
@@ -70,7 +72,7 @@ export default function ReportForm({
             </option>
             {availableProblemTypes.map((type, index) => (
               <option key={index} value={type}>
-                {type}
+                {t(type)}
               </option>
             ))}
           </select>
@@ -122,10 +124,9 @@ export default function ReportForm({
           {mobilityMode != null ? (
             <div>
               <div className="mapSwitch">
-                <div onClick={() => MapListSwitch(false)}> Map </div>
+                <div onClick={() => MapListSwitch(false)}>{t("map")}</div>
                 <div onClick={() => MapListSwitch(true)}>
-                  {" "}
-                  Near Stations List{" "}
+                  {t("nearStationsTitle")}
                 </div>
               </div>
               <ReportMap
@@ -137,7 +138,7 @@ export default function ReportForm({
             <div className="previewMapForm">
               <img src={previewMap} alt="previewMap" />
               <div className="alertPreviewMapForm">
-                <p>You need to select a mobility mode first to use the map</p>
+                <p>{t("mapWarning")}</p>
               </div>
             </div>
           )}

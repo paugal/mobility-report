@@ -60,7 +60,7 @@ export default function HotReports() {
                   <strong>{t("details")}:</strong> {report.details}
                 </p>
                 <p>
-                  <strong>{t("description")}:</strong> {report.description}
+                  <strong>{t("description")}</strong> {report.description}
                 </p>
                 <p>
                   <strong>{t("reportedBy")}:</strong> {report.email}

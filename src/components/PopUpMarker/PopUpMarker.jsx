@@ -49,32 +49,38 @@ export default function PopUpMarker({ data }) {
           <div
             style={{
               display: "flex",
-              alignItems: "center",
-              gap: "0.8rem",
+              alignItems: "left",
+              flexDirection: "column",
+              gap: "0.2rem",
               justifyContent: "space-between",
             }}
           >
             <span className="popupIssue">{reportData.details}</span>
-            <span className="popupDate">{reportData.created_at}</span>
+            <span className="popupDate">
+              {reportData.created_at
+                ? reportData.created_at.slice(0, 10)
+                : "N/A"}{" "}
+            </span>
           </div>
         )}
 
         {showDetails && reportData && (
           <div className="moreDetails">
             <p className="popupIssue">
-              <strong>Issue:</strong> {reportData.details}
+              <strong>{t("issue")}:</strong> {reportData.details}
             </p>
             <p className="popupDateFull">
-              <strong>Date:</strong> {reportData.created_at}
+              <strong>{t("date")}:</strong> {reportData.created_at.slice(0, 10)}{" "}
+              {t("at")} {reportData.created_at.slice(11, 19)}
             </p>
             <p className="popupDescription">
-              <strong>Description:</strong> {reportData.description}
+              <strong>{t("description")}</strong> {reportData.description}
             </p>
             <p className="popupUser">
-              <strong>User:</strong> {reportData.email}
+              <strong>{t("user")}:</strong> {reportData.email}
             </p>
             <p className="popupStatus">
-              <strong>Status:</strong> {reportData.status || "N/A"}
+              <strong>{t("status")}:</strong> {reportData.status || "N/A"}
             </p>
             <p className="popupLikes">{reportData.likes || 0} Likes</p>
           </div>
@@ -90,11 +96,11 @@ export default function PopUpMarker({ data }) {
               <span className="material-symbols-outlined material-icons-filled">
                 favorite
               </span>
-              Endorse
+              {t("endorse")}
             </button>
           ) : (
             <button className="removeMarker" onClick={removeMarker}>
-              Remove
+              {t("remove")}
             </button>
           )}
         </div>

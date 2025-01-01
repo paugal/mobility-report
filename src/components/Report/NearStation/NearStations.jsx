@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { useTranslation } from "react-i18next";
 import {
   fetchNearestStations,
   getUserLocation,
@@ -11,7 +12,7 @@ import "./NearStation.css";
 export default function NearStations({ setLocation, userLocation }) {
   const [nearStations, setNearStations] = useState();
   const [openList, setOpenList] = useState(false);
-
+  const { t } = useTranslation();
   const dispatch = useDispatch();
   const showStationsList = useSelector(
     (state) => state.reports.showStationsList
@@ -49,12 +50,11 @@ export default function NearStations({ setLocation, userLocation }) {
     <div className="near-stations">
       {openList ? (
         <div className="near-stations__icon" onClick={openNearStationList}>
-          {" "}
-          Near Station List
+          {t("nearStationsTitle")}
         </div>
       ) : (
         <div className="near-stations__list">
-          <h3>Near Stations</h3>
+          <h3>{t("nearStationsTitle")}</h3>
           {nearStations ? (
             <ul className="near-stations__list-items">
               {nearStations.map((nearStation, index) => (
@@ -70,7 +70,7 @@ export default function NearStations({ setLocation, userLocation }) {
             </ul>
           ) : (
             <div className="near-stations__loading">
-              Loading near stations...
+              {t("loadingNearStations")}
             </div>
           )}
         </div>

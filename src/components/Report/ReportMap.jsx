@@ -101,7 +101,7 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
                 position={[stationSelected[0], stationSelected[1]]}
                 icon={customIcon}
               ></Marker>
-              <FitMapToBounds></FitMapToBounds>
+              {/* <FitMapToBounds></FitMapToBounds> */}
             </div>
           ) : null}
 
@@ -114,12 +114,15 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
                   "https://www.barcelona.cat/estatics-planol/v0.8/img/w/bg/K/" +
                   station.type +
                   ".png",
-                iconSize: [12, 12], // Adjust size as needed
-                iconAnchor: [6, -8], // Anchor so the icon points correctly
-                popupAnchor: [0, -32], // Adjusts popup position above the icon
+                iconSize: [12, 12],
+                iconAnchor: [6, -8],
+                popupAnchor: [0, 10],
               })}
             >
-              <Popup>{station.name}</Popup>
+              <Popup>
+                {station.name}
+                <button>SELECT</button>
+              </Popup>
             </Marker>
           ))}
 
@@ -128,7 +131,7 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
             setUserLocation={setUserLocation}
           />
           <MapEventsHandler handleMapClick={handleMapClick} />
-          <RecenterAutomatically
+          {/* <RecenterAutomatically
             lat={userLocation.latitude}
             lng={userLocation.longitude}
           />
@@ -138,7 +141,7 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
               lat={userLocation.latitude}
               lng={userLocation.longitude}
             />
-          ) : null}
+          ) : null} */}
         </MapContainer>
       )}
     </div>

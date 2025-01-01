@@ -73,5 +73,20 @@
     "status": "Status",
     "unknown": "Unknown",
     "noReportsAvailable": "No reports available.",
-    "errorFetchingReports": "Error fetching reports by mobility"
+    "errorFetchingReports": "Error fetching reports by mobility",
+    "nearStationsTitle": "Near Stations List",
+    "loadingNearStations": "Loading near stations...",
+    "mapWarning": "You need to select a mobility mode first to use the map",
+    "issue": "Issue",
+    "user": "User",
+    "endorse": "Endorse",
+    "at": "at",
+    "Infrastructure": "Infrastructure",
+    "Service": "Service",
+    "UserExperience": "User Experience",
+    "Metro": "Metro",
+    "Bus": "Bus",
+    "Bench": "Bench",
+    "Others": "Others",
+    "Gender Violence": "Gender Violence"
 }
