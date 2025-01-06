@@ -77,7 +77,8 @@ export default function PopUpMarker({ data }) {
               <strong>{t("description")}</strong> {reportData.description}
             </p>
             <p className="popupUser">
-              <strong>{t("user")}:</strong> {reportData.email}
+              <strong>{t("user")}:</strong>{" "}
+              {reportData.email ? reportData.email : "anonimo"}
             </p>
             <p className="popupStatus">
               <strong>{t("status")}:</strong> {reportData.status || "N/A"}

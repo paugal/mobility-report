@@ -109,6 +109,8 @@ export default function ReportForm({
             onChange={handleChange}
           ></textarea>
 
+          <label htmlFor="image">{t("image")}</label>
+
           <label htmlFor="email">{t("email")}</label>
           <input
             type="email"

@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { supabase } from "../lib/helper/supabaseClient";
 
-// Thunk to fetch markers from Supabase
 export const fetchMarkers = createAsyncThunk(
   "markers/fetchMarkers",
   async (_, { rejectWithValue }) => {

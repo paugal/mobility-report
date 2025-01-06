@@ -1,6 +1,5 @@
 import React from "react";
-import Map from "../../components/Map/Map";
-import MarkerListCard from "../../components/MarkerListCard/MarkerListCard";
+import Map from "../Map/Map.jsx";
 import Header from "../../components/Header/Header";
 import { supabase } from "../../lib/helper/supabaseClient";
 import { useEffect, useState } from "react";
@@ -13,6 +12,7 @@ import Report from "../Report/Report";
 import Dashboard from "../Dashboard/Dashboard";
 import LogIn from "../LogIn/LogIn";
 import HotReports from "../HotReports/HotReports";
+import { FiltersProvider } from "../../context/FilterContext.js";
 
 export default function Main() {
   const [markers, setMarkers] = useState([]);
@@ -52,8 +52,22 @@ export default function Main() {
     <div className="mainBox">
       <Header />
       <Routes>
-        <Route path="/" element={<Map userLocation={userLocation} />} />
-        <Route path="/map" element={<Map userLocation={userLocation} />} />
+        <Route
+          path="/"
+          element={
+            <FiltersProvider>
+              <Map userLocation={userLocation} />
+            </FiltersProvider>
+          }
+        />
+        <Route
+          path="/map"
+          element={
+            <FiltersProvider>
+              <Map userLocation={userLocation} />
+            </FiltersProvider>
+          }
+        />
         <Route path="/report" element={<Report></Report>} />
         <Route path="/dashboard" element={<Dashboard></Dashboard>} />
         <Route path="/login" element={<LogIn></LogIn>} />

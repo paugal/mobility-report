@@ -1,10 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
-import "./MarkerListCard.css";
+import "./Filters.css";
+import { useFilters } from "../../context/FilterContext.js";
 
-export default function MarkerListCard() {
-  const markers = useSelector((state) => state.markers);
+export default function Filters() {
+  const { filters, toggleFilter } = useFilters();
   const { t } = useTranslation();
 
   return (
@@ -12,15 +13,33 @@ export default function MarkerListCard() {
       <h2>{t("filters")}</h2>
       <h4>{t("mode")}</h4>
       <div>
-        <input type="checkbox" name="bus" id="bus" />{" "}
+        <input
+          type="checkbox"
+          name="bus"
+          id="bus"
+          checked={filters.bus}
+          onChange={() => toggleFilter("bus")}
+        />{" "}
         <label htmlFor="bus">{t("bus")}</label>
       </div>
       <div>
-        <input type="checkbox" name="metro" id="metro" />{" "}
+        <input
+          type="checkbox"
+          name="metro"
+          id="metro"
+          checked={filters.metro}
+          onChange={() => toggleFilter("metro")}
+        />{" "}
         <label htmlFor="metro">{t("metro")}</label>
       </div>
       <div>
-        <input type="checkbox" name="tram" id="tram" />{" "}
+        <input
+          type="checkbox"
+          name="tram"
+          id="tram"
+          checked={filters.tram}
+          onChange={() => toggleFilter("tram")}
+        />{" "}
         <label htmlFor="tram">{t("tram")}</label>
       </div>
       <h4>{t("date")}</h4>

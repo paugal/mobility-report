@@ -1,22 +1,19 @@
-import React from "react";
-import MyLocation from "../MiLocation/MyLocation";
-import NearStations from "./NearStation/NearStations.jsx";
-import { setShowStationsList } from "../../store/reportsSlice.js";
+import React, { useEffect, useState } from "react";
 import {
   MapContainer,
   Marker,
   TileLayer,
   Popup,
-  useMapEvents,
   useMap,
+  useMapEvents,
 } from "react-leaflet";
-
-import { Icon, divIcon, point } from "leaflet";
-
+import { Icon } from "leaflet";
 import pointerSvg from "../../assets/pointers/metro.svg";
-import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchStationData } from "../../lib/util/util.js";
+import { RecenterControl } from "../../lib/util/mapsUtility.js";
+import MyLocation from "../MiLocation/MyLocation";
+import NearStations from "./NearStation/NearStations.jsx";
 
 export default function ReportMap({ setLocationForm, mobilityMode }) {
   const dispatch = useDispatch();
@@ -24,55 +21,59 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
     (state) => state.reports.showStationsList
   );
   const [stationSelected, setStationSelected] = useState(null);
-  const [userLocation, setUserLocation] = useState({
-    latitude: 41.3802142,
-    longitude: 2.145251,
-  });
+  const [userLocation, setUserLocation] = useState(null); // User location (if available)
   const [stations, setStations] = useState([]);
+  const [isLocationAvailable, setIsLocationAvailable] = useState(false); // Tracks if location is granted
 
   const customIcon = new Icon({
     iconUrl: pointerSvg,
     iconSize: [38, 38],
   });
 
+  // Fetch station data
   useEffect(() => {
     const loadStations = async () => {
       const data = await fetchStationData("K001");
       setStations(data);
     };
-
     loadStations();
   }, []);
 
+  // Handle user's geolocation
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        setUserLocation({ latitude, longitude });
+        setIsLocationAvailable(true); // Location is granted
+      },
+      () => {
+        setIsLocationAvailable(false); // Location is denied
+      }
+    );
+  }, []);
+
+  // Handle map clicks
   const handleMapClick = (e) => {
     const { lat, lng } = e.latlng;
     setStationSelected([lat, lng]);
-    setLocationForm({ ["lat"]: lat, ["lng"]: lng });
+    setLocationForm({ lat, lng });
   };
 
-  const MapEventsHandler = ({ handleMapClick }) => {
+  const MapEventsHandler = () => {
     useMapEvents({
-      click: (e) => handleMapClick(e),
+      click: handleMapClick,
     });
     return null;
   };
 
-  const RecenterAutomatically = ({ lat, lng }) => {
+  const RecenterOnLoad = () => {
     const map = useMap();
     useEffect(() => {
-      map.setView([lat, lng]);
-    }, [lat, lng]);
-    return null;
-  };
-
-  const FitMapToBounds = () => {
-    const map = useMap();
-    useEffect(() => {
-      const userPoint = [userLocation.latitude, userLocation.longitude];
-      const stationPoint = [stationSelected[0], stationSelected[1]];
-      const bounds = L.latLngBounds(userPoint, stationPoint);
-      map.fitBounds(bounds, { padding: [50, 50] });
-    }, [stationSelected]);
+      if (userLocation) {
+        map.setView([userLocation.latitude, userLocation.longitude], 16); // Higher zoom for user's location
+      }
+    }, [userLocation]);
     return null;
   };
 
@@ -85,8 +86,12 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
         />
       ) : (
         <MapContainer
-          center={[41.387, 2.17]}
-          zoom={16}
+          center={
+            userLocation
+              ? [userLocation.latitude, userLocation.longitude]
+              : [41.387, 2.17] // Default Barcelona center
+          }
+          zoom={userLocation ? 16 : 12} // Higher zoom for user's location, lower zoom otherwise
           minZoom={0}
           maxZoom={18}
           style={{ height: "350px", width: "430px" }}
@@ -95,15 +100,10 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
             attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url={`https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${process.env.REACT_APP_STADIA_MAP_KEY}`}
           />
-          {stationSelected != null ? (
-            <div>
-              <Marker
-                position={[stationSelected[0], stationSelected[1]]}
-                icon={customIcon}
-              ></Marker>
-              {/* <FitMapToBounds></FitMapToBounds> */}
-            </div>
-          ) : null}
+
+          {stationSelected && (
+            <Marker position={stationSelected} icon={customIcon} />
+          )}
 
           {stations.map((station) => (
             <Marker
@@ -130,18 +130,9 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
             userLocation={userLocation}
             setUserLocation={setUserLocation}
           />
-          <MapEventsHandler handleMapClick={handleMapClick} />
-          {/* <RecenterAutomatically
-            lat={userLocation.latitude}
-            lng={userLocation.longitude}
-          />
-
-          {stationSelected == null ? (
-            <RecenterAutomatically
-              lat={userLocation.latitude}
-              lng={userLocation.longitude}
-            />
-          ) : null} */}
+          <RecenterControl />
+          <MapEventsHandler />
+          {userLocation && <RecenterOnLoad />}
         </MapContainer>
       )}
     </div>
