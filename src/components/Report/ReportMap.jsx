@@ -10,7 +10,7 @@ import {
 import { Icon } from "leaflet";
 import pointerSvg from "../../assets/pointers/metro.svg";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchStationData } from "../../lib/util/util.js";
+import { fetchStationData, fetchBusStationData } from "../../lib/util/util.js";
 import { RecenterControl } from "../../lib/util/mapsUtility.js";
 import MyLocation from "../MiLocation/MyLocation";
 import NearStations from "./NearStation/NearStations.jsx";
@@ -30,30 +30,33 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
     iconSize: [38, 38],
   });
 
-  // Fetch station data
   useEffect(() => {
     const loadStations = async () => {
-      const data = await fetchStationData("K001");
-      setStations(data);
+      if (mobilityMode == "Metro") {
+        const data = await fetchStationData("K001");
+        setStations(data);
+      } else if (mobilityMode == "Bus") {
+        //SE HAN DEJADO FUERA MUCHOS BUSES POR TEMA DE RENDIMIENTO
+        const data = await fetchBusStationData("K014");
+        setStations(data);
+      }
     };
     loadStations();
-  }, []);
+  }, [mobilityMode]);
 
-  // Handle user's geolocation
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
         setUserLocation({ latitude, longitude });
-        setIsLocationAvailable(true); // Location is granted
+        setIsLocationAvailable(true);
       },
       () => {
-        setIsLocationAvailable(false); // Location is denied
+        setIsLocationAvailable(false);
       }
     );
   }, []);
 
-  // Handle map clicks
   const handleMapClick = (e) => {
     const { lat, lng } = e.latlng;
     setStationSelected([lat, lng]);
@@ -71,7 +74,7 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
     const map = useMap();
     useEffect(() => {
       if (userLocation) {
-        map.setView([userLocation.latitude, userLocation.longitude], 16); // Higher zoom for user's location
+        map.setView([userLocation.latitude, userLocation.longitude], 16);
       }
     }, [userLocation]);
     return null;
@@ -89,9 +92,9 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
           center={
             userLocation
               ? [userLocation.latitude, userLocation.longitude]
-              : [41.387, 2.17] // Default Barcelona center
+              : [41.387, 2.17]
           }
-          zoom={userLocation ? 16 : 12} // Higher zoom for user's location, lower zoom otherwise
+          zoom={userLocation ? 16 : 12}
           minZoom={0}
           maxZoom={18}
           style={{ height: "350px", width: "430px" }}

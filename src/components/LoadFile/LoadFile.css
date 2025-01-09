@@ -1,0 +1,154 @@
+.loadFile {
+    text-align: left;
+}
+
+/* .loadFile h1{
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.loadFile h2{
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin: 1.5rem 0;
+} */
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.dropArea {
+    border: 2px dashed #ccc;
+    padding: 40px;
+    margin: 0.5rem 0rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.item-loaded {
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #e8eef2;
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.file-image img {
+    height: 70px;
+}
+
+.size-time-file {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.name-size-time {
+    display: flex;
+    grid-area: name-size-time;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.options .deleteIcon {
+    font-size: 2rem;
+    color: #9b9a9a;
+    cursor: pointer;
+}
+
+.progres-bar {
+    position: relative;
+}
+
+.empty-bar {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin: 0.5rem 0rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.load-bar {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(11, 124, 223);
+    margin: 0.5rem 0rem;
+    border-radius: 20px;
+    transition: width 0.5s ease;
+}
+
+/* Did with https://grid.layoutit.com/ */
+.iteam-loaded {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "item-loaded-description"
+        "progres-bar";
+}
+
+.item-loaded-description {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "file-image name-size-time options";
+    grid-area: item-loaded-description;
+}
+
+.file-image {
+    grid-area: file-image;
+}
+
+.options {
+    grid-area: options;
+}
+
+.name-file {
+    grid-area: name-file;
+}
+
+.progres-bar {
+    grid-area: progres-bar;
+}

@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setShowStationsList } from "../../store/reportsSlice.js";
 import { useTranslation } from "react-i18next";
 import ReportMap from "./ReportMap";
+import LoadFile from "../LoadFile/LoadFile";
 
 import previewMap from "../../assets/mapPreview.webp";
 
@@ -109,8 +110,7 @@ export default function ReportForm({
             onChange={handleChange}
           ></textarea>
 
-          <label htmlFor="image">{t("image")}</label>
-
+          <LoadFile></LoadFile>
           <label htmlFor="email">{t("email")}</label>
           <input
             type="email"

@@ -11,25 +11,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #195DD9; */
     background-color: #333333;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     transition: padding 0.3s ease-in-out;
-    width: 80%;
+    width: 90%;
 }
 
 .montserrat-title {
     font-weight: 700;
     font-size: 1.7rem;
-    /* color: #EC7EFF; */
     color: #d69be1;
     transition: font-size 0.3s ease-in-out;
-    /* Smooth transition for font size */
+    text-align: center;
 }
 
 .navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 3rem;
     font-weight: 500;
     font-size: 1rem;
@@ -44,7 +44,6 @@
     padding: 0.5rem;
     border-radius: 5px;
     transition: color 0.3s ease, background-color 0.3s ease, font-weight 0.3s ease;
-    /* Smooth transition for color, background color, and font weight */
 }
 
 .navbar a:hover {
@@ -52,10 +51,6 @@
     transition: font-weight 0.3s ease-in-out;
 }
 
-/* .navbar a.active {
-    background-color: white;
-    color: black;
-} */
 
 .logIn {
     background-color: #ffffff;
@@ -105,34 +100,53 @@
     background-color: #f0f0f0;
 }
 
-@media all and (min-width: 900px) {
-    .header {
-        padding: 0.5rem 1rem;
-    }
-}
 
-/* @media all and (min-width: 900px) {
-    .header {
-        padding: 0.5rem 15vw;
-    }
-} */
 
+/* Version mobil */
 @media all and (max-width: 600px) {
     .montserrat-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .header {
+        padding: 0.5rem;
+        width: 100%;
+        flex-direction: column;
     }
 
     .navbar {
-        gap: 1rem;
-        font-size: 1rem;
+        display: none;
     }
 }
 
-@media all and (max-width: 750px) {
+@media all and (min-width: 1400px) and (max-width: 1600px) {
     .header {
-        padding: 0.5rem 7vw 0rem 7vw;
+        padding: 1rem;
+    }
+}
+
+
+
+@media all and (min-width: 850px) and (max-width: 1400px) {
+    .header {
+        padding: 0.5rem;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.4rem;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 850px) {
+    .header {
+        padding: 0.5rem;
+        width: 100%;
+        flex-direction: column;
+        gap: 0.3rem;
+
+    }
+
+    .header a {
+        font-size: 0.9rem;
     }
 
     .navbar a {

@@ -1,6 +1,7 @@
 import React from "react";
 import Map from "../Map/Map.jsx";
 import Header from "../../components/Header/Header";
+import MobileMenu from "../../components/MobileMenu/MobileMenu.jsx";
 import { supabase } from "../../lib/helper/supabaseClient";
 import { useEffect, useState } from "react";
 import "./Main.css";
@@ -73,6 +74,7 @@ export default function Main() {
         <Route path="/login" element={<LogIn></LogIn>} />
         <Route path="/hotreports" element={<HotReports></HotReports>} />
       </Routes>
+      <MobileMenu></MobileMenu>
     </div>
   );
 }

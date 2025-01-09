@@ -54,21 +54,20 @@ export async function fetchStationData(transportType = null) {
 
 export async function fetchBusStationData(transportType = null) {
   try {
-    const data = await csv(
-      `${process.env.PUBLIC_URL}/data/BCN_BUS_STATIONS.csv`
+    const data = await csv(`${process.env.PUBLIC_URL}/data/BCN_BUS_STOPS.csv`);
+    return (
+      data
+        .filter((row) => !transportType || row.TYPE === transportType)
+        // .filter((row) => row.EQUIPAMENT.startsWith("BUS"))
+        .map((row) => ({
+          name: row.EQUIPAMENT,
+          longitude: parseFloat(row.LONGITUD),
+          latitude: parseFloat(row.LATITUD),
+          neighborhood: row.NOM_BARRI,
+          type: row.TYPE,
+          id: row.id,
+        }))
     );
-    return data
-      .filter((row) => !transportType || row.CODI_CAPA === transportType)
-      .filter((row) => row.EQUIPAMENT.startsWith("METRO ("))
-      .map((row) => ({
-        name: row.EQUIPAMENT,
-        longitude: parseFloat(row.LONGITUD),
-        latitude: parseFloat(row.LATITUD),
-        typeName: row.NOM_CAPA,
-        neighborhood: row.NOM_BARRI,
-        type: row.CODI_CAPA,
-        id: row.id,
-      }));
   } catch (error) {
     console.error("Error loading the CSV data:", error);
     return [];

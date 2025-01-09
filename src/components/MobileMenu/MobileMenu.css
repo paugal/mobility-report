@@ -1,0 +1,33 @@
+.mobile-menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    color: white;
+    background-color: #333333;
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+
+.mobile-menu-icons {
+    font-size: 20px;
+}
+
+.mobile-menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media all and (max-width: 600px) {
+    .mobile-menu {
+        display: block;
+    }
+}
