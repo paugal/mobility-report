@@ -1,0 +1,685 @@
+CODI_CAPA,CAPA_GENERICA,NOM_CAPA,LONGITUD,LATITUD,EQUIPAMENT,DISTRICTE,BARRI,NOM_DISTRICTE,NOM_BARRI,ID,id
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.189397,41.410259,Tren AEROPORT - CLOT-,10,65,Sant Martí,el Clot,1,1
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.135427,41.397791,FGC - BONANOVA-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,2,2
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.139248,41.405731,FGC - EL PUTXET-,5,27,Sarrià-Sant Gervasi,el Putxet i el Farró,3,3
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187234,41.409376,Clot (Aragó / Meridiana)-,10,65,Sant Martí,el Clot,4,4
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183681,41.430013,Fabra i Puig (Avinguda Meridiana)-,9,60,Sant Andreu,Sant Andreu,5,5
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.193942,41.448718,Trinitat Vella (Via Bàrcino)-,9,57,Sant Andreu,la Trinitat Vella,6,6
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130845,41.352108,Fira (Botànica + Accés NORD | EST)-,,,,,7,7
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.127161,41.341382,Parc Logístic (Av. Parc Logístic / C. Número Un)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,8,8
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.073349,41.311895,Mas Blau (Avinguda de Les Garrigues / Alta Ribagorça)-,,,,,9,9
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.071238,41.288221,Aeroport T1 (Aeroport T1)-,,,,,10,10
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.137183,41.375321,Plaça de Sants (Olzinelles)-,3,18,Sants-Montjuïc,Sants,11,11
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187168,41.41554,Navas (Navas de Tolosa)-,9,63,Sant Andreu,Navas,12,12
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.184227,41.428993,Fabra i Puig (Concepción Arenal)-,9,60,Sant Andreu,Sant Andreu,13,13
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.215595,41.446807,Santa Rosa (Banús Baixa)-,,,,,14,14
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.118251,41.360665,Can Tries | Gornal (Can Tries - Narcís de Monturiol)-,,,,,15,15
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174722,41.460923,Ciutat Meridiana (Avinguda Rasos de Peguera)-,8,55,Nou Barris,Ciutat Meridiana,16,16
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.100181,41.364022,Rambla Just Oliveras (Renfe)-,,,,,17,17
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.148318,41.375296,Espanya (Creu Coberta)-,3,15,Sants-Montjuïc,Hostafrancs,18,18
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176107,41.446956,Roquetes (Carrer de les Torres)-,8,50,Nou Barris,les Roquetes,19,19
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.154397,41.423314,El Carmel (Llobregós)-,7,37,Horta-Guinardó,el Carmel,20,20
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.209874,41.420292,Besòs (Tram Besòs)-,10,70,Sant Martí,el Besòs i el Maresme,21,21
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.208384,41.407801,Selva de Mar (Provençals)-,10,69,Sant Martí,Diagonal Mar i el Front Marítim del Poblenou,22,22
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158841,41.429721,Horta (Lisboa)-,7,43,Horta-Guinardó,Horta,23,23
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.179469,41.400374,Monumental (Marina)-,2,5,Eixample,el Fort Pienc,24,24
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133018,41.323636,ZAL | Riu Vell (Riu Llobregat)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,25,25
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.177199,41.422578,Maragall (Ronda Guinardó - costat Muntanya)-,7,35,Horta-Guinardó,el Guinardó,26,26
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110631,41.376202,Ernest Lluch (Avinguda de Xile)-,4,20,Les Corts,la Maternitat i Sant Ramon,27,27
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176548,41.376975,Drassanes (La Rambla)-,1,1,Ciutat Vella,el Raval,28,28
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144578,41.430446,Montbau (Residència Sanitària / Llars Mundet)-,7,40,Horta-Guinardó,Montbau,29,29
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.125112,41.39896,FGC - SARRIÀ-,5,24,Sarrià-Sant Gervasi,les Tres Torres,30,30
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.073187,41.444795,FGC - LA FLORESTA-,,,,,31,31
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.162924,41.406053,Joanic (Escorial)-,6,32,Gràcia,el Camp d'en Grassot i Gràcia Nova,32,32
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.1866,41.421855,La Sagrera (Garcilaso)-,9,61,Sant Andreu,la Sagrera,33,33
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144961,41.342872,Zona Franca (Carrer A (costat mar))-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,34,34
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.167015,41.385919,FGC - CATALUNYA (C. de Balmes)-,2,7,Eixample,la Dreta de l'Eixample,35,35
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.135951,41.381698,Plaça del Centre (Plaça del Centre (mar))-,3,18,Sants-Montjuïc,Sants,36,36
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.198307,41.457596,Can Zam (Francesc Macià)-,,,,,37,37
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.244468,41.448918,Badalona Pompeu Fabra (La Creu)-,,,,,38,38
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111874,41.384249,Zona Universitària (Dr. Marañón / Diagonal)-,4,20,Les Corts,la Maternitat i Sant Ramon,39,39
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111368,41.375777,Ernest Lluch (Cementiri de Sants)-,,,,,40,40
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.170146,41.385429,Catalunya (La Rambla)-,1,1,Ciutat Vella,el Raval,41,41
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.16013,41.396244,Diagonal (Diagonal / Pau Claris)-,2,7,Eixample,la Dreta de l'Eixample,42,42
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.149637,41.406234,Lesseps (Septimània)-,5,27,Sarrià-Sant Gervasi,el Putxet i el Farró,43,43
+K003,Transports i serveis relacionats,RENFE,2.170436,41.388108,RENFE - CATALUNYA-,2,7,Eixample,la Dreta de l'Eixample,44,44
+K003,Transports i serveis relacionats,RENFE,2.09108,41.331201,RENFE - EL PRAT DE LLOBREGAT-,,,,,45,45
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166742,41.430379,Vilapicina (Cartellà)-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,46,46
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.233378,41.440368,Gorg (Avinguda Alfons XIII)-,,,,,47,47
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.11686,41.368118,Torrassa (Rosalía de Castro)-,,,,,48,48
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.138586,41.37544,Plaça de Sants (Riego)-,3,18,Sants-Montjuïc,Sants,49,49
+K011,Transports i serveis relacionats,Tramvia,2.219829,41.411777,TRAMVIA (T4) - FÒRUM-,10,70,Sant Martí,el Besòs i el Maresme,50,50
+K011,Transports i serveis relacionats,Tramvia,2.230412,41.423854,"TRAMVIA (T4, T6) - ESTACIÓ DE SANT ADRIÀ-",,,,,51,51
+K011,Transports i serveis relacionats,Tramvia,2.062227,41.360383,"TRAMVIA (T1,T2) - FONTSANTA-FATJÓ-",,,,,52,52
+K003,Transports i serveis relacionats,RENFE,2.181768,41.496321,RENFE - MONTCADA-RIPOLLET-,,,,,53,53
+K011,Transports i serveis relacionats,Tramvia,2.076889,41.365513,"TRAMVIA (T1,T2) - EL PEDRÒ-",,,,,54,54
+K011,Transports i serveis relacionats,Tramvia,2.197653,41.411242,"TRAMVIA (T5, T6) - ESPRONCEDA-",10,71,Sant Martí,Provençals del Poblenou,55,55
+K011,Transports i serveis relacionats,Tramvia,2.115012,41.38048,"TRAMVIA (T1,T2,T3) - AVINGUDA DE XILE-",4,20,Les Corts,la Maternitat i Sant Ramon,56,56
+K011,Transports i serveis relacionats,Tramvia,2.106023,41.376071,"TRAMVIA (T1,T2,T3) - CAN RIGAL-",,,,,57,57
+K011,Transports i serveis relacionats,Tramvia,2.222916,41.430456,TRAMVIA (T5) - ENCANTS DE SANT ADRIÀ-,,,,,58,58
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.078879,41.357949,Gavarra (Pl. Catalunya)-,,,,,59,59
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150209,41.388368,Hospital Clínic (Comte d'Urgell)-,2,9,Eixample,la Nova Esquerra de l'Eixample,60,60
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.16747,41.399107,Verdaguer (Bailèn)-,2,7,Eixample,la Dreta de l'Eixample,61,61
+K011,Transports i serveis relacionats,Tramvia,2.098896,41.376486,"TRAMVIA (T1,T2,T3) - CA N'OLIVERES-",,,,,62,62
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.195105,41.414871,Bac de Roda (Bac de Roda)-,10,72,Sant Martí,Sant Martí de Provençals,63,63
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150072,41.374841,Espanya (Exposició)-,3,11,Sants-Montjuïc,el Poble-sec,64,64
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158937,41.375177,Poble Sec (Manso)-,2,10,Eixample,Sant Antoni,65,65
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158979,41.374902,Poble Sec (Teodor Bonaplata)-,3,11,Sants-Montjuïc,el Poble-sec,66,66
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.141301,41.417531,Penitents (Avinguda Vallcarca)-,6,28,Gràcia,Vallcarca i els Penitents,67,67
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169533,41.387543,Catalunya (Centre Plaça)-,2,7,Eixample,la Dreta de l'Eixample,68,68
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158917,41.382515,METRO (L1) - Urgell-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,69,69
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187563,41.402305,METRO (L1) - Glòries-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,70,70
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.184813,41.381839,METRO (L4) - Barceloneta-,1,3,Ciutat Vella,la Barceloneta,71,71
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.179488,41.400552,METRO (L2) - Monumental-,2,5,Eixample,el Fort Pienc,72,72
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.20075,41.419092,METRO (L2) - Sant Martí-,10,72,Sant Martí,Sant Martí de Provençals,73,73
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.216931,41.441388,METRO (L10N) - Llefià-,,,,,74,74
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.138256,41.361128,METRO (L10S) - Foneria-,3,13,Sants-Montjuïc,la Marina de Port,75,75
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168879,41.373877,METRO (FM) - Paral·lel-,3,11,Sants-Montjuïc,el Poble-sec,76,76
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.148498,41.435673,METRO (L3) - Mundet-,7,41,Horta-Guinardó,la Vall d'Hebron,77,77
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173056,41.381473,METRO (L3) - Liceu-,1,2,Ciutat Vella,el Barri Gòtic,78,78
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169144,41.374921,METRO (L3) - Paral·lel-,3,11,Sants-Montjuïc,el Poble-sec,79,79
+K011,Transports i serveis relacionats,Tramvia,2.075814,41.372339,TRAMVIA (T3) - SANT MARTÍ DE L'ERM-,,,,,80,80
+K011,Transports i serveis relacionats,Tramvia,2.084309,41.373477,"TRAMVIA (T1,T2,T3) - LA SARDANA-",,,,,81,81
+K009,Transports i serveis relacionats,Funicular,2.176893,41.460819,Ascensor Inclinat - Funicular Ciutat Meridiana-,8,55,Nou Barris,Ciutat Meridiana,82,82
+K011,Transports i serveis relacionats,Tramvia,2.075217,41.378842,TRAMVIA (T3) - RAMBLA DE SANT JUST-,,,,,83,83
+K011,Transports i serveis relacionats,Tramvia,2.22618,41.418903,"TRAMVIA (T4, T6) - PORT FÒRUM-",,,,,84,84
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.21846,41.451611,METRO (L1) - Fondo-,,,,,85,85
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.165373,41.391631,METRO (L3) - Passeig de Gràcia-,2,7,Eixample,la Dreta de l'Eixample,86,86
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.195529,41.41519,METRO (L2) - Bac de Roda-,10,72,Sant Martí,Sant Martí de Provençals,87,87
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.199588,41.449964,METRO (L1) - Baró de Viver-,9,57,Sant Andreu,la Trinitat Vella,88,88
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.192038,41.395136,METRO (L4) - Bogatell-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,89,89
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.178557,41.384154,METRO (L4) - Jaume I-,1,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",90,90
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.138181,41.375381,METRO (L1) - Plaça de Sants-,3,18,Sants-Montjuïc,Sants,91,91
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145065,41.430648,METRO (L3) - Montbau-,7,40,Horta-Guinardó,Montbau,92,92
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163267,41.379861,METRO (L2) - Sant Antoni-,1,1,Ciutat Vella,el Raval,93,93
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.178576,41.443758,METRO (L4) - Via Júlia-,8,51,Nou Barris,Verdun,94,94
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.158326,41.392331,FGC - PROVENÇA (C. de Provença)-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,95,95
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.210257,41.419929,METRO (L4) - Besòs-,10,70,Sant Martí,el Besòs i el Maresme,96,96
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.070455,41.357319,METRO (L5) - Cornellà Centre-,,,,,97,97
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.119222,41.375772,METRO (L5) - Collblanc-,,,,,98,98
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145645,41.384495,METRO (L5) - Entença-,2,9,Eixample,la Nova Esquerra de l'Eixample,99,99
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.167645,41.430493,METRO (L5) - Vilapicina-,8,46,Nou Barris,el Turó de la Peira,100,100
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.073141,41.303852,METRO (L9S) - Aeroport T2-,,,,,101,101
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.20532,41.436231,METRO (L9NL10N) - Bon Pastor-,9,59,Sant Andreu,el Bon Pastor,102,102
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163043,41.379015,Sant Antoni (Urgell)-,2,10,Eixample,Sant Antoni,103,103
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168813,41.389706,Passeig de Gràcia (Pau Claris)-,2,7,Eixample,la Dreta de l'Eixample,104,104
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173425,41.389386,Urquinaona (Plaça Urquinaona)-,2,7,Eixample,la Dreta de l'Eixample,105,105
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173855,41.389119,Urquinaona (Trafalgar)-,2,7,Eixample,la Dreta de l'Eixample,106,106
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183539,41.430506,Fabra i Puig (Passeig Fabra i Puig)-,9,60,Sant Andreu,Sant Andreu,107,107
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183301,41.431517,Fabra i Puig (Sòcrates)-,9,60,Sant Andreu,Sant Andreu,108,108
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183366,41.43085,Fabra i Puig (Renfe)-,9,60,Sant Andreu,Sant Andreu,109,109
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.207862,41.451175,Santa Coloma (Llorenç Serra)-,,,,,110,110
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163275,41.379017,Sant Antoni (Sant Antoni Abat)-,1,1,Ciutat Vella,el Raval,111,111
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.08996,41.331296,El Prat Estació (Doctor Soler i Torrens)-,,,,,112,112
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144279,41.37511,Hostafrancs (Hostafrancs)-,3,15,Sants-Montjuïc,Hostafrancs,113,113
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.14939,41.374273,Espanya (Exposició / Gran Via)-,3,11,Sants-Montjuïc,el Poble-sec,114,114
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.159938,41.382757,Urgell (Villarroel / Sepúlveda)-,2,10,Eixample,Sant Antoni,115,115
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.142754,41.398631,FGC - MUNTANER-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,116,116
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158254,41.382048,Urgell (Comte d'Urgell)-,2,9,Eixample,la Nova Esquerra de l'Eixample,117,117
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.190955,41.442435,Torras i Bages (Palomar / costat mar)-,9,60,Sant Andreu,Sant Andreu,118,118
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.208486,41.45125,Santa Coloma (Plaça de la Vila)-,,,,,119,119
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.218559,41.451527,Fondo (Mossèn Cinto Verdaguer)-,,,,,120,120
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163271,41.380684,Sant Antoni (Villarroel)-,2,10,Eixample,Sant Antoni,121,121
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.148115,41.434981,Mundet (Can Marcet)-,7,41,Horta-Guinardó,la Vall d'Hebron,122,122
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.180732,41.459324,Torre Baró | Vallbona (Avinguda Escolapi Càncer)-,8,54,Nou Barris,Torre Baró,123,123
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.106696,41.344386,Hospital de Bellvitge (Residència sanitària)-,,,,,124,124
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.223313,41.442247,La Salut (Austràlia)-,,,,,125,125
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.167657,41.389795,Passeig de Gràcia (Passeig de Gràcia / Gran Via)-,2,7,Eixample,la Dreta de l'Eixample,126,126
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168769,41.399925,Verdaguer (Passeig Sant Joan)-,2,7,Eixample,la Dreta de l'Eixample,127,127
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.156061,41.425567,El Carmel (Plaça Pastrana)-,7,37,Horta-Guinardó,el Carmel,128,128
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.211467,41.453914,Església Major (Mossèn Camil Rossell)-,,,,,129,129
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217345,41.441134,Llefià (Ronda Sant Antoni)-,,,,,130,130
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.234742,41.440083,Gorg (Antoni Bori)-,,,,,131,131
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.130828,41.397781,FGC - LES TRES TORRES-,5,24,Sarrià-Sant Gervasi,les Tres Torres,132,132
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.09993,41.371996,Can Vidalet (Maladeta)-,,,,,133,133
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142118,41.355684,Foc (Fira Gran Via (Pavellons 6·7·8))-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,134,134
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.124146,41.361637,Provençana (Aprestadora / Rosell)-,,,,,135,135
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.14486,41.342901,Zona Franca (Carrer A / Carrer 2)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,136,136
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.118107,41.385621,Palau Reial (Facultat de Ciències)-,4,20,Les Corts,la Maternitat i Sant Ramon,137,137
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173585,41.380953,Liceu (La Rambla / Teatre Liceu)-,1,2,Ciutat Vella,el Barri Gòtic,138,138
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.202967,41.403539,Poblenou (Pujades / Bilbao)-,10,68,Sant Martí,el Poblenou,139,139
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.197293,41.399236,Llacuna (Pujades / Ciutat de Granada)-,10,68,Sant Martí,el Poblenou,140,140
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.185845,41.382396,Barceloneta (Plaça Pau Vila)-,1,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",141,141
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.177091,41.448119,Roquetes (Vidal i Guasch)-,8,50,Nou Barris,les Roquetes,142,142
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.209721,41.444808,Can Peixauet (Avinguda Santa Coloma)-,,,,,143,143
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.155041,41.423673,El Carmel (Mercat)-,7,37,Horta-Guinardó,el Carmel,144,144
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160597,41.395388,Diagonal (Pg. de Gràcia (escala mecànica))-,2,7,Eixample,la Dreta de l'Eixample,145,145
+K011,Transports i serveis relacionats,Tramvia,2.193551,41.408024,"TRAMVIA (T5, T6) - CAN JAUMANDREU-",10,71,Sant Martí,Provençals del Poblenou,146,146
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.128194,41.341726,Parc Logístic (Av. Parc Logístic / C. Número Vint-i-cinc)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,147,147
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.088938,41.31644,Parc Nou (Riu Llobregat / Riu Ebre)-,,,,,148,148
+K003,Transports i serveis relacionats,RENFE,2.167379,41.481319,RENFE - MONTCADA I REIXAC-STA. MARIA-,,,,,149,149
+K003,Transports i serveis relacionats,RENFE,2.181952,41.393385,RENFE - ARC DE TRIOMF-,2,5,Eixample,el Fort Pienc,150,150
+K003,Transports i serveis relacionats,RENFE,2.16875,41.387019,RENFE - CATALUNYA-,2,7,Eixample,la Dreta de l'Eixample,151,151
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.238419,41.444477,Pep Ventura (Avinguda Marquès de Mont-roig)-,,,,,152,152
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110967,41.351449,Bellvitge (Rambla de la Marina / Trav. Industrial)-,,,,,153,153
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.100045,41.363552,Rambla Just Oliveras (Rambla Just Oliveras)-,,,,,154,154
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.10363,41.36809,Can Serra (Parc de les Planes)-,,,,,155,155
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110159,41.368206,Florida (Blocs Florida)-,,,,,156,156
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.165256,41.39187,Tren AEROPORT - PASSEIG DE GRÀCIA-,2,7,Eixample,la Dreta de l'Eixample,157,157
+K003,Transports i serveis relacionats,RENFE,2.021024,41.410017,RENFE - MOLINS DE REI-,,,,,158,158
+K003,Transports i serveis relacionats,RENFE,2.249093,41.445856,RENFE - BADALONA-,,,,,159,159
+K003,Transports i serveis relacionats,RENFE,2.187908,41.409832,RENFE - CLOT-,10,65,Sant Martí,el Clot,160,160
+K003,Transports i serveis relacionats,RENFE,2.189397,41.410259,RENFE - CLOT-,10,65,Sant Martí,el Clot,161,161
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.09941,41.371491,Can Vidalet (Hortènsia)-,,,,,162,162
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.106899,41.373518,Pubilla Cases (Esteve Grau)-,,,,,163,163
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.128663,41.375646,Badal (Carrer de Sants)-,3,17,Sants-Montjuïc,Sants - Badal,164,164
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.135098,41.375678,Plaça de Sants (Plaça de Sants)-,3,18,Sants-Montjuïc,Sants,165,165
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.17719,41.424501,Maragall (Ramon Albó)-,9,62,Sant Andreu,el Congrés i els Indians,166,166
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111546,41.38417,Zona Universitària (Avinguda Diagonal)-,4,20,Les Corts,la Maternitat i Sant Ramon,167,167
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.117983,41.386156,Palau Reial (Palau de Pedralbes)-,4,21,Les Corts,Pedralbes,168,168
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.135654,41.38214,Plaça del Centre (Plaça del Centre (muntanya))-,4,19,Les Corts,les Corts,169,169
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142006,41.38111,Sants Estació (Av. Josep Tarradellas)-,3,18,Sants-Montjuïc,Sants,170,170
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.172495,41.382048,Liceu (La Rambla / Mercat de la Boqueria)-,1,1,Ciutat Vella,el Raval,171,171
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.16431,41.385843,METRO (L1) - Universitat-,2,10,Eixample,Sant Antoni,172,172
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144579,41.41181,Vallcarca (Gomis)-,6,28,Gràcia,Vallcarca i els Penitents,173,173
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.167841,41.374856,Paral·lel (Fontrodona)-,3,11,Sants-Montjuïc,el Poble-sec,174,174
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.179651,41.400516,Monumental (Marina / Plaça de Toros)-,2,5,Eixample,el Fort Pienc,175,175
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.182157,41.407093,Encants (València / Mallorca)-,10,64,Sant Martí,el Camp de l'Arpa del Clot,176,176
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.128644,41.368844,METRO (L1) - Santa Eulàlia-,,,,,177,177
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168086,41.400393,METRO (L4) - Verdaguer-,2,7,Eixample,la Dreta de l'Eixample,178,178
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144991,41.343005,METRO (L10S) - Zona Franca-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,179,179
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.125817,41.387844,METRO (L3) - Maria Cristina-,4,20,Les Corts,la Maternitat i Sant Ramon,180,180
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.184122,41.449528,METRO (L3) - Trinitat Nova-,8,53,Nou Barris,la Trinitat Nova,181,181
+K011,Transports i serveis relacionats,Tramvia,2.213571,41.417238,"TRAMVIA (T5, T6) - ALFONS EL MAGNÀNIM-",10,70,Sant Martí,el Besòs i el Maresme,182,182
+K011,Transports i serveis relacionats,Tramvia,2.217564,41.41938,"TRAMVIA (T5, T6) - PARC DEL BESÓS-",,,,,183,183
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.147016,41.401372,FGC - SANT GERVASI-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,184,184
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.102659,41.358582,METRO (L1) - Av. Carrilet-,,,,,185,185
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174015,41.41599,METRO (L4) - Guinardó | Hospital de Sant Pau-,7,35,Horta-Guinardó,el Guinardó,186,186
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.209909,41.430032,METRO (L2) - Verneda-,,,,,187,187
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.099472,41.371307,METRO (L5) - Can Vidalet-,,,,,188,188
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166408,41.412405,METRO (L4) - Alfons X-,7,33,Horta-Guinardó,el Baix Guinardó,189,189
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174675,41.460836,METRO (L11) - Ciutat Meridiana-,8,55,Nou Barris,Ciutat Meridiana,190,190
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.137173,41.410227,FGC - AVINGUDA DEL TIBIDABO-,5,25,Sarrià-Sant Gervasi,Sant Gervasi - la Bonanova,191,191
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.142617,41.403596,FGC - PADUA-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,192,192
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145362,41.378521,METRO (L3) - Tarragona-,2,9,Eixample,la Nova Esquerra de l'Eixample,193,193
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.115783,41.368251,METRO (L9SL10S) - Torrassa-,,,,,194,194
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158856,41.394463,METRO (L5) - Diagonal-,2,7,Eixample,la Dreta de l'Eixample,195,195
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.167115,41.39898,METRO (L5) - Verdaguer-,2,7,Eixample,la Dreta de l'Eixample,196,196
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181523,41.415088,METRO (L5) - Camp de l'Arpa-,10,64,Sant Martí,el Camp de l'Arpa del Clot,197,197
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.16,41.429721,METRO (L5) - Horta-,7,43,Horta-Guinardó,Horta,198,198
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142382,41.425021,METRO (L5) - Vall d'Hebron-,7,40,Horta-Guinardó,Montbau,199,199
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169671,41.388085,Catalunya (Passeig de Gràcia)-,2,7,Eixample,la Dreta de l'Eixample,200,200
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175021,41.389956,Urquinaona (Bruc)-,2,7,Eixample,la Dreta de l'Eixample,201,201
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.18713,41.395239,Marina (Almogàvers)-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,202,202
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187159,41.416905,Navas (Biscaia)-,9,63,Sant Andreu,Navas,203,203
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.191044,41.437482,Sant Andreu (Joan Torras)-,9,60,Sant Andreu,Sant Andreu,204,204
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168159,41.375117,Paral·lel (Ronda Sant Pau)-,1,1,Ciutat Vella,el Raval,205,205
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.125868,41.356743,Europa | Fira (Fira Gran Via)-,,,,,206,206
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.087401,41.316916,Parc Nou (Riu Llobregat / Riu Xúquer)-,,,,,207,207
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.154421,41.378611,Rocafort (Rocafort / Sepúlveda)-,2,10,Eixample,Sant Antoni,208,208
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.135502,41.397638,FGC - BONANOVA-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,209,209
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187144,41.421794,La Sagrera (Meridiana | Hondures)-,9,61,Sant Andreu,la Sagrera,210,210
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.16764,41.388952,Passeig de Gràcia (Rbla. Catalunya)-,2,7,Eixample,la Dreta de l'Eixample,211,211
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.148451,41.435372,Mundet (Salesians)-,7,41,Horta-Guinardó,la Vall d'Hebron,212,212
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.23786,41.444385,Pep Ventura (Avinguda Alfons XIII)-,,,,,213,213
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.1852,41.451289,Casa de l'Aigua (Aiguablava)-,8,53,Nou Barris,la Trinitat Nova,214,214
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.206108,41.423466,La Pau (Rambla Guipúscoa / Ca n'Oliva)-,10,73,Sant Martí,la Verneda i la Pau,215,215
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.184372,41.449449,Trinitat Nova (Palamós)-,8,53,Nou Barris,la Trinitat Nova,216,216
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.179282,41.459334,Torre Baró | Vallbona (Sant Feliu de Codines)-,8,54,Nou Barris,Torre Baró,217,217
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181941,41.392996,Arc de Triomf (Nàpols)-,2,5,Eixample,el Fort Pienc,218,218
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168511,41.43058,Vilapicina (Teide)-,8,46,Nou Barris,el Turó de la Peira,219,219
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175771,41.403899,Sagrada Família (Mallorca - Marina)-,2,6,Eixample,la Sagrada Família,220,220
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.16545,41.392028,Passeig de Gràcia (Aragó / Pau Claris)-,2,7,Eixample,la Dreta de l'Eixample,221,221
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140981,41.417415,Penitents (Anna Piferrer)-,6,28,Gràcia,Vallcarca i els Penitents,222,222
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.151636,41.399679,FGC - GRÀCIA (C. de Marià Cubí)-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,223,223
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174512,41.416048,Guinardó | Hospital de Sant Pau (Sant Quintí)-,7,35,Horta-Guinardó,el Guinardó,224,224
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173922,41.437645,Llucmajor (Passeig Verdum / Llucmajor)-,8,48,Nou Barris,la Guineueta,225,225
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.178923,41.444281,Via Júlia (Via Júlia / Joaquim Valls)-,8,52,Nou Barris,la Prosperitat,226,226
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.131699,41.362404,Ciutat de la Justícia (Gran Via / Alhambra)-,,,,,227,227
+K003,Transports i serveis relacionats,RENFE,2.147997,41.492347,RENFE - CERDANYOLA DEL VALLÈS-,,,,,228,228
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.124523,41.39935,FGC - SARRIÀ-,5,23,Sarrià-Sant Gervasi,Sarrià,229,229
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.130463,41.361391,FGC - ILDEFONS CERDÀ-,,,,,230,230
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160976,41.430139,Horta (Plaça Eivissa)-,7,43,Horta-Guinardó,Horta,231,231
+K003,Transports i serveis relacionats,RENFE,2.169312,41.387546,RENFE - CATALUNYA-,2,7,Eixample,la Dreta de l'Eixample,232,232
+K003,Transports i serveis relacionats,RENFE,2.188597,41.409995,RENFE - CLOT-,10,65,Sant Martí,el Clot,233,233
+K003,Transports i serveis relacionats,RENFE,2.185449,41.384232,RENFE - DE FRANÇA-,1,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",234,234
+K003,Transports i serveis relacionats,RENFE,2.183101,41.430862,RENFE - SANT ANDREU ARENAL-,9,60,Sant Andreu,Sant Andreu,235,235
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.167342,41.430599,Vilapicina (Canfranc)-,8,46,Nou Barris,el Turó de la Peira,236,236
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.165214,41.441723,Canyelles (García Lorca)-,8,49,Nou Barris,Canyelles,237,237
+K011,Transports i serveis relacionats,Tramvia,2.203312,41.40744,TRAMVIA (T4) - FLUVIÀ-,10,71,Sant Martí,Provençals del Poblenou,238,238
+K003,Transports i serveis relacionats,RENFE,2.165256,41.39187,RENFE - PASSEIG DE GRÀCIA-,2,7,Eixample,la Dreta de l'Eixample,239,239
+K011,Transports i serveis relacionats,Tramvia,2.087563,41.376495,"TRAMVIA (T1,T2,T3) - PONT D'ESPLUGUES-",,,,,240,240
+K011,Transports i serveis relacionats,Tramvia,2.066109,41.356699,"TRAMVIA (T1,T2) - LES AIGÜES-",,,,,241,241
+K011,Transports i serveis relacionats,Tramvia,2.05321,41.379349,Tramvia (T3) - SANT FELIU/CONSELL COMARCAL-,,,,,242,242
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181739,41.448687,Trinitat Nova (Aiguablava)-,8,53,Nou Barris,la Trinitat Nova,243,243
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.107952,41.37406,Pubilla Cases (Doctor Ramon Solanich)-,,,,,244,244
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.158906,41.394274,Diagonal (Rosselló / FGC)-,2,7,Eixample,la Dreta de l'Eixample,245,245
+K008,Transports i serveis relacionats,Estació marítima,2.179986,41.360226,Terminal Marítima C *Creuers-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,246,246
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.126533,41.388322,Maria Cristina (Capità Arenas)-,4,21,Les Corts,Pedralbes,247,247
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175585,41.394915,METRO (L2) - Tetuan-,2,7,Eixample,la Dreta de l'Eixample,248,248
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.233466,41.440265,METRO (L2) - Gorg-,,,,,249,249
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.207994,41.451095,METRO (L1) - Santa Coloma-,,,,,250,250
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.17569,41.376567,METRO (L3) - Drassanes-,1,1,Ciutat Vella,el Raval,251,251
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.153048,41.402037,METRO (L3) - Fontana-,6,31,Gràcia,la Vila de Gràcia,252,252
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.224762,41.442845,METRO (L10N) - La Salut-,,,,,253,253
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.141831,41.35619,METRO (L10S) - Foc-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,254,254
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.141018,41.381626,METRO (L3) - Sants Estació-,3,18,Sants-Montjuïc,Sants,255,255
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110944,41.351005,METRO (L1) - Bellvitge-,,,,,256,256
+K011,Transports i serveis relacionats,Tramvia,2.192089,41.387575,TRAMVIA (T4) - CIUTADELLA-VILA OLÍMPICA-,10,67,Sant Martí,la Vila Olímpica del Poblenou,257,257
+K011,Transports i serveis relacionats,Tramvia,2.058263,41.363968,"TRAMVIA (T1,T2) - BON VIATGE-",,,,,258,258
+K011,Transports i serveis relacionats,Tramvia,2.062535,41.36756,TRAMVIA (T2) - LA FONTSANTA-,,,,,259,259
+K011,Transports i serveis relacionats,Tramvia,2.22531,41.427474,TRAMVIA (T5) - SANT JOAN BAPTISTA-,,,,,260,260
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.125789,41.398544,FGC - SARRIÀ-,5,24,Sarrià-Sant Gervasi,les Tres Torres,261,261
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.193017,41.386715,METRO (L4) - Ciutadella | Vila Olímpica-,10,67,Sant Martí,la Vila Olímpica del Poblenou,262,262
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217798,41.433876,METRO (L2) - Artigues | Sant Adrià-,,,,,263,263
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.137098,41.330188,METRO (L10S) - Ecoparc-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,264,264
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187001,41.422397,METRO (L1) - La Sagrera-,9,61,Sant Andreu,la Sagrera,265,265
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173369,41.437013,METRO (L4) - Llucmajor-,8,48,Nou Barris,la Guineueta,266,266
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150433,41.405766,METRO (L3) - Lesseps-,6,31,Gràcia,la Vila de Gràcia,267,267
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.00528,41.398991,FGC - CAN ROS-,,,,,268,268
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.031499,41.363609,FGC - COLÒNIA GÜELL-,,,,,269,269
+K008,Transports i serveis relacionats,Estació marítima,2.173838,41.364349,Estació Marítima Grimaldi Lines-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,270,270
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.151107,41.388636,METRO (L5) - Hospital Clínic-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,271,271
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.155125,41.424478,METRO (L5) - El Carmel-,7,37,Horta-Guinardó,el Carmel,272,272
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.073499,41.311254,METRO (L9S) - Mas Blau-,,,,,273,273
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.1031,41.329148,METRO (L9S) - Les Moreres-,,,,,274,274
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.198594,41.456694,METRO (L9N) - Can Zam-,,,,,275,275
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.212202,41.454825,METRO (L9N) - Església Major-,,,,,276,276
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176042,41.410781,METRO (L5) - Sant Pau | Dos de Maig-,2,6,Eixample,la Sagrada Família,277,277
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.186608,41.421324,METRO (L5) - La Sagrera-,9,61,Sant Andreu,la Sagrera,278,278
+K008,Transports i serveis relacionats,Estació marítima,2.183262,41.375795,Terminal Marítima Maremàgnum *Creuers-,1,2,Ciutat Vella,el Barri Gòtic,279,279
+K009,Transports i serveis relacionats,Funicular,2.105977,41.414261,Funicular Vallvidrera - FGC-,5,22,Sarrià-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",280,280
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.188597,41.409995,Tren AEROPORT - CLOT-,10,65,Sant Martí,el Clot,281,281
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.125369,41.357005,FGC - EUROPA / FIRA-,,,,,282,282
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.190689,41.442422,Torras i Bages (Palomar / costat muntanya)-,9,60,Sant Andreu,Sant Andreu,283,283
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.20788,41.450993,Santa Coloma (Avinguda Santa Coloma)-,,,,,284,284
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.138587,41.375299,Plaça de Sants (Cros)-,3,18,Sants-Montjuïc,Sants,285,285
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.154836,41.379687,Rocafort (Calàbria / Diputació)-,2,9,Eixample,la Nova Esquerra de l'Eixample,286,286
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.025086,41.369224,FGC - SANTA COLOMA DE CERVELLÓ-,,,,,287,287
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187468,41.423061,La Sagrera (Jardins d'Elx)-,9,61,Sant Andreu,la Sagrera,288,288
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.194088,41.448962,Trinitat Vella (Parc de la Trinitat)-,9,57,Sant Andreu,la Trinitat Vella,289,289
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163729,41.385431,Universitat (Plaça Universitat)-,2,10,Eixample,Sant Antoni,290,290
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.200007,41.418547,Sant Martí (Agricultura)-,10,72,Sant Martí,Sant Martí de Provençals,291,291
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.233931,41.440171,Gorg (Guifré)-,,,,,292,292
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168503,41.430354,Vilapicina (Passeig de les Palmeres)-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,293,293
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174444,41.415797,Guinardó | Hospital de Sant Pau (Hospital de Sant Pau)-,7,35,Horta-Guinardó,el Guinardó,294,294
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.186195,41.410296,Clot (Sibelius)-,10,64,Sant Martí,el Camp de l'Arpa del Clot,295,295
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.13707,41.330056,Ecoparc (Carrer A (costat mar))-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,296,296
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133155,41.323858,ZAL | Riu Vell (Carrer A / Carrer 5)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,297,297
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.170274,41.374845,Paral·lel (Avinguda Paral·lel)-,3,11,Sants-Montjuïc,el Poble-sec,298,298
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169557,41.385492,Catalunya (Pelai)-,1,1,Ciutat Vella,el Raval,299,299
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.110914,41.409282,FGC - PEU FUNICULAR-,5,23,Sarrià-Sant Gervasi,Sarrià,300,300
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.157956,41.392909,FGC - PROVENÇA-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,301,301
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.17086,41.394863,Girona (Consell de Cent)-,2,7,Eixample,la Dreta de l'Eixample,302,302
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.146137,41.384992,Entença (Rocafort)-,2,9,Eixample,la Nova Esquerra de l'Eixample,303,303
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174248,41.404525,Sagrada Família (Provença / Avinguda Gaudí)-,2,6,Eixample,la Sagrada Família,304,304
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130642,41.383926,Les Corts (Travessera de les Corts)-,4,19,Les Corts,les Corts,305,305
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.14169,41.380974,Sants Estació (Pl. Països Catalans / Numància / Ambulatori)-,3,18,Sants-Montjuïc,Sants,306,306
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.159887,41.3961,Diagonal (Diagonal / Rambla Catalunya)-,2,7,Eixample,la Dreta de l'Eixample,307,307
+K003,Transports i serveis relacionats,RENFE,2.185163,41.484284,RENFE - MONTCADA I REIXAC-MANRESA-,,,,,308,308
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.21544,41.415712,Besòs Mar (Ferrer Bassa)-,10,70,Sant Martí,el Besòs i el Maresme,309,309
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.209593,41.408242,Selva de Mar (Selva de Mar)-,10,69,Sant Martí,Diagonal Mar i el Front Marítim del Poblenou,310,310
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.19344,41.387931,Ciutadella | Vila Olímpica (Avinguda Icària)-,10,67,Sant Martí,la Vila Olímpica del Poblenou,311,311
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217314,41.433391,Artigues | Sant Adrià (Avinguda Joan XXIII)-,,,,,312,312
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.115466,41.354367,Tren AEROPORT - BELLVITGE-,,,,,313,313
+K003,Transports i serveis relacionats,RENFE,2.060314,41.368661,RENFE - ST. JOAN DESPÍ-,,,,,314,314
+K011,Transports i serveis relacionats,Tramvia,2.136412,41.390505,"TRAMVIA (T1,T2,T3) - L'ILLA-",4,19,Les Corts,les Corts,315,315
+K011,Transports i serveis relacionats,Tramvia,2.188338,41.390398,TRAMVIA (T4) - WELLINGTON-,10,67,Sant Martí,la Vila Olímpica del Poblenou,316,316
+K011,Transports i serveis relacionats,Tramvia,2.204513,41.416358,"TRAMVIA (T5, T6) - SANT MARTÍ DE PROVENÇALS-",10,71,Sant Martí,Provençals del Poblenou,317,317
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.083955,41.363418,Sant Ildefons (Avinguda República Argentina)-,,,,,318,318
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.178625,41.44359,Via Júlia (Via Júlia / Argullós)-,8,52,Nou Barris,la Prosperitat,319,319
+K011,Transports i serveis relacionats,Tramvia,2.214952,41.41033,TRAMVIA (T4) - DIAGONAL MAR-,10,69,Sant Martí,Diagonal Mar i el Front Marítim del Poblenou,320,320
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145151,41.378926,Tarragona (València)-,2,9,Eixample,la Nova Esquerra de l'Eixample,321,321
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145789,41.377887,Tarragona (Tarragona)-,3,15,Sants-Montjuïc,Hostafrancs,322,322
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.143278,41.375426,Hostafrancs (Consell de Cent)-,3,15,Sants-Montjuïc,Hostafrancs,323,323
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145074,41.38415,Entença (Entença)-,2,9,Eixample,la Nova Esquerra de l'Eixample,324,324
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173094,41.403718,Sagrada Família (Sardenya)-,2,6,Eixample,la Sagrada Família,325,325
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.180809,41.423585,Congrés (Francesc Tàrrega)-,9,62,Sant Andreu,el Congrés i els Indians,326,326
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176487,41.425536,Maragall (Prat d'en Roquer)-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,327,327
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.116228,41.368615,Torrassa (Av. Catalunya)-,,,,,328,328
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.14174,41.424703,Vall d'Hebron (Avinguda Jordà)-,7,39,Horta-Guinardó,Sant Genís dels Agudells,329,329
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174807,41.394865,Tetuan (Diputació / Passeig de Sant Joan)-,2,7,Eixample,la Dreta de l'Eixample,330,330
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.170851,41.394948,METRO (L4) - Girona-,2,7,Eixample,la Dreta de l'Eixample,331,331
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.203397,41.403744,METRO (L4) - Poblenou-,10,68,Sant Martí,el Poblenou,332,332
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.143318,41.375282,METRO (L1) - Hostafrancs-,3,15,Sants-Montjuïc,Hostafrancs,333,333
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160272,41.375024,METRO (L3) - Poble Sec-,2,10,Eixample,Sant Antoni,334,334
+K011,Transports i serveis relacionats,Tramvia,2.221856,41.422595,TRAMVIA (T5) - LA CATALANA-,,,,,335,335
+K011,Transports i serveis relacionats,Tramvia,2.186968,41.397311,TRAMVIA (T4) - AUDITORI-TEATRE NACIONAL-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,336,336
+K011,Transports i serveis relacionats,Tramvia,2.186918,41.39407,TRAMVIA (T4) - MARINA-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,337,337
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.147573,41.401403,FGC - PLAÇA MOLINA<center>-,5,27,Sarrià-Sant Gervasi,el Putxet i el Farró,338,338
+K011,Transports i serveis relacionats,Tramvia,2.121492,41.386718,"TRAMVIA (T1,T2,T3) - PIUS XII-",4,20,Les Corts,la Maternitat i Sant Ramon,339,339
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140998,41.418307,METRO (L3) - Penitents-,6,28,Gràcia,Vallcarca i els Penitents,340,340
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176124,41.447698,METRO (L3) - Roquetes-,8,50,Nou Barris,les Roquetes,341,341
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.08442,41.363409,METRO (L5) - Sant Ildefons-,,,,,342,342
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.209148,41.40803,METRO (L4) - Selva de Mar-,10,69,Sant Martí,Diagonal Mar i el Front Marítim del Poblenou,343,343
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.152507,41.399554,FGC - GRÀCIA-,6,31,Gràcia,la Vila de Gràcia,344,344
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.169598,41.385842,FGC - CATALUNYA (C. de Pelai)-,2,7,Eixample,la Dreta de l'Eixample,345,345
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.142852,41.398976,FGC - MUNTANER-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,346,346
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133122,41.323735,METRO (L10S) - ZAL | Riu Vell-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,347,347
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176511,41.425073,METRO (L5) - Maragall-,9,62,Sant Andreu,el Congrés i els Indians,348,348
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.148374,41.422025,METRO (L5) - El Coll | La Teixonera-,7,38,Horta-Guinardó,la Teixonera,349,349
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.19359,41.429587,METRO (L9NL10N) - Onze de Setembre-,9,60,Sant Andreu,Sant Andreu,350,350
+K009,Transports i serveis relacionats,Funicular,2.131443,41.416343,Funicular Tibidabo - Cuca de Llum-,5,25,Sarrià-Sant Gervasi,Sant Gervasi - la Bonanova,351,351
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.18698,41.409541,Tren AEROPORT - CLOT-,10,65,Sant Martí,el Clot,352,352
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.043259,41.348145,FGC - SANT BOI-,,,,,353,353
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187362,41.402856,Glòries (Plaça de les Glòries Catalanes)-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,354,354
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.102691,41.328861,Les Moreres (Av. Verge de Montserrat / Ctra. de la Marina)-,,,,,355,355
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.137104,41.375485,Plaça de Sants (Alcolea (escala mecànica))-,3,18,Sants-Montjuïc,Sants,356,356
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.135114,41.397895,FGC - BONANOVA-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,357,357
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.180597,41.391881,Arc de Triomf (Avda. Vilanova)-,2,5,Eixample,el Fort Pienc,358,358
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.199849,41.449768,Baró de Viver (Riu Besòs)-,9,57,Sant Andreu,la Trinitat Vella,359,359
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.124554,41.35734,Europa | Fira (Plaça Europa)-,,,,,360,360
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.209712,41.430207,Verneda (Santander)-,,,,,361,361
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.172768,41.462706,Can Cuiàs (Circumval·lació)-,,,,,362,362
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111542,41.350924,Bellvitge (Rambla de la Marina / Avda. Granvia)-,,,,,363,363
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110147,41.3685,Florida (Avinguda Masnou)-,,,,,364,364
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.172791,41.38884,Urquinaona (Plaça Urquinaona)-,2,7,Eixample,la Dreta de l'Eixample,365,365
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.192654,41.395515,Bogatell (Pujades)-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,366,366
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140656,41.335886,Port Comercial | La Factoria (Carrer A (costat mar))-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,367,367
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.137128,41.330317,Ecoparc (Ecoparc)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,368,368
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160664,41.395464,Diagonal (Pg. de Gràcia / Rambla Catalunya)-,2,7,Eixample,la Dreta de l'Eixample,369,369
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.152704,41.402613,Fontana (Gran de Gràcia / Astúries)-,6,31,Gràcia,la Vila de Gràcia,370,370
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175585,41.376616,Drassanes (Drassanes)-,1,1,Ciutat Vella,el Raval,371,371
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.149459,41.41979,El Coll | La Teixonera (Beat Almató)-,6,29,Gràcia,el Coll,372,372
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.069929,41.357379,Cornellà Centre (Plaça Estació)-,,,,,373,373
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.090723,41.366134,Can Boixeres (Estronci)-,,,,,374,374
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.186587,41.420439,La Sagrera (Felip II)-,9,63,Sant Andreu,Navas,375,375
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.14611,41.378273,Tarragona (Aragó)-,2,9,Eixample,la Nova Esquerra de l'Eixample,376,376
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217603,41.412237,El Maresme | Fòrum (Rambla de Prim)-,10,70,Sant Martí,el Besòs i el Maresme,377,377
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.178469,41.383851,Jaume I (Plaça de l'Àngel)-,1,2,Ciutat Vella,el Barri Gòtic,378,378
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.204758,41.436081,Bon Pastor (Sant Adrià)-,9,59,Sant Andreu,el Bon Pastor,379,379
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140179,41.38242,Sants Estació (Numància)-,3,18,Sants-Montjuïc,Sants,380,380
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111445,41.384503,Zona Universitària (Parc Cervantes)-,4,21,Les Corts,Pedralbes,381,381
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.103508,41.329235,Les Moreres (Av. Verge de Montserrat / Les Moreres)-,,,,,382,382
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160833,41.395664,Diagonal (Pg. de Gràcia / Pau Claris)-,2,7,Eixample,la Dreta de l'Eixample,383,383
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.238623,41.444313,Pep Ventura (Plaça Països Catalans)-,,,,,384,384
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.227782,41.435368,Sant Roc (Plaça Sant Roc)-,,,,,385,385
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.10245,41.35943,Av. Carrilet (Prat de la Riba)-,,,,,386,386
+K003,Transports i serveis relacionats,RENFE,2.193312,41.435959,RENFE - SANT ANDREU COMTAL-,9,60,Sant Andreu,Sant Andreu,387,387
+K011,Transports i serveis relacionats,Tramvia,2.209864,41.409066,TRAMVIA (T4) - SELVA DE MAR-,10,69,Sant Martí,Diagonal Mar i el Front Marítim del Poblenou,388,388
+K003,Transports i serveis relacionats,RENFE,2.188413,41.484611,RENFE - MONTCADA I REIXAC-,,,,,389,389
+K003,Transports i serveis relacionats,RENFE,2.048073,41.383079,RENFE - ST. FELIU DE LLOBREGAT-,,,,,390,390
+K003,Transports i serveis relacionats,RENFE,2.100702,41.364252,RENFE - L'HOSPITALET DE LLOBREGAT-,,,,,391,391
+K011,Transports i serveis relacionats,Tramvia,2.118294,41.385874,"TRAMVIA (T1,T2,T3) - PALAU REIAL-",4,20,Les Corts,la Maternitat i Sant Ramon,392,392
+K011,Transports i serveis relacionats,Tramvia,2.188532,41.404209,"TRAMVIA (T5, T6) - LA FARINERA-",10,66,Sant Martí,el Parc i la Llacuna del Poblenou,393,393
+K011,Transports i serveis relacionats,Tramvia,2.227764,41.434948,TRAMVIA (T5) - SANT ROC-,,,,,394,394
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.120652,41.375681,Collblanc (Doctor Martí i Julià)-,,,,,395,395
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.139949,41.379748,Sants Estació (Estació RENFE / Pl. Països Catalans)-,3,18,Sants-Montjuïc,Sants,396,396
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.151632,41.388895,Hospital Clínic (Villarroel)-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,397,397
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111682,41.384563,Zona Universitària (Facultat d'Estudis Empresarials)-,4,21,Les Corts,Pedralbes,398,398
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.117747,41.386098,Palau Reial (Avda. Diagonal)-,4,21,Les Corts,Pedralbes,399,399
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166153,41.398712,Verdaguer (Girona)-,2,7,Eixample,la Dreta de l'Eixample,400,400
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110054,41.368344,METRO (L1) - Florida-,,,,,401,401
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.184865,41.451306,METRO (L11) - Casa de l'Aigua-,8,53,Nou Barris,la Trinitat Nova,402,402
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.112054,41.375926,METRO (L5) - Ernest Lluch-,4,20,Les Corts,la Maternitat i Sant Ramon,403,403
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.177423,41.423132,METRO (L4) - Maragall-,7,35,Horta-Guinardó,el Guinardó,404,404
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111205,41.384143,METRO (L3) - Zona Universitària-,4,20,Les Corts,la Maternitat i Sant Ramon,405,405
+K011,Transports i serveis relacionats,Tramvia,2.232613,41.439305,TRAMVIA (T5) - GORG-,,,,,406,406
+K011,Transports i serveis relacionats,Tramvia,2.131844,41.389343,"TRAMVIA (T1,T2,T3) - NUMÀNCIA-",4,19,Les Corts,les Corts,407,407
+K011,Transports i serveis relacionats,Tramvia,2.221206,41.418341,TRAMVIA (T6) - LA MINA-,,,,,408,408
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.13591,41.38195,METRO (L3) - Plaça del Centre-,3,18,Sants-Montjuïc,Sants,409,409
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169021,41.387517,METRO (L1) - Catalunya-,2,7,Eixample,la Dreta de l'Eixample,410,410
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169143,41.375033,METRO (L2) - Paral·lel-,1,1,Ciutat Vella,el Raval,411,411
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.079296,41.358022,METRO (L5) - Gavarra-,,,,,412,412
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.107236,41.373866,METRO (L5) - Pubilla Cases-,,,,,413,413
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.185827,41.394753,METRO (L1) - Marina-,2,5,Eixample,el Fort Pienc,414,414
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.244122,41.449082,METRO (L2) - Badalona Pompeu Fabra-,,,,,415,415
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.182459,41.449184,METRO (L4) - Trinitat Nova-,8,53,Nou Barris,la Trinitat Nova,416,416
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.228632,41.435859,METRO (L2) - Sant Roc-,,,,,417,417
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.118699,41.398423,FGC - REINA ELISENDA-,5,23,Sarrià-Sant Gervasi,Sarrià,418,418
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.205634,41.424061,METRO (L2) - La Pau-,10,73,Sant Martí,la Verneda i la Pau,419,419
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.20522,41.423706,METRO (L4) - La Pau-,10,73,Sant Martí,la Verneda i la Pau,420,420
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.186749,41.420522,METRO (L9NL10N) - La Sagrera-,9,63,Sant Andreu,Navas,421,421
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.089954,41.332022,METRO (L9S) - El Prat Estació-,,,,,422,422
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.127428,41.341693,METRO (L9S) - Parc Logístic-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,423,423
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.125951,41.357589,METRO (L9S) - Europa | Fira-,,,,,424,424
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.118424,41.376084,METRO (L9SL10S) - Collblanc-,,,,,425,425
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.135186,41.375756,METRO (L5) - Plaça de Sants-,3,18,Sants-Montjuïc,Sants,426,426
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111281,41.333514,METRO (L9S) - Mercabarna-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,427,427
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181212,41.423468,METRO (L5) - Congrés-,9,62,Sant Andreu,el Congrés i els Indians,428,428
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173084,41.462441,METRO (L11) - Can Cuiàs-,,,,,429,429
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163822,41.384803,Universitat (Ronda Sant Antoni)-,2,10,Eixample,Sant Antoni,430,430
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.142961,41.40344,FGC - PADUA-,5,27,Sarrià-Sant Gervasi,el Putxet i el Farró,431,431
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.170595,41.387819,Catalunya (Ronda Sant Pere)-,2,7,Eixample,la Dreta de l'Eixample,432,432
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187449,41.410911,Clot (València)-,10,65,Sant Martí,el Clot,433,433
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.190573,41.444109,Torras i Bages (Passeig Santa Coloma / costat muntanya)-,9,60,Sant Andreu,Sant Andreu,434,434
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.190837,41.444117,Torras i Bages (Passeig Santa Coloma / costat mar)-,9,60,Sant Andreu,Sant Andreu,435,435
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111998,41.333861,Mercabarna (Carrer K / Carrer Transversal 6)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,436,436
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.073048,41.30395,Aeroport T2 (Aeroport T2)-,,,,,437,437
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.149844,41.374449,Espanya (Exposició / Paral·lel)-,3,11,Sants-Montjuïc,el Poble-sec,438,438
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.139358,41.368228,FGC - MAGÒRIA-LA CAMPANA-,3,16,Sants-Montjuïc,la Bordeta,439,439
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.186664,41.395642,Marina (L'Auditori)-,2,5,Eixample,el Fort Pienc,440,440
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.156452,41.437649,Valldaura (Passeig Valldaura)-,7,43,Horta-Guinardó,Horta,441,441
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.216899,41.433633,Artigues | Sant Adrià (Ctra. Santa Coloma)-,,,,,442,442
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.143736,41.37554,Hostafrancs (Consell de Cent / Mercat)-,3,15,Sants-Montjuïc,Hostafrancs,443,443
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.153855,41.379021,Rocafort (Rocafort / Diputació)-,2,9,Eixample,la Nova Esquerra de l'Eixample,444,444
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173471,41.380893,Liceu (La Rambla / Teatre Liceu)-,1,1,Ciutat Vella,el Raval,445,445
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.224255,41.442671,La Salut (Marquès de Sant Mori)-,,,,,446,446
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.225069,41.442731,La Salut (Quevedo)-,,,,,447,447
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145511,41.430532,Montbau (Palau  Olímpic Vall d'Hebron)-,7,41,Horta-Guinardó,la Vall d'Hebron,448,448
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.106347,41.373538,Pubilla Cases (Avinguda Josep Molins)-,,,,,449,449
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.148022,41.423316,El Coll | La Teixonera (Arenys)-,7,38,Horta-Guinardó,la Teixonera,450,450
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187473,41.421776,La Sagrera (Hondures)-,9,61,Sant Andreu,la Sagrera,451,451
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.148628,41.374547,FGC - ESPANYA-,3,11,Sants-Montjuïc,el Poble-sec,452,452
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142183,41.4254,Vall d'Hebron (Residència Sanitària)-,7,40,Horta-Guinardó,Montbau,453,453
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.193327,41.429877,Onze de Setembre (Onze de Setembre)-,9,60,Sant Andreu,Sant Andreu,454,454
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.084124,41.363118,Sant Ildefons (Mercat Sant Ildefons)-,,,,,455,455
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150645,41.388423,Hospital Clínic (Rosselló)-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,456,456
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.1388,41.360821,Foneria (Mercat de la Marina)-,3,13,Sants-Montjuïc,la Marina de Port,457,457
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142117,41.35625,Foc (Foc (costat Montjuïc))-,3,13,Sants-Montjuïc,la Marina de Port,458,458
+K003,Transports i serveis relacionats,RENFE,2.179942,41.470873,RENFE - MONTCADA BIFURCACIÓ-,,,,,459,459
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.139529,41.405442,FGC - EL PUTXET-,5,27,Sarrià-Sant Gervasi,el Putxet i el Farró,460,460
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174904,41.446877,Roquetes (Jaume Pinent)-,8,50,Nou Barris,les Roquetes,461,461
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.223832,41.441514,La Salut (Juan Valera)-,,,,,462,462
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217546,41.441334,Llefià (Avinguda d'Amèrica)-,,,,,463,463
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217109,41.442196,Llefià (Avinguda d'Amèrica (mercat))-,,,,,464,464
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.13999,41.3821,Sants Estació (Dolors Batlle i Sunyer)-,3,18,Sants-Montjuïc,Sants,465,465
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145291,41.411724,Vallcarca (Avinguda Vallcarca + Parc Güell)-,6,28,Gràcia,Vallcarca i els Penitents,466,466
+K003,Transports i serveis relacionats,RENFE,2.18004,41.391817,RENFE - ARC DE TRIOMF-,2,5,Eixample,el Fort Pienc,467,467
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.099911,41.364452,Rambla Just Oliveras (Avinguda Can Serra)-,,,,,468,468
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166953,41.411976,Alfons X (Lepant)-,7,33,Horta-Guinardó,el Baix Guinardó,469,469
+K011,Transports i serveis relacionats,Tramvia,2.072171,41.360796,"TRAMVIA (T1,T2) - IGNASI IGLÉSIAS-",,,,,470,470
+K011,Transports i serveis relacionats,Tramvia,2.0607,41.379784,TRAMVIA (línia T3) - TORREBLANCA-,,,,,471,471
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.126248,41.375466,Badal (Carreras i Candi)-,3,17,Sants-Montjuïc,Sants - Badal,472,472
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.172906,41.436769,Llucmajor (Pi i Molist)-,8,48,Nou Barris,la Guineueta,473,473
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144785,41.378643,Tarragona (Elisi)-,3,15,Sants-Montjuïc,Hostafrancs,474,474
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150191,41.375267,Espanya (Avinguda Paral·lel)-,2,10,Eixample,Sant Antoni,475,475
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175987,41.377109,Drassanes (Santa Madrona)-,1,1,Ciutat Vella,el Raval,476,476
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.144363,41.412003,METRO (L3) - Vallcarca-,6,28,Gràcia,Vallcarca i els Penitents,477,477
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.116621,41.368424,METRO (L1) - Torrassa-,,,,,478,478
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.191592,41.394912,Bogatell (Pujades / Pere IV)-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,479,479
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181726,41.41531,Camp de l'Arpa (Indústria)-,10,64,Sant Martí,el Camp de l'Arpa del Clot,480,480
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.149409,41.375538,METRO (L1) - Espanya-,2,9,Eixample,la Nova Esquerra de l'Eixample,481,481
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.233917,41.440471,METRO (L10N) - Gorg-,,,,,482,482
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.179909,41.459224,METRO (L11) - Torre Baró | Vallbona-,8,54,Nou Barris,Torre Baró,483,483
+K011,Transports i serveis relacionats,Tramvia,2.209361,41.41994,"TRAMVIA (T5, T6) - BESÒS-",10,70,Sant Martí,el Besòs i el Maresme,484,484
+K011,Transports i serveis relacionats,Tramvia,2.198381,41.406205,TRAMVIA (T4) - PERE IV-,10,71,Sant Martí,Provençals del Poblenou,485,485
+K010,Transports i serveis relacionats,Telefèric,2.187907,41.373283,Telefèric de Barcelona-,1,3,Ciutat Vella,la Barceloneta,486,486
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.102785,41.367722,METRO (L1) - Can Serra-,,,,,487,487
+K003,Transports i serveis relacionats,RENFE,2.186507,41.423935,RENFE - LA SAGRERA - MERIDIANA-,9,61,Sant Andreu,la Sagrera,488,488
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.193862,41.448984,METRO (L1) - Trinitat Vella-,9,57,Sant Andreu,la Trinitat Vella,489,489
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163939,41.384796,METRO (L2) - Universitat-,2,10,Eixample,Sant Antoni,490,490
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.09349,41.322279,METRO (L9S) - Cèntric-,,,,,491,491
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187083,41.416215,METRO (L1) - Navas-,9,63,Sant Andreu,Navas,492,492
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142591,41.425311,METRO (L3) - Vall d'Hebron-,7,40,Horta-Guinardó,Montbau,493,493
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160073,41.395916,METRO (L3) - Diagonal-,2,7,Eixample,la Dreta de l'Eixample,494,494
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.182726,41.407264,METRO (L2) - Encants-,10,64,Sant Martí,el Camp de l'Arpa del Clot,495,495
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.216108,41.415127,METRO (L4) - Besòs Mar-,10,70,Sant Martí,el Besòs i el Maresme,496,496
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.11937,41.399203,FGC - REINA ELISENDA-,5,23,Sarrià-Sant Gervasi,Sarrià,497,497
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.13168,41.360962,FGC - ILDEFONS CERDÀ-,,,,,498,498
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.086746,41.353011,FGC - ALMEDA-,,,,,499,499
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.152429,41.400039,FGC - GRÀCIA (Pl. de Gal·la Placídia)-,6,31,Gràcia,la Vila de Gràcia,500,500
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.117531,41.35536,FGC - GORNAL-,,,,,501,501
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.11802,41.360923,METRO (L9SL10S) - Can Tries | Gornal-,,,,,502,502
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.210052,41.444014,METRO (L9N) - Can Peixauet-,,,,,503,503
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.127429,41.375609,METRO (L5) - Badal-,3,17,Sants-Montjuïc,Sants - Badal,504,504
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140424,41.379984,METRO (L5) - Sants Estació-,3,18,Sants-Montjuïc,Sants,505,505
+K008,Transports i serveis relacionats,Estació marítima,2.180814,41.371837,Terminal Marítima Sud *Creuers-,1,1,Ciutat Vella,el Raval,506,506
+K009,Transports i serveis relacionats,Funicular,2.170357,41.374829,Funicular de Montjuïc-TMB-,3,11,Sants-Montjuïc,el Poble-sec,507,507
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.143265,41.403133,FGC - PADUA-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,508,508
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.103422,41.357794,FGC - L'HOSPITALET-AV. CARRILET-,,,,,509,509
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.143251,41.398645,FGC - MUNTANER-,5,26,Sarrià-Sant Gervasi,Sant Gervasi - Galvany,510,510
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.11168,41.361271,FGC - SANT JOSEP-,,,,,511,511
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181356,41.392505,Arc de Triomf (Roger de Flor)-,2,5,Eixample,el Fort Pienc,512,512
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.217417,41.451524,Fondo (Sicília)-,,,,,513,513
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.155396,41.37934,Rocafort (Calàbria / Sepúlveda)-,2,10,Eixample,Sant Antoni,514,514
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.159561,41.383023,Urgell (Villarroel / Diputació)-,2,8,Eixample,l'Antiga Esquerra de l'Eixample,515,515
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.165279,41.38602,Universitat (Ronda Universitat)-,2,7,Eixample,la Dreta de l'Eixample,516,516
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.164683,41.385763,Universitat (Pelai)-,1,1,Ciutat Vella,el Raval,517,517
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.167646,41.386095,FGC - CATALUNYA (C. de Bergara)-,2,7,Eixample,la Dreta de l'Eixample,518,518
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.157649,41.393362,FGC - PROVENÇA (C. del Rossellò)-,2,7,Eixample,la Dreta de l'Eixample,519,519
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187147,41.402008,Glòries (Avda. Meridiana)-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,520,520
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150247,41.406702,Lesseps (Plaça Lesseps)-,6,31,Gràcia,la Vila de Gràcia,521,521
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166619,41.441961,Canyelles (Via Favència)-,8,49,Nou Barris,Canyelles,522,522
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.102695,41.358029,Av. Carrilet (Avinguda Carrilet)-,,,,,523,523
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.19308,41.388183,Ciutadella | Vila Olímpica (Zoo)-,10,67,Sant Martí,la Vila Olímpica del Poblenou,524,524
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.17431,41.387633,Urquinaona (Jonqueres)-,1,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",525,525
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.159127,41.394438,Diagonal (Rambla Catalunya)-,2,7,Eixample,la Dreta de l'Eixample,526,526
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175455,41.394346,Tetuan (Casp / Passeig de Sant Joan)-,2,7,Eixample,la Dreta de l'Eixample,527,527
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.136986,41.330086,Ecoparc (Carrer A / Carrer 4)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,528,528
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133096,41.323607,ZAL | Riu Vell (ZAL)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,529,529
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.14299,41.424896,Vall d'Hebron (Mercat de Vall d'Hebron)-,7,41,Horta-Guinardó,la Vall d'Hebron,530,530
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.216704,41.414559,Besòs Mar (Jaume Fabre)-,10,70,Sant Martí,el Besòs i el Maresme,531,531
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.091563,41.427474,FGC - LES PLANES-,5,22,Sarrià-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",532,532
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.150329,41.421027,El Coll | La Teixonera (Passeig Mare de Déu del Coll)-,7,37,Horta-Guinardó,el Carmel,533,533
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.180981,41.414783,Camp de l'Arpa (Passeig Maragall)-,10,64,Sant Martí,el Camp de l'Arpa del Clot,534,534
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.18214,41.423451,Congrés (Matanzas)-,9,62,Sant Andreu,el Congrés i els Indians,535,535
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.138395,41.360635,Foneria (Jardins dels Drets Humans)-,3,13,Sants-Montjuïc,la Marina de Port,536,536
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.131188,41.397617,FGC - LES TRES TORRES-,5,24,Sarrià-Sant Gervasi,les Tres Torres,537,537
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.09734,41.419668,FGC - BAIXADOR DE VALLVIDRERA-,5,22,Sarrià-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",538,538
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.205618,41.459634,Singuerlín (Passatge de Salvatella)-,,,,,539,539
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.160994,41.429707,Horta (Tajo)-,7,43,Horta-Guinardó,Horta,540,540
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.210051,41.444247,Can Peixauet (Avinguda Banús Baixa)-,,,,,541,541
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.093858,41.321877,Cèntric (C. Lleida)-,,,,,542,542
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.165035,41.391864,Passeig de Gràcia (Aragó / Rambla Catalunya)-,2,7,Eixample,la Dreta de l'Eixample,543,543
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.165519,41.391557,Passeig de Gràcia (Consell de Cent)-,2,7,Eixample,la Dreta de l'Eixample,544,544
+K003,Transports i serveis relacionats,RENFE,2.180575,41.391875,RENFE - ARC DE TRIOMF-,2,5,Eixample,el Fort Pienc,545,545
+K003,Transports i serveis relacionats,RENFE,2.073913,41.304419,RENFE - AEROPORT-,,,,,546,546
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.118998,41.398967,FGC - REINA ELISENDA-,5,23,Sarrià-Sant Gervasi,Sarrià,547,547
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174821,41.4294,Virrei Amat (Virrei Amat (mar))-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,548,548
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.210181,41.429971,Verneda (Ctra. Mataró)-,,,,,549,549
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130258,41.369771,Santa Eulàlia (Riera Blanca)-,,,,,550,550
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163204,41.405764,Joanic (Pi i Margall)-,6,32,Gràcia,el Camp d'en Grassot i Gràcia Nova,551,551
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.177446,41.42256,Maragall (Ronda Guinardó - costat Mar)-,7,35,Horta-Guinardó,el Guinardó,552,552
+K003,Transports i serveis relacionats,RENFE,2.140341,41.379074,RENFE - SANTS ESTACIÓ-,3,18,Sants-Montjuïc,Sants,553,553
+K011,Transports i serveis relacionats,Tramvia,2.186836,41.401681,"TRAMVIA (T4, T5, T6) - GLÒRIES-",2,5,Eixample,el Fort Pienc,554,554
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.140341,41.379074,Tren AEROPORT - SANTS ESTACIÓ-,3,18,Sants-Montjuïc,Sants,555,555
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.09108,41.331201,Tren AEROPORT - PRAT DE LLOBREGAT-,,,,,556,556
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.073913,41.304419,Tren AEROPORT- AEROPORT-,,,,,557,557
+K003,Transports i serveis relacionats,RENFE,2.180357,41.46161,RENFE - TORRE BARÓ-,8,54,Nou Barris,Torre Baró,558,558
+K003,Transports i serveis relacionats,RENFE,2.169552,41.388029,RENFE - CATALUNYA-,2,7,Eixample,la Dreta de l'Eixample,559,559
+K011,Transports i serveis relacionats,Tramvia,2.068805,41.356785,"TRAMVIA (T1,T2) - CORNELLÀ CENTRE-",,,,,560,560
+K011,Transports i serveis relacionats,Tramvia,2.112031,41.376647,"TRAMVIA (T1,T2,T3) - SANT RAMON-",4,20,Les Corts,la Maternitat i Sant Ramon,561,561
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173855,41.437143,Llucmajor (Plaça Jardins d'Alfàbia)-,8,45,Nou Barris,Porta,562,562
+K008,Transports i serveis relacionats,Estació marítima,2.175271,41.352842,Terminal Marítima E *Creuers-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,563,563
+K011,Transports i serveis relacionats,Tramvia,2.07622,41.371003,TRAMVIA (T2) - SANT MARTÍ DE L'ERM (Baixador)-,,,,,564,564
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.126293,41.388261,Maria Cristina (Av. Diagonal / Doctor Ferran)-,4,21,Les Corts,Pedralbes,565,565
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130663,41.384419,Les Corts (Joan Güell)-,4,19,Les Corts,les Corts,566,566
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.107269,41.344706,METRO (L1) - Hospital de Bellvitge-,,,,,567,567
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.216089,41.411761,El Maresme | Fòrum (Avinguda Diagonal)-,10,70,Sant Martí,el Besòs i el Maresme,568,568
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183687,41.429661,METRO (L1) - Fabra i Puig-,9,60,Sant Andreu,Sant Andreu,569,569
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.187029,41.410191,METRO (L1) - Clot-,10,65,Sant Martí,el Clot,570,570
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175132,41.404013,METRO (L2) - Sagrada Família-,2,6,Eixample,la Sagrada Família,571,571
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183225,41.449928,METRO (L11) - Trinitat Nova-,8,53,Nou Barris,la Trinitat Nova,572,572
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.170118,41.38635,METRO (L3) - Catalunya-,2,7,Eixample,la Dreta de l'Eixample,573,573
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.167872,41.390085,METRO (L4) - Passeig de Gràcia-,2,7,Eixample,la Dreta de l'Eixample,574,574
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130897,41.384148,METRO (L3) - Les Corts-,4,19,Les Corts,les Corts,575,575
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.190697,41.443253,METRO (L1) - Torras i Bages-,9,60,Sant Andreu,Sant Andreu,576,576
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.168784,41.385795,FGC - CATALUNYA-,2,7,Eixample,la Dreta de l'Eixample,577,577
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163296,41.368985,METRO (FM) - Parc de Montjuïc-,3,11,Sants-Montjuïc,el Poble-sec,578,578
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.191213,41.436628,METRO (L1) - Sant Andreu-,9,60,Sant Andreu,Sant Andreu,579,579
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173471,41.387989,METRO (L4) - Urquinaona-,1,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",580,580
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168269,41.389444,METRO (L2) - Passeig de Gràcia-,2,7,Eixample,la Dreta de l'Eixample,581,581
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.118564,41.386008,METRO (L3) - Palau Reial-,4,20,Les Corts,la Maternitat i Sant Ramon,582,582
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.156904,41.438024,METRO (L3) - Valldaura-,7,43,Horta-Guinardó,Horta,583,583
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.154588,41.37926,METRO (L1) - Rocafort-,2,9,Eixample,la Nova Esquerra de l'Eixample,584,584
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.132342,41.363166,METRO (L10S) - Ciutat de la Justícia-,,,,,585,585
+K008,Transports i serveis relacionats,Estació marítima,2.17307,41.350262,Terminal Marítima A *Creuers-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,586,586
+K010,Transports i serveis relacionats,Telefèric,2.163082,41.368884,Telefèric de Montjuïc-,3,11,Sants-Montjuïc,el Poble-sec,587,587
+K004,Transports i serveis relacionats,Tren a l'aeroport,2.193312,41.435959,Tren AEROPORT - SANT ANDREU COMTAL-,9,60,Sant Andreu,Sant Andreu,588,588
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.068427,41.351845,FGC - CORNELLÀ-RIERA-,,,,,589,589
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.012394,41.388104,FGC - SANT VICENÇ DELS HORTS-,,,,,590,590
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168344,41.387636,Catalunya (Rambla Catalunya)-,2,7,Eixample,la Dreta de l'Eixample,591,591
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.188412,41.403035,Glòries (Badajoz)-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,592,592
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.093147,41.322571,Cèntric (Plaça Catalunya)-,,,,,593,593
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.137453,41.375461,Plaça de Sants (Alcolea)-,3,18,Sants-Montjuïc,Sants,594,594
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.142302,41.375225,Hostafrancs (Moianès)-,3,15,Sants-Montjuïc,Hostafrancs,595,595
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.149237,41.375742,Espanya (Tarragona)-,2,9,Eixample,la Nova Esquerra de l'Eixample,596,596
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.034689,41.357711,FGC - MOLÍ NOU-CIUTAT COOPERATIVA-,,,,,597,597
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.168458,41.387194,Catalunya (Ronda Universitat)-,2,7,Eixample,la Dreta de l'Eixample,598,598
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.1909,41.435915,Sant Andreu (Plaça d'Orfila)-,9,60,Sant Andreu,Sant Andreu,599,599
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.118475,41.375897,Collblanc (Av. Sant Ramon)-,,,,,600,600
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163121,41.368874,Parc de Montjuïc (Avinguda Miramar)-,3,11,Sants-Montjuïc,el Poble-sec,601,601
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.147254,41.435565,Mundet (Passeig Vall d'Hebron)-,7,40,Horta-Guinardó,Montbau,602,602
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.228132,41.435169,Sant Roc (Alfons XII)-,,,,,603,603
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173167,41.462859,Can Cuiàs (Les Fustes)-,,,,,604,604
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.10342,41.367637,Can Serra (Avinguda Can Serra)-,,,,,605,605
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.127784,41.368463,Santa Eulàlia (Pont de la Torrassa)-,,,,,606,606
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133263,41.372557,Mercat Nou (Riera de Tena)-,3,18,Sants-Montjuïc,Sants,607,607
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.171463,41.394694,Girona (Girona)-,2,7,Eixample,la Dreta de l'Eixample,608,608
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.179295,41.383846,Jaume I (Argenteria)-,1,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",609,609
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.078983,41.357796,Gavarra (Lindavista)-,,,,,610,610
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174789,41.430265,Virrei Amat (Virrei Amat (muntanya))-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,611,611
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.182493,41.406856,Encants (València / Aragó)-,10,64,Sant Martí,el Camp de l'Arpa del Clot,612,612
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.19628,41.415745,Bac de Roda (Fluvià)-,10,72,Sant Martí,Sant Martí de Provençals,613,613
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140712,41.33614,Port Comercial | La Factoria (Carrer A / Carrer 25)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,614,614
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140574,41.335914,Port Comercial | La Factoria (Carrer A / Carrer 27)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,615,615
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130188,41.35244,Fira (Accés SUD)-,,,,,616,616
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111982,41.384061,Zona Universitària (Dr. Marañón)-,4,20,Les Corts,la Maternitat i Sant Ramon,617,617
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145069,41.411438,Vallcarca (Avinguda República Argentina)-,6,28,Gràcia,Vallcarca i els Penitents,618,618
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.130075,41.398154,FGC - LES TRES TORRES-,5,24,Sarrià-Sant Gervasi,les Tres Torres,619,619
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166538,41.412424,Alfons X (Ronda Guinardó)-,7,33,Horta-Guinardó,el Baix Guinardó,620,620
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.183313,41.449237,Trinitat Nova (Pedrosa)-,8,53,Nou Barris,la Trinitat Nova,621,621
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.126059,41.3757,Badal (Carrer de Sants / Arizala)-,3,17,Sants-Montjuïc,Sants - Badal,622,622
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176391,41.411169,Sant Pau | Dos de Maig (Dos de Maig)-,2,6,Eixample,la Sagrada Família,623,623
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.145005,41.343141,Zona Franca (Carrer A / Carrer 1)-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,624,624
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.126822,41.387815,Maria Cristina (Gran Via Carles III)-,4,20,Les Corts,la Maternitat i Sant Ramon,625,625
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.245219,41.449755,Badalona Pompeu Fabra (Avinguda Martí Pujol)-,,,,,626,626
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.172647,41.382043,Liceu (La Rambla / Mercat de la Boqueria)-,1,2,Ciutat Vella,el Barri Gòtic,627,627
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.210309,41.420368,Besòs (Gran Via de les Corts Catalanes)-,10,70,Sant Martí,el Besòs i el Maresme,628,628
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133054,41.363447,Ciutat de la Justícia (Ciutat de la Justícia)-,,,,,629,629
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.170416,41.375093,Paral·lel (Nou de la Rambla)-,1,1,Ciutat Vella,el Raval,630,630
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.169668,41.385784,Catalunya (Bergara)-,2,7,Eixample,la Dreta de l'Eixample,631,631
+K003,Transports i serveis relacionats,RENFE,2.115466,41.354367,RENFE - BELLVITGE-,,,,,632,632
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.176089,41.425728,Maragall (Avinguda dels Quinze)-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,633,633
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174555,41.430492,Virrei Amat (Pi i Molist)-,8,46,Nou Barris,el Turó de la Peira,634,634
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174104,41.430263,Virrei Amat (Fabra i Puig)-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,635,635
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.110869,41.35078,Bellvitge (Rambla de la Marina / Merca 2)-,,,,,636,636
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.11051,41.351266,Bellvitge (Rambla de la Marina / Mercat Municipal)-,,,,,637,637
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.165113,41.412096,Alfons X (Plaça Alfons el Savi)-,7,33,Horta-Guinardó,el Baix Guinardó,638,638
+K011,Transports i serveis relacionats,Tramvia,2.222906,41.415244,TRAMVIA (T4) - CAN LLIMA-,,,,,639,639
+K011,Transports i serveis relacionats,Tramvia,2.19139,41.40443,TRAMVIA (T4) - CA L'ARANYÓ-,10,66,Sant Martí,el Parc i la Llacuna del Poblenou,640,640
+K003,Transports i serveis relacionats,RENFE,2.06998,41.357914,RENFE - CORNELLÀ-,,,,,641,641
+K003,Transports i serveis relacionats,RENFE,2.230523,41.424408,RENFE - SANT ADRIÀ DEL BESÒS-,,,,,642,642
+K011,Transports i serveis relacionats,Tramvia,2.09287,41.376929,"TRAMVIA (T1,T2,T3) - CAN CLOTA-",,,,,643,643
+K011,Transports i serveis relacionats,Tramvia,2.080799,41.369445,"TRAMVIA (T1,T2,T3) - MONTESA-",,,,,644,644
+K011,Transports i serveis relacionats,Tramvia,2.142997,41.392183,"TRAMVIA (T1,T2,T3) - FRANCESC MACIÀ-",4,19,Les Corts,les Corts,645,645
+K011,Transports i serveis relacionats,Tramvia,2.126641,41.388002,"TRAMVIA (T1,T2,T3) - Mª CRISTINA-",4,20,Les Corts,la Maternitat i Sant Ramon,646,646
+K011,Transports i serveis relacionats,Tramvia,2.114498,41.384459,"TRAMVIA (T1,T2,T3) - ZONA UNIVERSITÀRIA-",4,20,Les Corts,la Maternitat i Sant Ramon,647,647
+K011,Transports i serveis relacionats,Tramvia,2.067057,41.379733,TRAMVIA (T3) - WALDEN-,,,,,648,648
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.120461,41.375868,Collblanc (Travessera de les Corts)-,,,,,649,649
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.139599,41.379538,Sants Estació (Estació RENFE / Pl. Joan Peiró)-,3,18,Sants-Montjuïc,Sants,650,650
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166217,41.398489,Verdaguer (Avinguda Diagonal)-,2,7,Eixample,la Dreta de l'Eixample,651,651
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173434,41.403457,Sagrada Família (Plaça de la Sagrada Família)-,2,6,Eixample,la Sagrada Família,652,652
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175732,41.410069,Sant Pau | Dos de Maig (Cartagena)-,2,6,Eixample,la Sagrada Família,653,653
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.201181,41.419425,Sant Martí (Cantàbria)-,10,72,Sant Martí,Sant Martí de Provençals,654,654
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.161381,41.375145,Poble Sec (Parlament)-,2,10,Eixample,Sant Antoni,655,655
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.099776,41.364118,METRO (L1) - Rambla Just Oliveras-,,,,,656,656
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.135859,41.375542,Plaça de Sants (Galileu)-,3,18,Sants-Montjuïc,Sants,657,657
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.175576,41.429232,Virrei Amat (Felip II / Virrei Amat)-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,658,658
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174593,41.389664,METRO (L1) - Urquinaona-,2,7,Eixample,la Dreta de l'Eixample,659,659
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.216718,41.411808,METRO (L4) - El Maresme | Fòrum-,10,70,Sant Martí,el Besòs i el Maresme,660,660
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.163251,41.406455,METRO (L4) - Joanic-,6,32,Gràcia,el Camp d'en Grassot i Gràcia Nova,661,661
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.186861,41.410386,METRO (L2) - Clot-,10,64,Sant Martí,el Camp de l'Arpa del Clot,662,662
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.124127,41.361383,METRO (L10S) - Provençana-,,,,,663,663
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.151582,41.375046,METRO (L3) - Espanya-,3,11,Sants-Montjuïc,el Poble-sec,664,664
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.166414,41.441782,METRO (L3) - Canyelles-,8,49,Nou Barris,Canyelles,665,665
+K011,Transports i serveis relacionats,Tramvia,2.069961,41.36843,TRAMVIA (T2) - CENTRE MIQUEL MARTÍ I POL-,,,,,666,666
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.091533,41.366599,METRO (L5) - Can Boixeres-,,,,,667,667
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.237984,41.443933,METRO (L2) - Pep Ventura-,,,,,668,668
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.133563,41.373031,METRO (L1) - Mercat Nou-,3,18,Sants-Montjuïc,Sants,669,669
+K002,Transports i serveis relacionats,Ferrocarrils Generalitat (FGC),2.139256,41.406043,FGC - EL PUTXET-,5,27,Sarrià-Sant Gervasi,el Putxet i el Farró,670,670
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.197738,41.399453,METRO (L4) - Llacuna-,10,68,Sant Martí,el Poblenou,671,671
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.181191,41.392365,METRO (L1) - Arc de Triomf-,2,5,Eixample,el Fort Pienc,672,672
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.07118,41.288324,METRO (L9S) - Aeroport T1-,,,,,673,673
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.087956,41.316657,METRO (L9S) - Parc Nou-,,,,,674,674
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.130479,41.352017,METRO (L9S) - Fira-,,,,,675,675
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.205454,41.459442,METRO (L9N) - Singuerlín-,,,,,676,676
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.215834,41.446878,METRO (L9N) - Santa Rosa-,,,,,677,677
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.21851,41.451904,METRO (L9N) - Fondo-,,,,,678,678
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.140684,41.336012,METRO (L10S) - Port Comercial | La Factoria-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,679,679
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.173644,41.403863,METRO (L5) - Sagrada Família-,2,6,Eixample,la Sagrada Família,680,680
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.174939,41.429731,METRO (L5) - Virrei Amat-,8,44,Nou Barris,Vilapicina i la Torre Llobeta,681,681
+K001,Transports i serveis relacionats,Metro i línies urbanes FGC,2.111648,41.38377,METRO (L9S) - Zona Universitària-,4,20,Les Corts,la Maternitat i Sant Ramon,682,682
+K008,Transports i serveis relacionats,Estació marítima,2.175174,41.368076,Terminal Marítima Sant Bertran *Ferris-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,683,683
+K008,Transports i serveis relacionats,Estació marítima,2.17479,41.350989,Terminal Marítima D *Creuers-,3,12,Sants-Montjuïc,la Marina del Prat Vermell,684,684
