@@ -1,28 +1,41 @@
+* {
+    transition: all 0.3s ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
 .hotReportsPage {
     width: 100vw;
     height: 100%;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px -15px;
-    padding: 2rem;
+    padding: 2rem 10rem 5rem 10rem;
     background-color: whitesmoke;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-    display: flex;
     align-items: left;
-    justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    overflow-x: scroll;
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 1000px) {
+    .hotReportsPage {
+        padding: 1rem 2rem 5rem 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .hotReportsPage {
+        padding: 0.5rem 1rem 5rem 1rem;
+    }
 }
 
 .hotReportsPage-center {
     width: 80%;
 }
 
-.hotReportsPage-center h1 {
+.hotReportsPage h1 {
     margin: 2rem 0rem 1rem 0rem;
-}
-
-.hotReportsPage {
-    padding: 20px;
 }
 
 .reportsList {

@@ -21,7 +21,7 @@ body,
 }
 
 .mainBox {
-    background-color: #195DD9;
+    background-color: #333333;
 }
 
 
@@ -31,7 +31,6 @@ body,
 
 
 .cluster-icon {
-    background-color: #195DD9;
     height: 2em;
     width: 2em;
     color: #fff;

@@ -46,41 +46,39 @@ export default function HotReports() {
 
   return (
     <div className="hotReportsPage">
-      <div className="hotReportsPage-center">
-        <h1>{t("hotreports")}</h1>
-        <div className="reportsList">
-          {reports.length > 0 ? (
-            reports.map((report) => (
-              <div key={report.id} className="reportItem">
-                <h2>{report.type}</h2>
-                <p>
-                  <strong>{t("mode")}:</strong> {report.mobility_mode}
-                </p>
-                <p>
-                  <strong>{t("details")}:</strong> {report.details}
-                </p>
-                <p>
-                  <strong>{t("description")}</strong> {report.description}
-                </p>
-                <p>
-                  <strong>{t("reportedBy")}:</strong> {report.email}
-                </p>
-                <p>
-                  <strong>{t("neighborhood")}:</strong>{" "}
-                  {getNeighborhoodForReport(report)}
-                </p>
-                <p>
-                  <strong>{t("likes")}:</strong> {report.likes}
-                </p>
-                <p>
-                  <strong>{t("status")}:</strong> {report.status}
-                </p>
-              </div>
-            ))
-          ) : (
-            <p>{t("noReportsAvailable")}</p>
-          )}
-        </div>
+      <h1>{t("hotreports")}</h1>
+      <div className="reportsList">
+        {reports.length > 0 ? (
+          reports.map((report) => (
+            <div key={report.id} className="reportItem">
+              <h2>{report.type}</h2>
+              <p>
+                <strong>{t("mode")}:</strong> {report.mobility_mode}
+              </p>
+              <p>
+                <strong>{t("details")}:</strong> {report.details}
+              </p>
+              <p>
+                <strong>{t("description")}</strong> {report.description}
+              </p>
+              <p>
+                <strong>{t("reportedBy")}:</strong> {report.email}
+              </p>
+              <p>
+                <strong>{t("neighborhood")}:</strong>{" "}
+                {getNeighborhoodForReport(report)}
+              </p>
+              <p>
+                <strong>{t("likes")}:</strong> {report.likes}
+              </p>
+              <p>
+                <strong>{t("status")}:</strong> {report.status}
+              </p>
+            </div>
+          ))
+        ) : (
+          <p>{t("noReportsAvailable")}</p>
+        )}
       </div>
     </div>
   );

@@ -97,7 +97,7 @@ export default function ReportMap({ setLocationForm, mobilityMode }) {
           zoom={userLocation ? 16 : 12}
           minZoom={0}
           maxZoom={18}
-          style={{ height: "350px", width: "430px" }}
+          className="map-container"
         >
           <TileLayer
             attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

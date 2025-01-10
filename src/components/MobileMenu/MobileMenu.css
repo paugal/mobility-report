@@ -1,29 +1,35 @@
 .mobile-menu ul {
     width: 100%;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
     color: white;
     background-color: #333333;
-    padding: 0.4rem;
+    padding: 0.4rem 0.8rem;
     box-sizing: border-box;
 }
 
 .mobile-menu-icons {
-    font-size: 20px;
+    font-size: 24px;
 }
 
-.mobile-menu li {
+.mobile-menu a {
+    all: unset;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .mobile-menu {
     display: none;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10000;
 }
 
 @media all and (max-width: 600px) {
