@@ -1,4 +1,3 @@
-// server/src/index.js
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
@@ -15,6 +14,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Add logging middleware
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} - ${req.method} ${req.path}`);
+  next();
+});
+
 // Supabase setup
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_ANON_KEY;
@@ -29,17 +34,29 @@ const storage = multer.diskStorage({
     cb(null, Date.now() + path.extname(file.originalname));
   },
 });
-
 const upload = multer({ storage: storage });
+
+// Routes
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to Mobility Report API" });
+});
 
 app.get("/api/test", (req, res) => {
   res.json({ message: "Server is working!" });
 });
 
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+// 404 handler
+app.use((req, res) => {
+  console.log(`Route not found: ${req.method} ${req.path}`);
+  res.status(404).json({ message: "Route not found" });
 });
 
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Mobility Report API" });
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ message: "Something broke!" });
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
