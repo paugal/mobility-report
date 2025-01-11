@@ -32,12 +32,14 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-// Basic route for testing
 app.get("/api/test", (req, res) => {
   res.json({ message: "Server is working!" });
 });
 
-// Start server
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
+});
+
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to Mobility Report API" });
 });
