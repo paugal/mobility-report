@@ -7,7 +7,7 @@ const { createClient } = require("@supabase/supabase-js");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
-const deviceController = require("./controller/device.controller");
+const deviceController = require("./controllers/device.controller");
 const deviceMiddleware = require("./middleware/device.middleware");
 const supabaseMiddleware = require("./middleware/supabase.middleware");
 
