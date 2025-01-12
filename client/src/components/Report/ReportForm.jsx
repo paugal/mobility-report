@@ -4,6 +4,7 @@ import { setShowStationsList } from "../../store/reportsSlice.js";
 import { useTranslation } from "react-i18next";
 import ReportMap from "./ReportMap";
 import LoadFile from "../LoadFile/LoadFile";
+import { CommentComponent } from "../CommentComponent/CommentComponent";
 
 import previewMap from "../../assets/mapPreview.webp";
 
@@ -31,6 +32,7 @@ export default function ReportForm({
 
   return (
     <form onSubmit={submitForm} className="center-formReport">
+      <CommentComponent></CommentComponent>
       <h1>{t("whatDoYouWantToReport")}</h1>
       <div className="formGrid">
         <div className="textColum">
