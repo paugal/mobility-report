@@ -1,3 +1,17 @@
+.endorse.liked {
+  background-color: #ffebee;
+  color: #e53935;
+}
+
+.endorse.liked .material-icons-filled {
+  color: #e53935;
+}
+
+.endorse:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 .popUpContainer {
   min-width: 190px;
   max-width: 400px;
@@ -6,7 +20,7 @@
   padding: 1rem;
 }
 
-.material-icons-filled{
+.material-icons-filled {
   font-variation-settings: 'FILL' 1
 }
 
@@ -27,16 +41,25 @@
   margin: 0.4em 0;
 }
 
-.popupIssue, .popupDate, .popupDateFull {
+.popupIssue,
+.popupDate,
+.popupDateFull {
   font-weight: 500;
 }
 
-.popupDescription, .popupUser, .popupStatus, .popupLikes, .popupIssue, .popupDateFull {
+.popupDescription,
+.popupUser,
+.popupStatus,
+.popupLikes,
+.popupIssue,
+.popupDateFull {
   font-size: 0.9rem;
   color: #555;
 }
 
-.popupDescription strong, .popupUser strong, .popupStatus strong {
+.popupDescription strong,
+.popupUser strong,
+.popupStatus strong {
   font-weight: bold;
 }
 
@@ -48,7 +71,8 @@
   justify-content: space-between;
 }
 
-.showDetails, .endorse {
+.showDetails,
+.endorse {
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -68,7 +92,8 @@
   cursor: pointer;
 }
 
-.showDetails:hover, .endorse:hover {
+.showDetails:hover,
+.endorse:hover {
   background-color: #f1f1f1;
 }
 

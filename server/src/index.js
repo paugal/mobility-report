@@ -60,7 +60,7 @@ app.use("/api/protected/*", (req, res, next) => {
 });
 
 // Example protected route
-app.post("/api/protected/like-comment", async (req, res) => {
+app.post("/api/protected/like-report", async (req, res) => {
   const { commentId } = req.body;
   const deviceId = req.device.id;
 
