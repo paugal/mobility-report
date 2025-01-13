@@ -84,6 +84,69 @@ const deviceController = {
       res.status(500).json({ error: "Internal server error" });
     }
   },
+
+  async likeReport(req, res) {
+    const { reportId } = req.body;
+    const deviceId = req.device.id;
+    const { supabase } = req;
+
+    try {
+      const { data, error } = await supabase
+        .from("report_likes")
+        .insert([
+          {
+            device_id: deviceId,
+            report_id: reportId,
+          },
+        ])
+        .select()
+        .single();
+
+      if (error) {
+        // If it's a unique constraint violation, it means user already liked
+        if (error.code === "23505") {
+          return res.status(400).json({ error: "Already liked" });
+        }
+        throw error;
+      }
+
+      // Update the reports likes count
+      const { error: updateError } = await supabase.rpc(
+        "increment_report_likes",
+        {
+          report_id_arg: reportId,
+        }
+      );
+
+      if (updateError) throw updateError;
+
+      res.json({ success: true, data });
+    } catch (error) {
+      console.error("Error liking report:", error);
+      res.status(500).json({ error: "Failed to like report" });
+    }
+  },
+
+  async getUserLikes(req, res) {
+    const deviceId = req.device.id;
+    const { supabase } = req;
+
+    try {
+      const { data, error } = await supabase
+        .from("report_likes")
+        .select("report_id")
+        .eq("device_id", deviceId);
+
+      if (error) throw error;
+
+      res.json({
+        likedReports: data.map((like) => like.report_id),
+      });
+    } catch (error) {
+      console.error("Error fetching user likes:", error);
+      res.status(500).json({ error: "Failed to fetch likes" });
+    }
+  },
 };
 
 function calculateSimilarity(device1, device2) {

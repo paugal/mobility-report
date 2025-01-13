@@ -69,6 +69,10 @@ app.post("/api/protected/like-report", async (req, res) => {
   res.json({ success: true });
 });
 
+app.post("/api/protected/like-report", deviceController.likeReport);
+
+app.get("/api/protected/user-likes", deviceController.getUserLikes);
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
