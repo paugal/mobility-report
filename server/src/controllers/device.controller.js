@@ -90,6 +90,13 @@ const deviceController = {
     const deviceId = req.device.id;
     const { supabase } = req;
 
+    console.log("Like request received:", {
+      reportId,
+      deviceId,
+      hasSupabase: !!supabase,
+      body: req.body,
+    });
+
     try {
       const { data, error } = await supabase
         .from("report_likes")

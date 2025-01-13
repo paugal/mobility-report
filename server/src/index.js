@@ -59,16 +59,6 @@ app.use("/api/protected/*", (req, res, next) => {
   next();
 });
 
-// Example protected route
-app.post("/api/protected/like-report", async (req, res) => {
-  const { commentId } = req.body;
-  const deviceId = req.device.id;
-
-  // Your like logic here using deviceId instead of userId
-
-  res.json({ success: true });
-});
-
 app.post("/api/protected/like-report", deviceController.likeReport);
 
 app.get("/api/protected/user-likes", deviceController.getUserLikes);
