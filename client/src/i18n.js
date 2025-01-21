@@ -12,7 +12,10 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: "http://localhost:3000/mobility-report/i18n/{{lng}}.json",
+      loadPath:
+        process.env.NODE_ENV === "production"
+          ? "http://paugal.github.io/mobility-report/i18n/{{lng}}.json"
+          : "http://localhost:3000/mobility-report/i18n/{{lng}}.json",
     },
   });
 
