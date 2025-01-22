@@ -14,8 +14,8 @@ i18n
     backend: {
       loadPath:
         process.env.NODE_ENV === "production"
-          ? "http://paugal.github.io/mobility-report/i18n/{{lng}}.json"
-          : "http://localhost:3000/mobility-report/i18n/{{lng}}.json",
+          ? "https://paugal.github.io/mobility-report/i18n/{{lng}}.json"
+          : "/mobility-report/i18n/{{lng}}.json",
     },
   });
 
