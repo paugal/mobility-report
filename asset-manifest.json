@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mobility-report/static/css/main.698be20d.css",
-    "main.js": "/mobility-report/static/js/main.07f59481.js",
+    "main.css": "/mobility-report/static/css/main.4497774a.css",
+    "main.js": "/mobility-report/static/js/main.23a71cf5.js",
     "static/js/198.34818101.chunk.js": "/mobility-report/static/js/198.34818101.chunk.js",
     "static/media/mapPreview.webp": "/mobility-report/static/media/mapPreview.454e948ea8276dc356a6.webp",
-    "static/media/metro.svg": "/mobility-report/static/media/metro.4f932879faec21d98efda85b37ffcddc.svg",
-    "static/media/pedestrian.svg": "/mobility-report/static/media/pedestrian.95d78499b6a531405619ac4d902cd0b6.svg",
-    "static/media/train.svg": "/mobility-report/static/media/train.96d43c55afc87f3dd66ac049adaa182f.svg",
-    "static/media/tram.svg": "/mobility-report/static/media/tram.17ebf42b10964d6f5319bfaae0d1996f.svg",
-    "static/media/yourhere.svg": "/mobility-report/static/media/yourhere.c1f42da4fe5dec203d6b8428154ec632.svg",
+    "static/media/metro.svg": "/mobility-report/static/media/metro.eb410ca9c1367dbfb3a802901e4169d9.svg",
+    "static/media/pedestrian.svg": "/mobility-report/static/media/pedestrian.41c8d1a3bef6c9cf171f5e55446b6625.svg",
+    "static/media/train.svg": "/mobility-report/static/media/train.920006cf749126fe6eb1f38ae4efedc0.svg",
+    "static/media/tram.svg": "/mobility-report/static/media/tram.1bba63d6ce96bd2468d9cf2539e7197c.svg",
+    "static/media/yourhere.svg": "/mobility-report/static/media/yourhere.9598d569440b265c14d177880be4c04f.svg",
     "index.html": "/mobility-report/index.html",
     "static/media/getFetch.cjs": "/mobility-report/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.698be20d.css.map": "/mobility-report/static/css/main.698be20d.css.map",
-    "main.07f59481.js.map": "/mobility-report/static/js/main.07f59481.js.map",
+    "main.4497774a.css.map": "/mobility-report/static/css/main.4497774a.css.map",
+    "main.23a71cf5.js.map": "/mobility-report/static/js/main.23a71cf5.js.map",
     "198.34818101.chunk.js.map": "/mobility-report/static/js/198.34818101.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.698be20d.css",
-    "static/js/main.07f59481.js"
+    "static/css/main.4497774a.css",
+    "static/js/main.23a71cf5.js"
   ]
 }
