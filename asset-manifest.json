@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mobility-report/static/css/main.4497774a.css",
-    "main.js": "/mobility-report/static/js/main.23a71cf5.js",
+    "main.js": "/mobility-report/static/js/main.bdf7aeb4.js",
     "static/js/198.34818101.chunk.js": "/mobility-report/static/js/198.34818101.chunk.js",
     "static/media/mapPreview.webp": "/mobility-report/static/media/mapPreview.454e948ea8276dc356a6.webp",
     "static/media/metro.svg": "/mobility-report/static/media/metro.eb410ca9c1367dbfb3a802901e4169d9.svg",
@@ -12,11 +12,11 @@
     "index.html": "/mobility-report/index.html",
     "static/media/getFetch.cjs": "/mobility-report/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.4497774a.css.map": "/mobility-report/static/css/main.4497774a.css.map",
-    "main.23a71cf5.js.map": "/mobility-report/static/js/main.23a71cf5.js.map",
+    "main.bdf7aeb4.js.map": "/mobility-report/static/js/main.bdf7aeb4.js.map",
     "198.34818101.chunk.js.map": "/mobility-report/static/js/198.34818101.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4497774a.css",
-    "static/js/main.23a71cf5.js"
+    "static/js/main.bdf7aeb4.js"
   ]
 }
